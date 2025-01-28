@@ -1,5 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import clsx from "clsx";
+import { DM_Sans } from "next/font/google";
+
+const dmSans = DM_Sans({ subsets: ["latin"] });
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,9 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={clsx(dmSans.className, "antialiased bg-[#EAEEFE]")}>
         {children}
       </body>
     </html>
