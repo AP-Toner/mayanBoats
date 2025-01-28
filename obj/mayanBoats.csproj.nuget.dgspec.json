@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\create with code\\C#\\mayanBoats\\mayanBoats.csproj": {}
+    "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\mayanBoats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\create with code\\C#\\mayanBoats\\mayanBoats.csproj": {
+    "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\mayanBoats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\create with code\\C#\\mayanBoats\\mayanBoats.csproj",
+        "projectUniqueName": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\mayanBoats.csproj",
         "projectName": "mayanBoats",
-        "projectPath": "C:\\Users\\User\\Desktop\\create with code\\C#\\mayanBoats\\mayanBoats.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\create with code\\C#\\mayanBoats\\obj\\",
+        "projectPath": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\mayanBoats.csproj",
+        "packagesPath": "C:\\Users\\Aptoner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aptoner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

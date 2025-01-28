@@ -11,52 +11,49 @@
 </head>
 
 <body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-light bg-navbar border-bottom box-shadow mb-3">
-        <div class="container d-flex align-items-center justify-content-between">
-            <div class="d-flex align-items-center">
-                <img class="w-100" src="/img/MayanBoatsLogoFondo.jpg" style="height: 50px;">
-                <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-navbar border-bottom box-shadow mb-3">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <img class="w-100" src="/img/MayanBoatsLogoFondo.jpg" style="height: 50px;">
+                    <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-3">
+                        <li class="nav-item @(Context.Request.Path == "/" ? "active" : "")">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Index">Inicio</a>
+                        </li>
+                        <li class="nav-item @(Context.Request.Path == "/Yate" ? "active" : "")">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Yate">Yate</a>
+                        </li>
+                        <li class="nav-item @(Context.Request.Path == "/Atracciones" ? "active" : "")">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Atracciones">Atracciones</a>
+                        </li>
+                        <li class="nav-item @(Context.Request.Path == "/Contacto" ? "active" : "")">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item @(Context.Request.Path == "/Paquetes" ? "active" : "")">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Paquetes">Paquetes</a>
+                        </li>
+                        <li class="nav-item @(Context.Request.Path == "/Reserva" ? "active" : "")">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Reserva">Reserva</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto gap-3">
-                    <li class="nav-item @(Context.Request.Path == "/" ? "active" : "")">
-                        <a class="nav-link text-white" asp-area="" asp-page="/Index">Inicio</a>
-                    </li>
-                    <li class="nav-item @(Context.Request.Path == "/Yate" ? "active" : "")">
-                        <a class="nav-link text-white" asp-area="" asp-page="/Yate">Yate</a>
-                    </li>
-                    <li class="nav-item @(Context.Request.Path == "/Atracciones" ? "active" : "")">
-                        <a class="nav-link text-white" asp-area="" asp-page="/Atracciones">Atracciones</a>
-                    </li>
-                    <li class="nav-item @(Context.Request.Path == "/Contacto" ? "active" : "")">
-                        <a class="nav-link text-white" asp-area="" asp-page="/Contacto">Contacto</a>
-                    </li>
-                    <li class="nav-item @(Context.Request.Path == "/Paquetes" ? "active" : "")">
-                        <a class="nav-link text-white" asp-area="" asp-page="/Paquetes">Paquetes</a>
-                    </li>
-                    <li class="nav-item @(Context.Request.Path == "/Reserva" ? "active" : "")">
-                        <a class="nav-link text-white" asp-area="" asp-page="/Reserva">Reserva</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-
-
-
-    <div class="container">
-        <main role="main" class="pb-3">
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3 flex-grow-1">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2025 - mayanBoats - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2025 - MayanBoats @* - <a asp-area="" asp-page="/Privacy">Privacy</a> *@
         </div>
     </footer>
 
@@ -67,13 +64,3 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-<style>
-    .bg-navbar {
-        background: #102c4c
-    }
-
-    .navbar-nav .nav-item.active .nav-link {
-        color: yellow !important;
-    }
-
-</style>
