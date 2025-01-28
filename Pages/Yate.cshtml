@@ -4,6 +4,35 @@
 	ViewData["Title"] = "Yate";
 }
 <div class="text-center">
-    <h1 class="display-4">Yate</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    @* <h1 class="display-4">Yate</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+    <div class="image-grid mt-5">
+        <img src="/img/nizuc1.jpg">
+        <img src="/img/nizuc2.png">
+        <img src="/img/nizuc3.png">
+        <img src="/img/nizuc4.png">
+        <img src="/img/nizuc6.png">
+        <img src="/img/nizuc5.png">
+        <img src="/img/nizuc7.png">
+        <img src="/img/nizuc8.png">
+        <img src="/img/nizuc9.png">
+        <img src="/img/nizuc10.png">
+        <img src="/img/nizuc11.png">
+        <img src="/img/nizuc12.png">
+    </div>
 </div>
+
+<style>
+    .image-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+        .image-grid img {
+            width: calc(33.333% - 10px);
+            height: 400px;
+            object-fit: cover;
+        }
+</style>
