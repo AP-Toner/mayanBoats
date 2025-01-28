@@ -28,3 +28,34 @@ C:\Users\User\Documents\Development\mayanBoats\obj\Debug\net8.0\refint\mayanBoat
 C:\Users\User\Documents\Development\mayanBoats\obj\Debug\net8.0\mayanBoats.pdb
 C:\Users\User\Documents\Development\mayanBoats\obj\Debug\net8.0\mayanBoats.genruntimeconfig.cache
 C:\Users\User\Documents\Development\mayanBoats\obj\Debug\net8.0\ref\mayanBoats.dll
+C:\Users\User\Desktop\create with code\C#\mayanBoats\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Desktop\create with code\C#\mayanBoats\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Desktop\create with code\C#\mayanBoats\bin\Debug\net8.0\mayanBoats.staticwebassets.runtime.json
+C:\Users\User\Desktop\create with code\C#\mayanBoats\bin\Debug\net8.0\mayanBoats.exe
+C:\Users\User\Desktop\create with code\C#\mayanBoats\bin\Debug\net8.0\mayanBoats.deps.json
+C:\Users\User\Desktop\create with code\C#\mayanBoats\bin\Debug\net8.0\mayanBoats.runtimeconfig.json
+C:\Users\User\Desktop\create with code\C#\mayanBoats\bin\Debug\net8.0\mayanBoats.dll
+C:\Users\User\Desktop\create with code\C#\mayanBoats\bin\Debug\net8.0\mayanBoats.pdb
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.AssemblyInfo.cs
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.sourcelink.json
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\staticwebassets\msbuild.mayanBoats.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\staticwebassets\msbuild.build.mayanBoats.props
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.mayanBoats.props
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.mayanBoats.props
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\scopedcss\bundle\mayanBoats.styles.css
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\scopedcss\projectbundle\mayanBoats.bundle.scp.css
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.dll
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\refint\mayanBoats.dll
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.pdb
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\mayanBoats.genruntimeconfig.cache
+C:\Users\User\Desktop\create with code\C#\mayanBoats\obj\Debug\net8.0\ref\mayanBoats.dll
