@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3n2ff43Orl0NoKmfMBvgFh5B0IwSusJjtt5rYh0AJpo=",
+  "Hash": "K/vqwxlLA5PohDN5jPJuDqaZmYLGeeMcBfKbcBO8XCs=",
   "Source": "mayanBoats",
   "BasePath": "_content/mayanBoats",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i1398rnmre",
-      "Integrity": "prsJPKU+P70RswtahlWXICQ4eNMZujlfepAaE1T6/kw=",
+      "Fingerprint": "0893gffl94",
+      "Integrity": "cC1STnECNTUyH9Mdv1XTCTGZSoD6jgZdvXagGbtzdAY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1296,6 +1296,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\inicio52.png"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio53.png",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/inicio53#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tn15fhrdze",
+      "Integrity": "qdqzUSor3yc6fAf/n9lnpUFCrEMG8oMcrGD3l6ba6e8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\inicio53.png"
     },
     {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio6.png",
@@ -4030,6 +4051,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.0893gffl94.css",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cC1STnECNTUyH9Mdv1XTCTGZSoD6jgZdvXagGbtzdAY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 16:48:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0893gffl94"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cC1STnECNTUyH9Mdv1XTCTGZSoD6jgZdvXagGbtzdAY="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -4040,7 +4106,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2348"
+          "Value": "2350"
         },
         {
           "Name": "Content-Type",
@@ -4048,11 +4114,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"prsJPKU+P70RswtahlWXICQ4eNMZujlfepAaE1T6/kw=\""
+          "Value": "\"cC1STnECNTUyH9Mdv1XTCTGZSoD6jgZdvXagGbtzdAY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 23:39:38 GMT"
+          "Value": "Wed, 29 Jan 2025 16:48:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4062,52 +4128,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-prsJPKU+P70RswtahlWXICQ4eNMZujlfepAaE1T6/kw="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.i1398rnmre.css",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2348"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"prsJPKU+P70RswtahlWXICQ4eNMZujlfepAaE1T6/kw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 23:39:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i1398rnmre"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-prsJPKU+P70RswtahlWXICQ4eNMZujlfepAaE1T6/kw="
+          "Value": "sha256-cC1STnECNTUyH9Mdv1XTCTGZSoD6jgZdvXagGbtzdAY="
         }
       ]
     },
@@ -8864,6 +8885,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-iT+c0eUkD/72JTmWOJqrmMiHLRU1WebPYAVK250DkYI="
+        }
+      ]
+    },
+    {
+      "Route": "img/inicio53.png",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio53.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7079128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qdqzUSor3yc6fAf/n9lnpUFCrEMG8oMcrGD3l6ba6e8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 16:14:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qdqzUSor3yc6fAf/n9lnpUFCrEMG8oMcrGD3l6ba6e8="
+        }
+      ]
+    },
+    {
+      "Route": "img/inicio53.tn15fhrdze.png",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio53.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7079128"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qdqzUSor3yc6fAf/n9lnpUFCrEMG8oMcrGD3l6ba6e8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 16:14:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tn15fhrdze"
+        },
+        {
+          "Name": "label",
+          "Value": "img/inicio53.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qdqzUSor3yc6fAf/n9lnpUFCrEMG8oMcrGD3l6ba6e8="
         }
       ]
     },

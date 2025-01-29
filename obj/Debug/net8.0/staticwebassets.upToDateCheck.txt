@@ -57,6 +57,7 @@ wwwroot\img\inicio4.png
 wwwroot\img\inicio41.png
 wwwroot\img\inicio5.png
 wwwroot\img\inicio52.png
+wwwroot\img\inicio53.png
 wwwroot\img\inicio6.png
 wwwroot\img\inicio62.png
 wwwroot\img\inicio7.png
