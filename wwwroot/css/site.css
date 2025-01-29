@@ -122,15 +122,35 @@ body {
     }
 
 /* Sección grid imágenes */
-.image-grid {
+.image-grid, .image-grid-lg {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
 }
 
-    .image-grid img, .video {
+    .image-grid img, .image-grid .video, .image-grid-lg img, .image-grid-lg .video {
         width: calc(33.333% - 10px);
-        height: 650px;
         object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
+
+    .image-grid img, .image-grid .video {
+        height: 650px;
+    }
+
+    .image-grid-lg img, .image-grid-lg .video {
+        height: 750px;
+    }
+
+.map-container {
+    height: 450px;
+}
+
+/* Cards */
+.card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
