@@ -3,129 +3,175 @@
 @{
     ViewData["Title"] = "Paquetes";
 }
-<div class="text-center mt-5 text-start">
-    @* <h1 class="display-4">Paquetes</h1> *@
-    <p class="text-start mb-1">
-        Prepárate para explorar las aguas cristalinas del Caribe y descubrir los hermosos arrecifes de coral mientras practicas el snórquel. Nuestro equipo experto de guías turísticos te llevará en una emocionante aventura submarina y te mostrará la belleza de la vida marina en la región.
-        Nuestro yate es espacioso y cómodo, diseñado para acomodar hasta 8 personas, así que trae a tus amigos y familiares y únete a nosotros en esta emocionante experiencia. ¡Estamos seguros de que será un día inolvidable lleno de diversión, sol y mar!
-    </p>
-    <p class="text-start mb-1 text-muted">
-        * Los costos para 4 personas o menos inicialmente, y estan expresados en Dolares americanos
-    </p>
-    <p class="text-start mb-1 text-muted">
-        ** 5 Dolares por persona del Impuesto de la Marina V&V (Solo efectivo) y Niños mayores de 6 años pagan
-    </p>
-    <p class="text-start mb-1 text-muted">
-        *** No hay rembolsos en caso de cancelacion por parte del cliente
-    </p>
 
-    <div class="container mt-4">
-        <p class="text-start"><strong>Cortesías:</strong></p>
-        <div class="row">
-            <div class="col-md-4">
-                <strong>Snacks</strong>
-                <ul>
-                    <li>Fruta</li>
-                    <li>Papitas y/o frituras</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <strong>Bebidas</strong>
-                <ul>
-                    <li>Cervezas</li>
-                    <li>Hielo</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <strong>Actividades</strong>
-                <ul>
-                    <li>3 Actividad a elegir</li>
-                    <li>Snorkel</li>
-                </ul>
-            </div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <p class="text-start">
+                Prepárate para explorar las aguas cristalinas del Caribe y descubrir los hermosos arrecifes de coral mientras practicas el snórquel.
+            </p>
+            <p class="text-start">
+                Nuestro equipo experto de guías turísticos te llevará en una emocionante aventura submarina y te mostrará la belleza de la vida marina en la región.
+            </p>
+            <p class="text-start">
+                Nuestro yate es espacioso y cómodo, diseñado para acomodar hasta 8 personas, así que trae a tus amigos y familiares y únete a nosotros en esta emocionante experiencia. ¡Estamos seguros de que será un día inolvidable lleno de diversión, sol y mar!
+            </p>
         </div>
     </div>
 
-    <div class="container mt-4">
-        <table class="table table-bordered">
-            <thead class="bg-navbar text-white">
-                <tr>
-                    <th>Horas</th>
-                    <th>Personas</th>
-                    <th>Costo USD</th>
-                    <th>Costo Persona adicional USD</th>
-                    <th>Adicional USD</th>
-                    <th>Total USD</th>
-                    <th>Reservar</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>4</td>
-                    <td>
-                        <input class="form-control form-control-sm" type="number" style="width: 70px;" />
-                    </td>
-                    <td>500.00</td>
-                    <td>100.00</td>
-                    <td></td>
-                    <td>500.00</td>
-                    <td><button class="btn btn-primary btn-sm">Reserva</button></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>
-                        <input class="form-control form-control-sm" type="number" style="width: 70px;" />
-                    </td>
-                    <td>650.00</td>
-                    <td>100.00</td>
-                    <td></td>
-                    <td>650.00</td>
-                    <td><button class="btn btn-primary btn-sm">Reserva</button></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>
-                        <input class="form-control form-control-sm" type="number" style="width: 70px;" />
-                    </td>
-                    <td>750.00</td>
-                    <td>100.00</td>
-                    <td></td>
-                    <td>750.00</td>
-                    <td><button class="btn btn-primary btn-sm">Reserva</button></td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>
-                        <input class="form-control form-control-sm" type="number" style="width: 70px;" />
-                    </td>
-                    <td>850.00</td>
-                    <td>100.00</td>
-                    <td></td>
-                    <td>850.00</td>
-                    <td><button class="btn btn-primary btn-sm">Reserva</button></td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td>
-                        <input class="form-control form-control-sm" type="number" style="width: 70px;" />
-                    </td>
-                    <td>950.00</td>
-                    <td>100.00</td>
-                    <td></td>
-                    <td>950.00</td>
-                    <td><button class="btn btn-primary btn-sm">Reserva</button></td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="d-flex justify-content-start ml-auto">
-            <button class="btn btn-info btn-sm text-white">Mas alimentos...</button>
+    <div class="row">
+        <h6 class="titulo">Cortesías:</h6>
+        <div class="col-md-4">
+            <p class="subtitulo">Snacks</p>
+            <ul>
+                <li>Fruta</li>
+                <li>Papitas y/o frituras</li>
+            </ul>
         </div>
+        <div class="col-md-4">
+            <p class="subtitulo">Bebidas</p>
+            <ul>
+                <li>Cervezas</li>
+                <li>Hielo</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <p class="subtitulo">Actividades</p>
+            <ul>
+                <li>3 Actividades a elegir</li>
+                <li>Snorkel</li>
+            </ul>
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col">
+            <table class="table table-bordered">
+                <thead class="bg-navbar text-white text-center">
+                    <tr>
+                        <th class="col-1 align-middle">Horas</th>
+                        <th class="col-1 align-middle">Personas</th>
+                        <th class="col-1 align-middle">Costo (USD)</th>
+                        <th class="col-1 align-middle">Costo Persona Adicional (USD)</th>
+                        <th class="col-1 align-middle">Adicional (USD)</th>
+                        <th class="col-1 align-middle">Total (USD)</th>
+                        <th class="col-1 align-middle"></th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <input id="per-pq1" class="input-personas form-control form-control-sm w-100 text-center" type="number" max="8" min="4" value="4" />
+                        </td>
+                        <td id="cst-pq1">500.00</td>
+                        <td id="adp-pq1">100.00</td>
+                        <td id="adc-pq1"></td>
+                        <td id="tot-pq1">500.00</td>
+                        <td>
+                            <button id="btn-pq1" class="btn btn-primary btn-sm w-100 h-100 text-bold">RESERVAR</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <input id="per-pq2" class="input-personas form-control form-control-sm w-100 text-center" type="number" max="8" min="4" value="4" />
+                        </td>
+                        <td id="cst-pq2">650.00</td>
+                        <td id="adp-pq2">100.00</td>
+                        <td id="adc-pq2"></td>
+                        <td id="tot-pq2">650.00</td>
+                        <td>
+                            <button id="btn-pq2" class="btn btn-primary btn-sm w-100 h-100 text-bold">RESERVAR</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            <input id="per-pq3" class="input-personas form-control form-control-sm w-100 text-center" type="number" max="8" min="4" value="4" />
+                        </td>
+                        <td id="cst-pq3">750.00</td>
+                        <td id="adp-pq3">100.00</td>
+                        <td id="adc-pq3"></td>
+                        <td id="tot-pq3">750.00</td>
+                        <td>
+                            <button id="btn-pq3" class="btn btn-primary btn-sm w-100 h-100 text-bold">RESERVAR</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <input id="per-pq4" class="input-personas form-control form-control-sm w-100 text-center" type="number" max="8" min="4" value="4" />
+                        </td>
+                        <td id="cst-pq4">850.00</td>
+                        <td id="adp-pq4">100.00</td>
+                        <td id="adc-pq4"></td>
+                        <td id="tot-pq4">850.00</td>
+                        <td>
+                            <button id="btn-pq4" class="btn btn-primary btn-sm w-100 h-100 text-bold">RESERVAR</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            <input id="per-pq5" class="input-personas form-control form-control-sm w-100 text-center" type="number" max="8" min="4" value="4" />
+                        </td>
+                        <td id="cst-pq5">950.00</td>
+                        <td id="adp-pq5">100.00</td>
+                        <td id="adc-pq5"></td>
+                        <td id="tot-pq5">950.00</td>
+                        <td>
+                            <button id="btn-pq5" class="btn btn-primary btn-sm w-100 h-100 text-bold">RESERVAR</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            @* <div class="d-flex justify-content-start ml-auto">
+                <button class="btn btn-info btn-sm text-white">Mas alimentos...</button>
+            </div> *@
+        </div>
+    </div>
 
-
+    <div class="row">
+        <div class="col">
+            <p class="text-start mb-1 text-muted">
+                * Costos iniciales para 4 personas o menos, expresados en Dólares Americanos.
+            </p>
+            <p class="text-start mb-1 text-muted">
+                ** Impuesto Marina V&V (sólo efectivo): $5 Dólares por persona, niños mayores de 6 años pagan.
+            </p>
+            <p class="text-start mb-1 text-muted">
+                *** No hay reembolsos en caso de cancelación por parte del cliente.
+            </p>
+        </div>
+    </div>
 </div>
-<style>
-    .bg-navbar {
-        background: #102c4c
-    }
-</style>
+
+<div class="modal fade" id="modalReservar" tabindex="-1" aria-labelledby="modalReservarLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalReservarLabel">Seleccione Fecha y Hora</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label for="datePicker" class="form-label">Fecha</label>
+                    <input type="date" id="datePicker" class="form-control" placeholder="Fecha">
+                </div>
+                <div class="mb-3">
+                    <label for="timePicker" class="form-label">Hora</label>
+                    <input type="time" id="timePicker" class="form-control" placeholder="Hora">
+                </div>
+                <div class="mt-3">
+                    <h6>Total</h6>
+                    <p id="totalResumen"></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Confirmar Reservación</button>
+            </div>
+        </div>
+    </div>
+</div>
