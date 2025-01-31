@@ -147,30 +147,134 @@
     </div>
 </div>
 
+<!-- Modal reservar -->
 <div class="modal fade" id="modalReservar" tabindex="-1" aria-labelledby="modalReservarLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="modalReservarLabel">Seleccione Fecha y Hora</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h5 class="modal-title" id="modalReservarLabel">Realizar Reservación</h5>
             </div>
             <div class="modal-body">
-                <div class="mb-3">
-                    <label for="datePicker" class="form-label">Fecha</label>
-                    <input type="date" id="datePicker" class="form-control" placeholder="Fecha">
-                </div>
-                <div class="mb-3">
-                    <label for="timePicker" class="form-label">Hora</label>
-                    <input type="time" id="timePicker" class="form-control" placeholder="Hora">
-                </div>
-                <div class="mt-3">
-                    <h6>Total</h6>
-                    <p id="totalResumen"></p>
-                </div>
+                <form id="reservaForm">
+                    <!-- Información personal -->
+                    <h5 class="mb-3">Información Personal</h5>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label for="nombre" class="form-label">Nombre(s)</label>
+                            <input type="text" id="nombre" class="form-control" placeholder="Ingrese su nombre" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="apellidoPaterno" class="form-label">Apellido Paterno</label>
+                            <input type="text" id="apellidoPaterno" class="form-control" placeholder="Ingrese su apellido paterno" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="apellidoMaterno" class="form-label">Apellido Materno</label>
+                            <input type="text" id="apellidoMaterno" class="form-control" placeholder="Ingrese su apellido materno">
+                        </div>
+                    </div>
+                    <div class="row g-3 mt-3">
+                        <div class="col-md-6">
+                            <label for="correo" class="form-label">Correo electrónico</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                <input type="email" id="correo" class="form-control" placeholder="ejemplo@correo.com" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                <input type="tel" id="telefono" class="form-control" placeholder="Ingrese su número" required>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fecha y hora de reserva -->
+                    <h5 class="mt-4">Fecha y Hora</h5>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="datePicker" class="form-label">Fecha</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+                                <input type="text" id="datePicker" class="form-control datepicker" placeholder="Seleccione una fecha" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="timePicker" class="form-label">Hora</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="fas fa-clock"></i></span>
+                                <input type="text" id="timePicker" class="form-control timepicker" placeholder="Seleccione una hora" required>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Código de descuento -->
+                    <h5 class="mt-4">Descuento</h5>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" id="codigoDesc" class="form-control" placeholder="Ingrese un código de descuento">
+                            <span id="mensajeDesc" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <!-- Resumen de venta -->
+                    <h5 class="mt-4">Resumen</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between">
+                            <strong>Precio base:</strong> <span id="precioBase" class="mb-0 fw-bold"></span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <strong id="personaAdicionalTag">Persona adicional (0):</strong> <span id="personaAdicional" class="mb-0 fw-bold"></span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <strong>Subtotal:</strong> <span id="subtotal" class="mb-0 fw-bold"></span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <strong>Descuento:</strong> <span id="descuentoAplicable" class="mb-0 fw-bold"></span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between bg-light">
+                            <strong>Total:</strong> <strong id="totalDespuesDescuento" class="mb-0 fw-bold"></strong>
+                        </li>
+                    </ul>
+                </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-primary">Confirmar Reservación</button>
+                <button type="button" id="btnCerrarReservar" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" id="btnConfirmar" class="btn btn-primary">Continuar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal pago PayPal -->
+<div class="modal fade" id="modalPaypal" tabindex="-1" aria-labelledby="modalPaypalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalPaypalLabel">Realizar Pago</h5>
+            </div>
+            <div class="modal-body">
+                <!-- Resumen de venta
+                <h5 class="mt-4">Resumen</h5>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <strong>Precio base:</strong> <span id="precioBase" class="mb-0 fw-bold"></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <strong id="personaAdicionalTag">Persona adicional (0):</strong> <span id="personaAdicional" class="mb-0 fw-bold"></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <strong>Subtotal:</strong> <span id="subtotal" class="mb-0 fw-bold"></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <strong>Descuento:</strong> <span id="descuentoAplicable" class="mb-0 fw-bold"></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between bg-light">
+                        <strong>Total:</strong> <strong id="totalDespuesDescuento" class="mb-0 fw-bold"></strong>
+                    </li>
+                </ul> -->
+                <!-- Botón PayPal -->
+                <div id="paypal-button-container"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnCerrarPaypal" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
             </div>
         </div>
     </div>

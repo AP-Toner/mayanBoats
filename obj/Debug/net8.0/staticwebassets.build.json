@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dURDDAoGJN8FlhsUvC17IzqGTeNjqpeYlm0EwhXmhMU=",
+  "Hash": "pvkkQet3ZBd/qeMupH/SD0rgShkvs7FsQznE226IoEA=",
   "Source": "mayanBoats",
   "BasePath": "_content/mayanBoats",
   "Mode": "Default",
@@ -2782,8 +2782,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rvmqbzbn5d",
-      "Integrity": "qUIIfYVEu+7bygRNelC1Gto7karsFIk0CaUI90E1f60=",
+      "Fingerprint": "w5rqll0d08",
+      "Integrity": "/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -14639,7 +14639,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1976"
+          "Value": "10397"
         },
         {
           "Name": "Content-Type",
@@ -14647,11 +14647,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qUIIfYVEu+7bygRNelC1Gto7karsFIk0CaUI90E1f60=\""
+          "Value": "\"/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 23:26:19 GMT"
+          "Value": "Fri, 31 Jan 2025 23:24:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14661,12 +14661,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qUIIfYVEu+7bygRNelC1Gto7karsFIk0CaUI90E1f60="
+          "Value": "sha256-/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4="
         }
       ]
     },
     {
-      "Route": "js/site.rvmqbzbn5d.js",
+      "Route": "js/site.w5rqll0d08.js",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -14676,7 +14676,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1976"
+          "Value": "10397"
         },
         {
           "Name": "Content-Type",
@@ -14684,11 +14684,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qUIIfYVEu+7bygRNelC1Gto7karsFIk0CaUI90E1f60=\""
+          "Value": "\"/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 23:26:19 GMT"
+          "Value": "Fri, 31 Jan 2025 23:24:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14698,7 +14698,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rvmqbzbn5d"
+          "Value": "w5rqll0d08"
         },
         {
           "Name": "label",
@@ -14706,7 +14706,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qUIIfYVEu+7bygRNelC1Gto7karsFIk0CaUI90E1f60="
+          "Value": "sha256-/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4="
         }
       ]
     },
