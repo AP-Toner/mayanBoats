@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pvkkQet3ZBd/qeMupH/SD0rgShkvs7FsQznE226IoEA=",
+  "Hash": "53DKwLxMSh7FxV5ArUwvHiSiuEwwpUkH6UgrtnlKA4g=",
   "Source": "mayanBoats",
   "BasePath": "_content/mayanBoats",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1a5xj071y2",
-      "Integrity": "B8S/ZpOselnYjCoMJdR3ojFy0elf+MbTmiTw9D45ImE=",
+      "Fingerprint": "wkgylbyg4c",
+      "Integrity": "cOmPc0NSzXc5Rv75mzva9UHBAeKIUvVR6bCiKtHsEqE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2782,8 +2782,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w5rqll0d08",
-      "Integrity": "/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4=",
+      "Fingerprint": "f41zpzvoc6",
+      "Integrity": "bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -4051,51 +4051,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.1a5xj071y2.css",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2787"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"B8S/ZpOselnYjCoMJdR3ojFy0elf+MbTmiTw9D45ImE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 21:33:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1a5xj071y2"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-B8S/ZpOselnYjCoMJdR3ojFy0elf+MbTmiTw9D45ImE="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -4106,7 +4061,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2787"
+          "Value": "2876"
         },
         {
           "Name": "Content-Type",
@@ -4114,11 +4069,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B8S/ZpOselnYjCoMJdR3ojFy0elf+MbTmiTw9D45ImE=\""
+          "Value": "\"cOmPc0NSzXc5Rv75mzva9UHBAeKIUvVR6bCiKtHsEqE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 21:33:13 GMT"
+          "Value": "Sat, 01 Feb 2025 18:36:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4128,7 +4083,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B8S/ZpOselnYjCoMJdR3ojFy0elf+MbTmiTw9D45ImE="
+          "Value": "sha256-cOmPc0NSzXc5Rv75mzva9UHBAeKIUvVR6bCiKtHsEqE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.wkgylbyg4c.css",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cOmPc0NSzXc5Rv75mzva9UHBAeKIUvVR6bCiKtHsEqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 18:36:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wkgylbyg4c"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cOmPc0NSzXc5Rv75mzva9UHBAeKIUvVR6bCiKtHsEqE="
         }
       ]
     },
@@ -14629,6 +14629,51 @@
       ]
     },
     {
+      "Route": "js/site.f41zpzvoc6.js",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10265"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 18:46:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f41zpzvoc6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -14639,7 +14684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10397"
+          "Value": "10265"
         },
         {
           "Name": "Content-Type",
@@ -14647,11 +14692,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4=\""
+          "Value": "\"bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Jan 2025 23:24:12 GMT"
+          "Value": "Sat, 01 Feb 2025 18:46:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14661,52 +14706,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.w5rqll0d08.js",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10397"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 31 Jan 2025 23:24:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "w5rqll0d08"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/Apa2H7Qagz7JcOvGUebNTrmjl01oV9XwxnGIoYAjB4="
+          "Value": "sha256-bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E="
         }
       ]
     },

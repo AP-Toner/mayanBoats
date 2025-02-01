@@ -1,203 +1,191 @@
 ﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 // for details on configuring this project to bundle and minify static web assets.
 
-document.addEventListener('DOMContentLoaded', function () {
-    // Inputs
+document.addEventListener('DOMContentLoaded', () => {
+    // Constantes
+    const personasBase = 4;
+    const camposRequeridos = ['nombre', 'apellidoPaterno', 'correo', 'telefono', 'datePicker', 'timePicker'];
+    const codigosValidos = ['DESC10', 'DESC20', 'DESC30', 'DESC50', 'DESC90', 'FREE'];
+
+    // Elementos
     const personasInput = document.querySelectorAll('.input-personas');
-    // Contenedores
     const containerPaypal = document.getElementById('paypal-button-container');
-    // Botones
     const botonesReservar = document.querySelectorAll('#btn-pq1, #btn-pq2, #btn-pq3, #btn-pq4, #btn-pq5');
     const botonConfirmar = document.getElementById('btnConfirmar');
     const botonCerrarReservar = document.getElementById('btnCerrarReservar');
     const botonCerrarPaypal = document.getElementById('btnCerrarPaypal');
-    // Modales
     const modalReservarWin = document.getElementById('modalReservar');
     const modalPaypalWin = document.getElementById('modalPaypal');
-    // Campos requeridos
-    const camposRequeridos = ['nombre', 'apellidoPaterno', 'correo', 'telefono', 'datePicker', 'timePicker'];
-    // Códigos de ejemplo
-    const codigosValidos = ['DESC10', 'DESC20', 'DESC30', 'DESC50', 'DESC90'];
 
-    // Calcular costos base en tabla de paquetes
-    if (personasInput) {
-        personasInput.forEach((input, index) => {
-            input.addEventListener('input', function () {
-                // Obtener personas adicionales
-                const personas = parseInt(input.value) || 0;
-                const personasBase = 4;
-                const personasAdicionales = Math.max(0, personas - personasBase);
-                //Calcular costo adicional
-                const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq${index + 1}`).textContent);
-                const costoAdicional = personasAdicionales * costoPersonaAdicional;
-                const costoAdicionalCell = document.getElementById(`adc-pq${index + 1}`);
-                costoAdicionalCell.textContent = costoAdicional.toFixed(2);
-                // Calcular costo total
-                const costoBase = parseFloat(document.getElementById(`cst-pq${index + 1}`).textContent);
-                const costoTotalCell = document.getElementById(`tot-pq${index + 1}`);
-                costoTotalCell.textContent = (costoBase + costoAdicional).toFixed(2);
-            });
-        });
-    }
+    // Funciones
+    const calcularCostos = (index, personas) => {
+        const personasAdicionales = Math.max(0, personas - personasBase);
+        const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq${index + 1}`).textContent);
+        const costoAdicional = personasAdicionales * costoPersonaAdicional;
+        document.getElementById(`adc-pq${index + 1}`).textContent = costoAdicional.toFixed(2);
 
-    // Calcular costo final en modal
-    if (botonesReservar) {
-        botonesReservar.forEach((button, index) => {
-            button.addEventListener('click', function () {
-                // Personas adicionales
-                const personasInput = document.getElementById(`per-pq${index + 1}`);
-                const personas = parseInt(personasInput.value) || 0;
-                const personasBase = 4;
-                const personasAdicionales = Math.max(0, personas - personasBase);
-                // Costos
-                const costoBase = parseFloat(document.getElementById(`cst-pq${index + 1}`).textContent);
-                const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq${index + 1}`).textContent);
-                const costoAdicional = personasAdicionales * costoPersonaAdicional;
-                const costoTotal = costoBase + costoAdicional;
-                // Descuento
-                const codigoDescInput = document.getElementById('codigoDesc');
-                const mensajeDesc = document.getElementById('mensajeDesc');
-                // Costos base
-                document.getElementById('precioBase').textContent = `$${costoBase.toFixed(2)}`;
-                document.getElementById('personaAdicionalTag').textContent = `Persona adicional (${personasAdicionales}): `;
-                document.getElementById('personaAdicional').textContent = `$${costoAdicional.toFixed(2)}`;
-                document.getElementById('subtotal').textContent = `$${costoTotal.toFixed(2)}`;
-                document.getElementById('descuentoAplicable').textContent = `$0.00`;
-                document.getElementById('totalDespuesDescuento').textContent = `$${costoTotal.toFixed(2)}`;
-                // Calcular descuento
-                codigoDescInput.addEventListener('input', function () {
-                    const codigoDesc = codigoDescInput.value;
-                    let descuento = 0;
-                    let esValidoCodigo = codigosValidos.includes(codigoDesc);
-                    // Validar código de descuento ingresado
-                    if (esValidoCodigo) {
-                        if (codigoDesc === 'DESC10') {
-                            descuento = 0.10;
-                        } else if (codigoDesc === 'DESC20') {
-                            descuento = 0.20;
-                        } else if (codigoDesc === 'DESC30') {
-                            descuento = 0.30;
-                        } else if (codigoDesc === 'DESC50') {
-                            descuento = 0.50;
-                        } else if (codigoDesc === 'DESC90') {
-                            descuento = 0.90;
-                        }
-                        mensajeDesc.textContent = '';
-                    } else {
-                        mensajeDesc.textContent = 'Código de descuento no válido.';
-                    }
-                    // Costo final con descuento
-                    const montoDescuento = costoTotal * descuento;
-                    const totalDespuesDescuento = costoTotal - montoDescuento;
-                    document.getElementById('descuentoAplicable').textContent = `$${montoDescuento.toFixed(2)}`;
-                    document.getElementById('totalDespuesDescuento').textContent = `$${totalDespuesDescuento.toFixed(2)}`;
-                });
-                // Mostrar modal Reservar
-                const modalReservar = new bootstrap.Modal(document.getElementById('modalReservar'), {
-                    backdrop: 'static',
-                    keyboard: false
-                });
-                modalReservar.show();
-            });
-        });
-    }
+        const costoBase = parseFloat(document.getElementById(`cst-pq${index + 1}`).textContent);
+        document.getElementById(`tot-pq${index + 1}`).textContent = (costoBase + costoAdicional).toFixed(2);
+    };
 
-    // Verificar validez de formulario
-    function verificarValidezForm() {
-        let esValido = true;
-        // Validar que todos los campos requeridos han sido llenados
-        camposRequeridos.forEach(idCampo => {
+    const verificarValidezForm = () => {
+        let esValido = camposRequeridos.every(idCampo => {
             const campo = document.getElementById(idCampo);
-            if (campo) {
-                if (!campo.value.trim()) {
-                    esValido = false;
-                }
-            }
+            return campo && campo.value.trim();
         });
-        // Cambiar estatus de botón Confirmar
         if (botonConfirmar) {
             botonConfirmar.disabled = !esValido;
         }
-    }
+    };
 
-    // Escuchadores de eventos
+    const aplicarDescuento = (costoTotal, codigoDesc) => {
+        let descuento = 0;
+        if (codigosValidos.includes(codigoDesc)) {
+            switch (codigoDesc) {
+                case 'DESC10': descuento = 0.10; break;
+                case 'DESC20': descuento = 0.20; break;
+                case 'DESC30': descuento = 0.30; break;
+                case 'DESC50': descuento = 0.50; break;
+                case 'DESC90': descuento = 0.90; break;
+                case 'FREE': descuento = 0.99; break;
+            }
+            document.getElementById('mensajeDesc').textContent = '';
+        } else {
+            document.getElementById('mensajeDesc').textContent = 'Código de descuento no válido.';
+            return;
+        }
+        const montoDescuento = costoTotal * descuento;
+        document.getElementById('descuentoAplicable').textContent = `$${montoDescuento.toFixed(2)}`;
+        document.getElementById('totalDespuesDescuento').textContent = `$${(costoTotal - montoDescuento).toFixed(2)}`;
+    };
+
+    // Escuchadores de Eventos
+    personasInput.forEach((input, index) => {
+        input.addEventListener('input', () => {
+            const personas = parseInt(input.value) || 0;
+            calcularCostos(index, personas);
+        });
+    });
+
+    botonesReservar.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            const personas = parseInt(document.getElementById(`per-pq${index + 1}`).value) || 0;
+            const costoBase = parseFloat(document.getElementById(`cst-pq${index + 1}`).textContent);
+            const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq${index + 1}`).textContent);
+            const costoAdicional = Math.max(0, personas - personasBase) * costoPersonaAdicional;
+            const costoTotal = costoBase + costoAdicional;
+
+            document.getElementById('precioBase').textContent = `$${costoBase.toFixed(2)}`;
+            document.getElementById('personaAdicionalTag').textContent = `Persona adicional (${Math.max(0, personas - personasBase)}): `;
+            document.getElementById('personaAdicional').textContent = `$${costoAdicional.toFixed(2)}`;
+            document.getElementById('subtotal').textContent = `$${costoTotal.toFixed(2)}`;
+            document.getElementById('descuentoAplicable').textContent = '$0.00';
+            document.getElementById('totalDespuesDescuento').textContent = `$${costoTotal.toFixed(2)}`;
+
+            document.getElementById('codigoDesc').addEventListener('input', (e) => {
+                aplicarDescuento(costoTotal, e.target.value);
+            });
+
+            const modalReservar = new bootstrap.Modal(modalReservarWin, { backdrop: 'static', keyboard: false });
+            modalReservar.show();
+        });
+    });
+
     camposRequeridos.forEach(idCampo => {
         const campo = document.getElementById(idCampo);
-        // Agregar escuchador de evento para validar campos de formulario
         if (campo) {
             campo.addEventListener('input', verificarValidezForm);
         }
-    })
+    });
+
     if (modalReservarWin) {
-        modalReservarWin.addEventListener('shown.bs.modal', function () {
-            // Mostrar pickers de fecha y hora
+        modalReservarWin.addEventListener('shown.bs.modal', () => {
             flatpickr(".datepicker", { dateFormat: "d/m/Y" });
-            flatpickr(".timepicker", { enableTime: true, noCalendar: true, dateFormat: "H:i" });
+            flatpickr(".timepicker", { enableTime: true, noCalendar: true, dateFormat: "h:i K" });
         });
     }
+
     if (botonCerrarReservar) {
-        botonCerrarReservar.addEventListener('click', function () {
-            // Limpiar campos del formulario al cerrar modal
-            document.getElementById('nombre').value = '';
-            document.getElementById('apellidoPaterno').value = '';
-            document.getElementById('apellidoMaterno').value = '';
-            document.getElementById('correo').value = '';
-            document.getElementById('telefono').value = '';
-            document.getElementById('datePicker').value = '';
-            document.getElementById('timePicker').value = '';
+        botonCerrarReservar.addEventListener('click', () => {
+            camposRequeridos.forEach(idCampo => {
+                const campo = document.getElementById(idCampo);
+                if (campo) campo.value = '';
+            });
             document.getElementById('codigoDesc').value = '';
             document.getElementById('mensajeDesc').textContent = '';
             document.getElementById('subtotal').textContent = '';
             document.getElementById('descuentoAplicable').textContent = '';
             document.getElementById('totalDespuesDescuento').textContent = '';
-            // Ocultar modal
+            botonConfirmar.disabled = true;
             modalReservarWin.hidden();
         });
     }
+
     if (botonCerrarPaypal) {
-        botonCerrarPaypal.addEventListener('click', function () {
-            // Borrar botón PayPal
+        botonCerrarPaypal.addEventListener('click', () => {
             containerPaypal.innerHTML = '';
-            // Restaurar modal Reservar
-            const modalReservar = new bootstrap.Modal(modalReservarWin, {
-                backdrop: 'static',
-                keyboard: false
-            });
+            const modalReservar = new bootstrap.Modal(modalReservarWin, { backdrop: 'static', keyboard: false });
             modalReservar.show();
-        })
+        });
     }
 
-    // Confirmar reservación mostrando botón de pago PayPal
     if (botonConfirmar) {
-        // Deshabilitar botón para validar llenado de formulario de reserva
         botonConfirmar.disabled = true;
-        // Escuchador de eventos
-        botonConfirmar.addEventListener('click', function () {
-            // Ocultar modal Reservar
+        botonConfirmar.addEventListener('click', () => {
             const modalReservar = bootstrap.Modal.getInstance(modalReservarWin);
-            if (modalReservar) {
-                modalReservar.hide();
-            }
-            // Mostrar modal PayPal
-            const modalPaypal = new bootstrap.Modal(modalPaypalWin, {
-                backdrop: 'static',
-                keyboard: false
-            });
+            if (modalReservar) modalReservar.hide();
+
+            // Información del cliente
+            const nombreCliente = document.getElementById('nombre').value + ' ' + document.getElementById('apellidoPaterno').value + ' ' + document.getElementById('apellidoMaterno').value;
+            const correo = document.getElementById('correo').value;
+            const telefono = document.getElementById('telefono').value;
+
+            // Detalles paquete
+            const nombresPaquetes = ["4 horas", "5 horas", "6 horas", "7 horas", "8 horas"];
+            const indexPaqueteSeleccionado = Array.from(botonesReservar).findIndex(button => button.classList.contains('active'));
+            const nombrePaquete = nombresPaquetes[indexPaqueteSeleccionado];
+            const fecha = document.getElementById('datePicker').value;
+            const hora = document.getElementById('timePicker').value;
+
+            // Resumen de venta
+            const precioBase = document.getElementById('precioBase').textContent;
+            const personaAdicionalTag = document.getElementById('personaAdicionalTag').textContent;
+            const personaAdicional = document.getElementById('personaAdicional').textContent;
+            const subtotal = document.getElementById('subtotal').textContent;
+            const descuentoAplicable = document.getElementById('descuentoAplicable').textContent;
+            const totalDespuesDescuento = document.getElementById('totalDespuesDescuento').textContent;
+
+            // Llenar campos del modal
+            document.getElementById('paypalNombreCliente').textContent = nombreCliente;
+            document.getElementById('paypalCorreo').textContent = correo;
+            document.getElementById('paypalTelefono').textContent = telefono;
+            document.getElementById('paypalNombrePaquete').textContent = nombrePaquete;
+            document.getElementById('paypalFecha').textContent = fecha;
+            document.getElementById('paypalHora').textContent = hora;
+            document.getElementById('paypalPrecioBase').textContent = precioBase;
+            document.getElementById('paypalPersonaAdicionalTag').textContent = personaAdicionalTag;
+            document.getElementById('paypalPersonaAdicional').textContent = personaAdicional;
+            document.getElementById('paypalSubtotal').textContent = subtotal;
+            document.getElementById('paypalDescuentoAplicable').textContent = descuentoAplicable;
+            document.getElementById('paypalTotalDespuesDescuento').textContent = totalDespuesDescuento;
+
+            const modalPaypal = new bootstrap.Modal(modalPaypalWin, { backdrop: 'static', keyboard: false });
             modalPaypal.show();
-            //Mostrar botón PayPal en modal
+
             paypal.Buttons({
-                createOrder: function (data, actions) {
+                createOrder: (data, actions) => {
                     return actions.order.create({
                         purchase_units: [{
                             amount: {
+                                currency_code: 'USD',
                                 value: document.getElementById('totalDespuesDescuento').textContent.replace('$', '')
                             }
                         }]
                     });
                 },
-                onApprove: function (data, actions) {
-                    return actions.order.capture().then(function (details) {
-                        alert("Transacción completada por " + details.payer.name.given_name);
+                onApprove: (data, actions) => {
+                    return actions.order.capture().then(details => {
+                        alert(`Transacción completada por ${details.payer.name.given_name}`);
                     });
                 }
             }).render('#paypal-button-container');

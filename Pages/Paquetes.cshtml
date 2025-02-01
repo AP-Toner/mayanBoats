@@ -245,33 +245,78 @@
 
 <!-- Modal pago PayPal -->
 <div class="modal fade" id="modalPaypal" tabindex="-1" aria-labelledby="modalPaypalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-        <div class="modal-content">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content shadow-sm rounded">
             <div class="modal-header">
                 <h5 class="modal-title" id="modalPaypalLabel">Realizar Pago</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
             </div>
             <div class="modal-body">
-                <!-- Resumen de venta
-                <h5 class="mt-4">Resumen</h5>
-                <ul class="list-group">
-                    <li class="list-group-item d-flex justify-content-between">
-                        <strong>Precio base:</strong> <span id="precioBase" class="mb-0 fw-bold"></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between">
-                        <strong id="personaAdicionalTag">Persona adicional (0):</strong> <span id="personaAdicional" class="mb-0 fw-bold"></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between">
-                        <strong>Subtotal:</strong> <span id="subtotal" class="mb-0 fw-bold"></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between">
-                        <strong>Descuento:</strong> <span id="descuentoAplicable" class="mb-0 fw-bold"></span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between bg-light">
-                        <strong>Total:</strong> <strong id="totalDespuesDescuento" class="mb-0 fw-bold"></strong>
-                    </li>
-                </ul> -->
-                <!-- Botón PayPal -->
-                <div id="paypal-button-container"></div>
+                <div class="row">
+                    <!-- Detalles del Paquete -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="list-group-item d-flex justify-content-between">
+                                <strong>Paquete:</strong> <span id="paypalNombrePaquete" class="mb-0 fw-bold"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="list-group-item d-flex justify-content-between">
+                                <strong>Fecha:</strong> <span id="paypalFecha" class="mb-0 fw-bold"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="list-group-item d-flex justify-content-between">
+                                <strong>Hora:</strong> <span id="paypalHora" class="mb-0 fw-bold"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Información Personal -->
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="list-group-item d-flex justify-content-between">
+                                <strong>Nombre:</strong> <span id="paypalNombreCliente" class="mb-0 fw-bold"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="list-group-item d-flex justify-content-between">
+                                <strong>Correo:</strong> <span id="paypalCorreo" class="mb-0 fw-bold"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="list-group-item d-flex justify-content-between">
+                                <strong>Teléfono:</strong> <span id="paypalTelefono" class="mb-0 fw-bold"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Resumen de venta -->
+                    <div class="col">
+                        <h5 class="mt-4">Resumen</h5>
+                        <ul class="list-group mb-4">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <strong>Precio base:</strong> <span id="paypalPrecioBase" class="mb-0 fw-bold"></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <strong id="paypalPersonaAdicionalTag">Persona adicional (0):</strong> <span id="paypalPersonaAdicional" class="mb-0 fw-bold"></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <strong>Subtotal:</strong> <span id="paypalSubtotal" class="mb-0 fw-bold"></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <strong>Descuento:</strong> <span id="paypalDescuentoAplicable" class="mb-0 fw-bold"></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between bg-light">
+                                <strong>Total:</strong> <strong id="paypalTotalDespuesDescuento" class="mb-0 fw-bold"></strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Botón PayPal -->
+                    <div class="col">
+                        <div class="d-flex justify-content-center">
+                            <div id="paypal-button-container"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" id="btnCerrarPaypal" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
