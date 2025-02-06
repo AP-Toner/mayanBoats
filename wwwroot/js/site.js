@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Elementos
     const personasInput = document.querySelectorAll('.input-personas');
     const containerPaypal = document.getElementById('paypal-button-container');
-    const botonesReservar = document.querySelectorAll('#btn-pq1, #btn-pq2, #btn-pq3, #btn-pq4, #btn-pq5');
+    const botonesReservar = document.querySelectorAll('.btnReservar');
     const botonConfirmar = document.getElementById('btnConfirmar');
     const botonCerrarReservar = document.getElementById('btnCerrarReservar');
     const botonCerrarPaypal = document.getElementById('btnCerrarPaypal');
@@ -20,12 +20,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Funciones
     const calcularCostos = (index, personas) => {
         const personasAdicionales = Math.max(0, personas - personasBase);
-        const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq${index + 1}`).textContent);
+        const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq-${index}`).textContent);
         const costoAdicional = personasAdicionales * costoPersonaAdicional;
-        document.getElementById(`adc-pq${index + 1}`).textContent = costoAdicional.toFixed(2);
+        document.getElementById(`adc-pq-${index}`).textContent = costoAdicional.toFixed(2);
 
-        const costoBase = parseFloat(document.getElementById(`cst-pq${index + 1}`).textContent);
-        document.getElementById(`tot-pq${index + 1}`).textContent = (costoBase + costoAdicional).toFixed(2);
+        const costoBase = parseFloat(document.getElementById(`cst-pq-${index}`).textContent);
+        document.getElementById(`tot-pq-${index}`).textContent = (costoBase + costoAdicional).toFixed(2);
     };
 
     const verificarValidezForm = () => {
@@ -69,11 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     botonesReservar.forEach((button, index) => {
         button.addEventListener('click', () => {
-            const personas = parseInt(document.getElementById(`per-pq${index + 1}`).value) || 0;
-            const costoBase = parseFloat(document.getElementById(`cst-pq${index + 1}`).textContent);
-            const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq${index + 1}`).textContent);
+            const personas = parseInt(document.getElementById(`per-pq-${index}`).value) || 0;
+            const costoBase = parseFloat(document.getElementById(`cst-pq-${index}`).textContent);
+            const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq-${index}`).textContent);
             const costoAdicional = Math.max(0, personas - personasBase) * costoPersonaAdicional;
             const costoTotal = costoBase + costoAdicional;
+            const nombrePaquete = document.getElementById(`nmb-pq-${index}`).textContent.trim();
 
             document.getElementById('precioBase').textContent = `$${costoBase.toFixed(2)}`;
             document.getElementById('personaAdicionalTag').textContent = `Persona adicional (${Math.max(0, personas - personasBase)}): `;
@@ -85,6 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('codigoDesc').addEventListener('input', (e) => {
                 aplicarDescuento(costoTotal, e.target.value);
             });
+
+            document.getElementById('paypalNombrePaquete').textContent = `${nombrePaquete} horas`;
 
             const modalReservar = new bootstrap.Modal(modalReservarWin, { backdrop: 'static', keyboard: false });
             modalReservar.show();
@@ -101,7 +104,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modalReservarWin) {
         modalReservarWin.addEventListener('shown.bs.modal', () => {
             flatpickr(".datepicker", { dateFormat: "d/m/Y" });
-            flatpickr(".timepicker", { enableTime: true, noCalendar: true, dateFormat: "h:i K" });
+            flatpickr(".timepicker", {
+                enableTime: true,
+                noCalendar: true,
+                dateFormat: "H:i",
+                time_24hr: true
+            });
         });
     }
 
@@ -117,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('descuentoAplicable').textContent = '';
             document.getElementById('totalDespuesDescuento').textContent = '';
             botonConfirmar.disabled = true;
-            modalReservarWin.hidden();
+            modalReservarWin.hidden = true;
         });
     }
 
@@ -141,9 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const telefono = document.getElementById('telefono').value;
 
             // Detalles paquete
-            const nombresPaquetes = ["4 horas", "5 horas", "6 horas", "7 horas", "8 horas"];
-            const indexPaqueteSeleccionado = Array.from(botonesReservar).findIndex(button => button.classList.contains('active'));
-            const nombrePaquete = nombresPaquetes[indexPaqueteSeleccionado];
             const fecha = document.getElementById('datePicker').value;
             const hora = document.getElementById('timePicker').value;
 
@@ -159,7 +164,6 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('paypalNombreCliente').textContent = nombreCliente;
             document.getElementById('paypalCorreo').textContent = correo;
             document.getElementById('paypalTelefono').textContent = telefono;
-            document.getElementById('paypalNombrePaquete').textContent = nombrePaquete;
             document.getElementById('paypalFecha').textContent = fecha;
             document.getElementById('paypalHora').textContent = hora;
             document.getElementById('paypalPrecioBase').textContent = precioBase;
@@ -178,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         purchase_units: [{
                             amount: {
                                 currency_code: 'USD',
-                                value: document.getElementById('totalDespuesDescuento').textContent.replace('$', '')
+                                value: parseFloat(document.getElementById('totalDespuesDescuento').textContent.replace('$', ''))
                             }
                         }]
                     });
@@ -186,6 +190,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 onApprove: (data, actions) => {
                     return actions.order.capture().then(details => {
                         alert(`Transacción completada por ${details.payer.name.given_name}`);
+
+                        // Enviar detalles al backend
+                        fetch('/api/pago/capture', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(details)
+                        })
+                            .then(response => response.json())
+                            .then(serverResponse => {
+                                console.log('Transacción almacenada: ', serverResponse);
+                            })
+                            .catch(error => {
+                                console.error('Error almacenando los detalles de la transacción: ', error);
+                            });
                     });
                 }
             }).render('#paypal-button-container');

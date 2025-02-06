@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "53DKwLxMSh7FxV5ArUwvHiSiuEwwpUkH6UgrtnlKA4g=",
+  "Hash": "DfhTAUW46ZvU9t91b3gMN3/HKDuBL3eY8eWfruZk2WQ=",
   "Source": "mayanBoats",
   "BasePath": "_content/mayanBoats",
   "Mode": "Default",
@@ -2782,8 +2782,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f41zpzvoc6",
-      "Integrity": "bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E=",
+      "Fingerprint": "70p73tmkmj",
+      "Integrity": "qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -14629,7 +14629,7 @@
       ]
     },
     {
-      "Route": "js/site.f41zpzvoc6.js",
+      "Route": "js/site.70p73tmkmj.js",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -14639,7 +14639,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10265"
+          "Value": "10943"
         },
         {
           "Name": "Content-Type",
@@ -14647,11 +14647,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E=\""
+          "Value": "\"qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 18:46:15 GMT"
+          "Value": "Thu, 06 Feb 2025 23:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14661,7 +14661,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f41zpzvoc6"
+          "Value": "70p73tmkmj"
         },
         {
           "Name": "label",
@@ -14669,7 +14669,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E="
+          "Value": "sha256-qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag="
         }
       ]
     },
@@ -14684,7 +14684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10265"
+          "Value": "10943"
         },
         {
           "Name": "Content-Type",
@@ -14692,11 +14692,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E=\""
+          "Value": "\"qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 18:46:15 GMT"
+          "Value": "Thu, 06 Feb 2025 23:14:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14706,7 +14706,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bwWrvcHhWZImX98qe4qGM/hAGgRNTkYcGmhW/0dWS9E="
+          "Value": "sha256-qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag="
         }
       ]
     },
