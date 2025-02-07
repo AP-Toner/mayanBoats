@@ -67,6 +67,7 @@
                         <tr>
                             <td id="nmb-pq-@index">@paquete.Horas</td>
                             <td>
+                                <span id="id-pq-@index" class="d-none">@paquete.Id</span>
                                 <input id="per-pq-@index" class="input-personas form-control form-control-sm w-100 text-center" type="number" max="8" min="4" value="4" />
                             </td>
                             <td id="cst-pq-@index">@paquete.CostoPaquete?.ToString("F2")</td>
@@ -213,7 +214,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="list-group-item d-flex justify-content-between">
-                                <strong>Paquete:</strong> <span id="paypalNombrePaquete" class="mb-0 fw-bold"></span>
+                                <strong>Paquete:</strong> <span id="paypalNombrePaquete" class="mb-0 fw-bold"></span> <span id="paypalIdPaquete" class="d-none"></span>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -253,7 +254,7 @@
                                 <strong>Precio base:</strong> <span id="paypalPrecioBase" class="mb-0 fw-bold"></span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between">
-                                <strong id="paypalPersonaAdicionalTag">Persona adicional (0):</strong> <span id="paypalPersonaAdicional" class="mb-0 fw-bold"></span>
+                                <strong id="paypalPersonaAdicionalTag">Persona adicional (0):</strong> <span id="paypalPersonaAdicional" class="mb-0 fw-bold"></span> <span id="paypalPersonaAdicionalNum" class="d-none"></span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between">
                                 <strong>Subtotal:</strong> <span id="paypalSubtotal" class="mb-0 fw-bold"></span>

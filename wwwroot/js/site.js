@@ -74,10 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq-${index}`).textContent);
             const costoAdicional = Math.max(0, personas - personasBase) * costoPersonaAdicional;
             const costoTotal = costoBase + costoAdicional;
+            const idPaquete = document.getElementById(`id-pq-${index}`).textContent;
             const nombrePaquete = document.getElementById(`nmb-pq-${index}`).textContent.trim();
 
             document.getElementById('precioBase').textContent = `$${costoBase.toFixed(2)}`;
             document.getElementById('personaAdicionalTag').textContent = `Persona adicional (${Math.max(0, personas - personasBase)}): `;
+            document.getElementById('paypalPersonaAdicionalNum').textContent = Math.max(0, personas - personasBase);
             document.getElementById('personaAdicional').textContent = `$${costoAdicional.toFixed(2)}`;
             document.getElementById('subtotal').textContent = `$${costoTotal.toFixed(2)}`;
             document.getElementById('descuentoAplicable').textContent = '$0.00';
@@ -88,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             document.getElementById('paypalNombrePaquete').textContent = `${nombrePaquete} horas`;
+            document.getElementById('paypalIdPaquete').textContent = idPaquete;
 
             const modalReservar = new bootstrap.Modal(modalReservarWin, { backdrop: 'static', keyboard: false });
             modalReservar.show();
@@ -144,7 +147,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (modalReservar) modalReservar.hide();
 
             // Información del cliente
-            const nombreCliente = document.getElementById('nombre').value + ' ' + document.getElementById('apellidoPaterno').value + ' ' + document.getElementById('apellidoMaterno').value;
+            const nombre = document.getElementById('nombre').value;
+            const apellidoPaterno = document.getElementById('apellidoPaterno').value;
+            const apellidoMaterno = document.getElementById('apellidoMaterno').value;
+            const apellidos = apellidoPaterno + ' ' + apellidoMaterno;
+            const nombreCliente = nombre + ' ' + apellidoPaterno + ' ' + apellidoMaterno;
             const correo = document.getElementById('correo').value;
             const telefono = document.getElementById('telefono').value;
 
@@ -193,6 +200,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         // Obtener formato de fecha correcto
                         const fechaCreacion = new Date(details.create_time).toISOString().split('T')[0];
+                        const fechaCaptura = new Date(details.update_time).toISOString().split('T')[0];
+
+                        // Obtener hora final
+                        let [horas, minutos] = hora.split(':').map(Number);
+                        let horaInicialD = new Date();
+                        horaInicialD.setHours(horas, minutos, 0, 0);
+                        let horasTourT = document.getElementById('paypalNombrePaquete').textContent;
+                        let horasTour = horasTourT.match(/\d+/)[0];
+                        let horaFinalD = new Date(horaInicialD.getTime() + horasTour * 60 * 60 * 1000);
+                        let horaFinal = horaFinalD.toTimeString().slice(0, 5);
+
+                        // Obtener personas adicionales
+                        personaAdicionalNum = document.getElementById('paypalPersonaAdicionalNum').textContent;
+
+                        // Obtener ID de Paquete
+                        idPaquete = document.getElementById('paypalIdPaquete').textContent;
 
                         // Enviar detalles de transacción al servidor
                         fetch('/GuardarTransaccion', {
@@ -202,16 +225,25 @@ document.addEventListener('DOMContentLoaded', () => {
                             },
                             body: JSON.stringify({
                                 reservacion: {
-                                    nombre: nombreCliente,
+                                    nombre: nombre,
+                                    apellido: apellidos,
                                     correo: correo,
                                     telefono: telefono,
                                     fecha: fecha,
-                                    hora: hora,
-                                    precioBase: precioBase,
-                                    personaAdicional: personaAdicional,
-                                    subtotal: subtotal,
+                                    paquete: idPaquete,
+                                    horaInicial: hora,
+                                    horasTour: horasTour,
+                                    horaFinal: horaFinal,
+                                    idCliente: '0',
+                                    totalDespuesDescuento: totalDespuesDescuento,
                                     descuentoAplicable: descuentoAplicable,
-                                    totalDespuesDescuento: totalDespuesDescuento
+                                    tipoPago: '1',
+                                    estatus: 'A',
+                                    idPagoPaypal: details.id,
+                                    personaAdicional: personaAdicionalNum,
+                                    costoAdicional: personaAdicional,
+                                    fechaCaptura: fechaCaptura,
+                                    tipoCambio: '0'
                                 },
                                 transaccion: {
                                     idPaypal: details.id,
@@ -221,7 +253,14 @@ document.addEventListener('DOMContentLoaded', () => {
                                     compradorCorreo: details.payer.email_address,
                                     compraMoneda: details.purchase_units[0].amount.currency_code,
                                     compraMonto: details.purchase_units[0].amount.value,
-                                    pagoEstatus: details.status
+                                    pagoEstatus: details.status,
+                                    accion: details.intent,
+                                    compradorCodigoPais: details.payer.address.country_code,
+                                    compradorId: details.payer.payer_id,
+                                    beneficiarioCorreo: details.purchase_units[0].payee.email_address,
+                                    beneficiarioId: details.purchase_units[0].payee.merchant_id,
+                                    fechaCaptura: fechaCaptura,
+                                    estatus: 'A',
                                 }
                             })
                         }).then(response => response.json())

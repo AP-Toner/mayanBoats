@@ -1551,14 +1551,14 @@
     <StaticWebAssetEndpoint Include="_content/mayanBoats/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KJ6USNl9fWxADX5g/cCaA\u002BcisVv\u002BM24uNUFoAUaRSqI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12666"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KJ6USNl9fWxADX5g/cCaA\u002BcisVv\u002BM24uNUFoAUaRSqI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 18:00:27 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4J5qN8E8gup3cdBS44hFzH0G2UG6a\u002BO2z6qO6ofwGuI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"15179"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224J5qN8E8gup3cdBS44hFzH0G2UG6a\u002BO2z6qO6ofwGuI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 21:36:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/mayanBoats/js/site.snt4fg8kh4.js">
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/js/site.sdvg81nm77.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"snt4fg8kh4"},{"Name":"integrity","Value":"sha256-KJ6USNl9fWxADX5g/cCaA\u002BcisVv\u002BM24uNUFoAUaRSqI="},{"Name":"label","Value":"_content/mayanBoats/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12666"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KJ6USNl9fWxADX5g/cCaA\u002BcisVv\u002BM24uNUFoAUaRSqI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 18:00:27 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sdvg81nm77"},{"Name":"integrity","Value":"sha256-4J5qN8E8gup3cdBS44hFzH0G2UG6a\u002BO2z6qO6ofwGuI="},{"Name":"label","Value":"_content/mayanBoats/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15179"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224J5qN8E8gup3cdBS44hFzH0G2UG6a\u002BO2z6qO6ofwGuI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Feb 2025 21:36:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/mayanBoats/lib/bootstrap/dist/css/bootstrap-grid.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
