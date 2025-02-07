@@ -191,20 +191,46 @@ document.addEventListener('DOMContentLoaded', () => {
                     return actions.order.capture().then(details => {
                         alert(`Transacción completada por ${details.payer.name.given_name}`);
 
-                        // Enviar detalles al backend
-                        fetch('/api/pago/capture', {
+                        // Obtener formato de fecha correcto
+                        const fechaCreacion = new Date(details.create_time).toISOString().split('T')[0];
+
+                        // Enviar detalles de transacción al servidor
+                        fetch('/GuardarTransaccion', {
                             method: 'POST',
                             headers: {
-                                'Content-Type': 'application/json'
+                                'Content-Type': 'application/json',
                             },
-                            body: JSON.stringify(details)
-                        })
-                            .then(response => response.json())
-                            .then(serverResponse => {
-                                console.log('Transacción almacenada: ', serverResponse);
+                            body: JSON.stringify({
+                                reservacion: {
+                                    nombre: nombreCliente,
+                                    correo: correo,
+                                    telefono: telefono,
+                                    fecha: fecha,
+                                    hora: hora,
+                                    precioBase: precioBase,
+                                    personaAdicional: personaAdicional,
+                                    subtotal: subtotal,
+                                    descuentoAplicable: descuentoAplicable,
+                                    totalDespuesDescuento: totalDespuesDescuento
+                                },
+                                transaccion: {
+                                    idPaypal: details.id,
+                                    fechaCreacion: fechaCreacion,
+                                    compradorNombre: details.payer.name.given_name,
+                                    compradorApellido: details.payer.name.surname,
+                                    compradorCorreo: details.payer.email_address,
+                                    compraMoneda: details.purchase_units[0].amount.currency_code,
+                                    compraMonto: details.purchase_units[0].amount.value,
+                                    pagoEstatus: details.status
+                                }
                             })
-                            .catch(error => {
-                                console.error('Error almacenando los detalles de la transacción: ', error);
+                        }).then(response => response.json())
+                            .then(data => {
+                                if (data.success) {
+                                    alert('Reserva y transacción guardadas correctamente.');
+                                } else {
+                                    alert('Error al guardar la reserva y transacción.');
+                                }
                             });
                     });
                 }

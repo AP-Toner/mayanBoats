@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DfhTAUW46ZvU9t91b3gMN3/HKDuBL3eY8eWfruZk2WQ=",
+  "Hash": "Ys+YSazjctTfdPysIJ9AZiIyo5eb0uWzKwhaU1y1sOg=",
   "Source": "mayanBoats",
   "BasePath": "_content/mayanBoats",
   "Mode": "Default",
@@ -2782,8 +2782,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "70p73tmkmj",
-      "Integrity": "qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag=",
+      "Fingerprint": "snt4fg8kh4",
+      "Integrity": "KJ6USNl9fWxADX5g/cCaA+cisVv+M24uNUFoAUaRSqI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -14629,51 +14629,6 @@
       ]
     },
     {
-      "Route": "js/site.70p73tmkmj.js",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10943"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 23:14:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "70p73tmkmj"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag="
-        }
-      ]
-    },
-    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -14684,7 +14639,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10943"
+          "Value": "12666"
         },
         {
           "Name": "Content-Type",
@@ -14692,11 +14647,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag=\""
+          "Value": "\"KJ6USNl9fWxADX5g/cCaA+cisVv+M24uNUFoAUaRSqI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Feb 2025 23:14:36 GMT"
+          "Value": "Fri, 07 Feb 2025 18:00:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14706,7 +14661,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qa7u6BeEMxfa4bmxazqNUuLrQAK7/V+ov+VycIVfIag="
+          "Value": "sha256-KJ6USNl9fWxADX5g/cCaA+cisVv+M24uNUFoAUaRSqI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.snt4fg8kh4.js",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KJ6USNl9fWxADX5g/cCaA+cisVv+M24uNUFoAUaRSqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 18:00:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "snt4fg8kh4"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KJ6USNl9fWxADX5g/cCaA+cisVv+M24uNUFoAUaRSqI="
         }
       ]
     },

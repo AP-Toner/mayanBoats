@@ -16,7 +16,7 @@ public partial class Paquete
 
     public double? PersonaAdicional { get; set; }
 
-    public string? FechaCaptura { get; set; }
+    public DateOnly? FechaCaptura { get; set; }
 
     public int? Activo { get; set; }
 

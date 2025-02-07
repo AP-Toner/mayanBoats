@@ -5,7 +5,11 @@ using mayanBoats.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<MayanDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<MayanDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Add services for controllers
+builder.Services.AddControllers();
 
 builder.Services.AddRazorPages();
 
@@ -15,8 +19,7 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS valor is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseHsts(); // Use HSTS in non-development environments
 }
 
 app.UseHttpsRedirection();
@@ -26,6 +29,11 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapRazorPages();
+// Map controllers
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers(); // Ensure controllers are mapped
+    endpoints.MapRazorPages();  // Maps Razor Pages endpoints
+});
 
 app.Run();

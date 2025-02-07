@@ -15,11 +15,11 @@ public partial class Pregunta
 
     public string? Mensaje { get; set; }
 
-    public string? FechaCaptura { get; set; }
+    public DateOnly? FechaCaptura { get; set; }
 
     public int? Activo { get; set; }
 
-    public string? FechaRespuesta { get; set; }
+    public DateOnly? FechaRespuesta { get; set; }
 
     public string? Respuesta { get; set; }
 }

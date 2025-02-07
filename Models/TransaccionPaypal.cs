@@ -9,7 +9,7 @@ public partial class TransaccionPaypal
 
     public string IdPaypal { get; set; } = null!;
 
-    public string FechaCreacion { get; set; } = null!;
+    public DateOnly? FechaCreacion { get; set; } = null!;
 
     public string Accion { get; set; } = null!;
 
@@ -33,7 +33,7 @@ public partial class TransaccionPaypal
 
     public string? PagoEstatus { get; set; }
 
-    public string? FechaCaptura { get; set; }
+    public DateOnly? FechaCaptura { get; set; }
 
     public string? Estatus { get; set; }
 }

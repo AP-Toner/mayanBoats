@@ -83,9 +83,7 @@ namespace mayanBoats.Models
                 entity.HasKey(e => e.Id);
                 entity.ToTable("HistoriaPaquetes");
 
-                entity.Property(e => e.FechaCaptura)
-                    .HasMaxLength(20)
-                    .IsUnicode(false);
+                entity.Property(e => e.FechaCaptura).HasDefaultValueSql("(getdate())");
                 entity.Property(e => e.Paquete)
                     .HasMaxLength(20)
                     .IsUnicode(false);
@@ -111,9 +109,7 @@ namespace mayanBoats.Models
                 entity.ToTable("Paquetes");
 
                 entity.Property(e => e.Activo).HasColumnName("activo");
-                entity.Property(e => e.FechaCaptura)
-                    .HasMaxLength(10)
-                    .IsUnicode(false);
+                entity.Property(e => e.FechaCaptura).HasDefaultValueSql("(getdate())");
                 entity.Property(e => e.Paquete1).HasColumnName("Paquete");
             });
 
@@ -129,13 +125,8 @@ namespace mayanBoats.Models
                 entity.Property(e => e.Correo)
                     .HasMaxLength(250)
                     .IsUnicode(false);
-                entity.Property(e => e.FechaCaptura)
-                    .HasMaxLength(40)
-                    .IsUnicode(false);
-                entity.Property(e => e.FechaRespuesta)
-                    .HasMaxLength(40)
-                    .IsUnicode(false)
-                    .HasDefaultValue("01/01/1980");
+                entity.Property(e => e.FechaCaptura).HasDefaultValueSql("(getdate())");
+                entity.Property(e => e.FechaRespuesta).HasDefaultValueSql("(getdate())");
                 entity.Property(e => e.Mensaje).IsUnicode(false);
                 entity.Property(e => e.Nombre)
                     .HasMaxLength(250)
@@ -176,7 +167,7 @@ namespace mayanBoats.Models
                     .HasMaxLength(20)
                     .IsUnicode(false);
                 entity.Property(e => e.IdPagoPayPal)
-                    .HasMaxLength(15)
+                    .HasMaxLength(25)
                     .IsUnicode(false);
                 entity.Property(e => e.Monto).HasColumnType("decimal(18, 4)");
                 entity.Property(e => e.Nombre)
@@ -232,14 +223,10 @@ namespace mayanBoats.Models
                 entity.Property(e => e.Estatus)
                     .HasMaxLength(1)
                     .IsUnicode(false);
-                entity.Property(e => e.FechaCaptura)
-                    .HasMaxLength(10)
-                    .IsUnicode(false);
-                entity.Property(e => e.FechaCreacion)
-                    .HasMaxLength(10)
-                    .IsUnicode(false);
+                entity.Property(e => e.FechaCaptura).HasDefaultValueSql("(getdate())");
+                entity.Property(e => e.FechaCreacion).HasDefaultValueSql("(getdate())");
                 entity.Property(e => e.IdPaypal)
-                    .HasMaxLength(15)
+                    .HasMaxLength(25)
                     .IsUnicode(false);
                 entity.Property(e => e.PagoEstatus)
                     .HasMaxLength(30)

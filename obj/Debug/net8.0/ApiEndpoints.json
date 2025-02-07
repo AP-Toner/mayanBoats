@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "mayanBoats.Controllers.GuardarTransaccionController",
+    "Method": "Post",
+    "RelativePath": "GuardarTransaccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "datos",
+        "Type": "mayanBoats.Controllers.GuardarTransaccionController\u002BDatosTransaccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
