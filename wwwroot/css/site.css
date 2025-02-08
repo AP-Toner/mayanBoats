@@ -41,7 +41,7 @@ body {
 }
 
 .navbar-nav .nav-item.active .nav-link {
-    color: yellow !important;
+    color: #edc400 !important;
 }
 
 /* Manipulación de texto */
@@ -129,20 +129,23 @@ body {
     justify-content: center;
 }
 
-    .image-grid img, .image-grid .video, .image-grid-lg img, .image-grid-lg .video {
-        width: calc(33.333% - 10px);
+    .image-grid img, .image-grid video, .image-grid-lg img, .image-grid-lg video {
+        width: 100%;
         object-fit: cover;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
-    .image-grid img, .image-grid .video {
+    .image-grid img, .image-grid video, .image-grid-lg img, .image-grid-lg video {
         height: 650px;
     }
 
-    .image-grid-lg img, .image-grid-lg .video {
-        height: 750px;
-    }
+        .image-grid img:hover, .image-grid video:hover,
+        .image-grid-lg img:hover, .image-grid-lg video:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
 .map-container {
     height: 450px;
@@ -155,8 +158,45 @@ body {
     justify-content: center;
 }
 
+/* Botones Reservar */
+.btnReservar {
+    background-color: #01928e;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+    .btnReservar:hover {
+        background-color: #1a7ddd;
+        transform: scale(1.05);
+    }
+
 /* PayPal */
 #paypal-button-container {
     width: 100%;
     margin: 55px auto;
 }
+
+/* WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-decoration: none;
+}
+
+    .whatsapp-button i {
+        font-size: 30px;
+        color: white;
+    }

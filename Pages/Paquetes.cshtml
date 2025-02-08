@@ -75,7 +75,7 @@
                             <td id="adc-pq-@index"></td>
                             <td id="tot-pq-@index">@paquete.CostoPaquete?.ToString("F2")</td>
                             <td>
-                                <button id="btn-pq-@index" class="btn btn-primary btn-sm w-100 h-100 text-bold btnReservar">RESERVAR</button>
+                                <button id="btn-pq-@index" class="btn btn-primary btn-sm btnReservar w-100 py-2 shadow-sm rounded">RESERVAR</button>
                             </td>
                         </tr>
 
@@ -92,7 +92,7 @@
     <div class="row">
         <div class="col">
             <p class="text-start mb-1 text-muted">
-                * Costos iniciales para 4 personas o menos, expresados en Dólares Americanos.
+                * Costos iniciales para 5 personas o menos, expresados en Dólares Americanos.
             </p>
             <p class="text-start mb-1 text-muted">
                 ** Impuesto Marina V&V (sólo efectivo): $5 Dólares por persona, niños mayores de 6 años pagan.
@@ -114,7 +114,7 @@
             <div class="modal-body">
                 <form id="reservaForm">
                     <!-- Información personal -->
-                    <h5 class="mb-3">Información Personal</h5>
+                    <h5 class="mb-3">Información de Contacto</h5>
                     <div class="row g-3">
                         <div class="col-md-4">
                             <label for="nombre" class="form-label">Nombre(s)</label>

@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
         <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/airbnb.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/mayanBoats.styles.css" asp-append-version="true" />
@@ -39,9 +40,9 @@
                             <li class="nav-item @(Context.Request.Path == "/Paquetes" ? "active" : "")">
                                 <a class="nav-link text-white" asp-area="" asp-page="/Paquetes">Paquetes</a>
                             </li>
-                            <li class="nav-item @(Context.Request.Path == "/Paquetes" ? "active" : "")">
+                            @* <li class="nav-item @(Context.Request.Path == "/Paquetes" ? "active" : "")">
                                 <a class="nav-link text-white btn btn-primary" asp-area="" asp-page="/Paquetes">Reserva</a>
-                            </li>
+                            </li> *@
                         </ul>
                     </div>
                 </div>
@@ -60,11 +61,20 @@
             </div>
         </footer>
 
+        <!-- WhatsApp -->
+        @* <a href="https://wa.me/526144691632" class="whatsapp-button" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a> *@
+
         <script src="~/lib/jquery/dist/jquery.min.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        @* <script src="https://www.paypal.com/sdk/js?client-id=ASm-SdstwjJVM7m0r_D9vl0ZFcuzfJF5PslEEQBnC_k3aHjXd6LorkzwoNTohS3NMijn1rzDehxSrIPQ"></script> *@
-        <script src="https://www.paypal.com/sdk/js?client-id=AcOz57euYjZgVMm5_UKlW0djR3LfbmmpDhi0rvXdoBVwzGhsWH9DDLsJrLQo86Jbe6pnDQ87rblG9pQi"></script> @* SANDBOX *@
+        @* LIVE *@
+        <script src="https://www.paypal.com/sdk/js?client-id=ASm-SdstwjJVM7m0r_D9vl0ZFcuzfJF5PslEEQBnC_k3aHjXd6LorkzwoNTohS3NMijn1rzDehxSrIPQ"></script>
+        @* SANDBOX *@
+        @* <script src="https://www.paypal.com/sdk/js?client-id=AcOz57euYjZgVMm5_UKlW0djR3LfbmmpDhi0rvXdoBVwzGhsWH9DDLsJrLQo86Jbe6pnDQ87rblG9pQi"></script> *@
         <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
