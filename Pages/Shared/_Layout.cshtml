@@ -39,9 +39,8 @@
                             <li class="nav-item @(Context.Request.Path == "/Paquetes" ? "active" : "")">
                                 <a class="nav-link text-white" asp-area="" asp-page="/Paquetes">Paquetes</a>
                             </li>
-                            <li class="nav-item @(Context.Request.Path == "/Reserva" ? "active" : "")">
-                                    <button class="nav-link text-white btn btn-primary" asp-page="/Reserva">Reserva</button>
-                                @* <a class="nav-link text-white" asp-area="" asp-page="/Reserva">Reserva</a> *@
+                            <li class="nav-item @(Context.Request.Path == "/Paquetes" ? "active" : "")">
+                                <a class="nav-link text-white btn btn-primary" asp-area="" asp-page="/Paquetes">Reserva</a>
                             </li>
                         </ul>
                     </div>
@@ -66,6 +65,8 @@
         @* <script src="https://www.paypal.com/sdk/js?client-id=ASm-SdstwjJVM7m0r_D9vl0ZFcuzfJF5PslEEQBnC_k3aHjXd6LorkzwoNTohS3NMijn1rzDehxSrIPQ"></script> *@
         <script src="https://www.paypal.com/sdk/js?client-id=AcOz57euYjZgVMm5_UKlW0djR3LfbmmpDhi0rvXdoBVwzGhsWH9DDLsJrLQo86Jbe6pnDQ87rblG9pQi"></script> @* SANDBOX *@
         <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
 
         @await RenderSectionAsync("Scripts", required: false)

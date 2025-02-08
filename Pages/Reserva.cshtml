@@ -1,9 +1,77 @@
 ﻿@page
 @model mayanBoats.Pages.ReservaModel
 @{
-    ViewData["Title"] = "Reserva";
+    ViewData["Title"] = "Reserva Confirmada";
 }
+<div class="mt-5 pt-5 text-center">
+    <div id="reciboReserva" class="container">
+        <div class="row justify-content-center text-center titulo mb-5">
+            <h2>Reservación Confirmada</h2>
+        </div>
+        <!-- Detalles del Paquete -->
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="list-group-item d-flex justify-content-between">
+                    <strong>Paquete:</strong> <span class="mb-0 fw-bold">@Model.NombrePaquete</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="list-group-item d-flex justify-content-between">
+                    <strong>Fecha:</strong> <span class="mb-0 fw-bold">@Model.Fecha</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="list-group-item d-flex justify-content-between">
+                    <strong>Hora:</strong> <span class="mb-0 fw-bold">@Model.Hora</span>
+                </div>
+            </div>
+        </div>
+        <!-- Información Personal -->
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-4">
+                <div class="list-group-item d-flex justify-content-between">
+                    <strong>Nombre:</strong> <span class="mb-0 fw-bold">@Model.NombreCliente</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="list-group-item d-flex justify-content-between">
+                    <strong>Correo:</strong> <span class="mb-0 fw-bold">@Model.Correo</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="list-group-item d-flex justify-content-between">
+                    <strong>Teléfono:</strong> <span class="mb-0 fw-bold">@Model.Telefono</span>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <!-- Resumen de venta -->
+            <div class="col">
+                <h5 class="mt-4">Resumen</h5>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item d-flex justify-content-between">
+                        <strong>Precio base:</strong> <span class="mb-0 fw-bold">@Model.PrecioBase</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <strong>Persona adicional:</strong> <span class="mb-0 fw-bold">@Model.PersonaAdicional</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <strong>Subtotal:</strong> <span class="mb-0 fw-bold">@Model.Subtotal</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <strong>Descuento:</strong> <span class="mb-0 fw-bold">@Model.DescuentoAplicable</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between bg-light">
+                        <strong>Total:</strong> <strong class="mb-0 fw-bold">@Model.TotalDespuesDescuento</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Imprimir recibo -->
 <div class="text-center">
-    <h1 class="display-4">Reserva</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <button id="descargarPdf" class="btn btn-primary mt-3">Descargar PDF</button>
 </div>

@@ -3,7 +3,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // Constantes
-    const personasBase = 4;
+    const personasBase = 5;
     const camposRequeridos = ['nombre', 'apellidoPaterno', 'correo', 'telefono', 'datePicker', 'timePicker'];
     const codigosValidos = ['DESC10', 'DESC20', 'DESC30', 'DESC50', 'DESC90', 'FREE'];
 
@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const botonCerrarPaypal = document.getElementById('btnCerrarPaypal');
     const modalReservarWin = document.getElementById('modalReservar');
     const modalPaypalWin = document.getElementById('modalPaypal');
+    const botonDescargaPdf = document.getElementById('descargarPdf');
 
     // Funciones
     const calcularCostos = (index, personas) => {
@@ -196,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
                 onApprove: (data, actions) => {
                     return actions.order.capture().then(details => {
-                        alert(`Transacción completada por ${details.payer.name.given_name}`);
+                        //alert(`Transacción completada por ${details.payer.name.given_name}`);
 
                         // Obtener formato de fecha correcto
                         const fechaCreacion = new Date(details.create_time).toISOString().split('T')[0];
@@ -266,9 +267,11 @@ document.addEventListener('DOMContentLoaded', () => {
                         }).then(response => response.json())
                             .then(data => {
                                 if (data.success) {
-                                    alert('Reserva y transacción guardadas correctamente.');
+                                    //alert('Reserva realizada correctamente.');
+                                    const resumenVentaUrl = `/Reserva?nombrePaquete=${encodeURIComponent(horasTourT)}&fecha=${encodeURIComponent(fecha)}&hora=${encodeURIComponent(hora)}&nombreCliente=${encodeURIComponent(nombreCliente)}&correo=${encodeURIComponent(correo)}&telefono=${encodeURIComponent(telefono)}&precioBase=${encodeURIComponent(precioBase)}&personaAdicional=${encodeURIComponent(personaAdicional)}&subtotal=${encodeURIComponent(subtotal)}&descuentoAplicable=${encodeURIComponent(descuentoAplicable)}&totalDespuesDescuento=${encodeURIComponent(totalDespuesDescuento)}`;
+                                    window.open(resumenVentaUrl, '_blank');
                                 } else {
-                                    alert('Error al guardar la reserva y transacción.');
+                                    alert('Error al hacer la reserva, contacte con servicio al cliente.');
                                 }
                             });
                     });
@@ -276,4 +279,39 @@ document.addEventListener('DOMContentLoaded', () => {
             }).render('#paypal-button-container');
         });
     }
+
+    if (botonDescargaPdf) {
+        botonDescargaPdf.addEventListener('click', () => {
+            const { jsPDF } = window.jspdf;
+
+            // Obtener datos del contenedor
+            const contenido = document.getElementById('reciboReserva');
+
+            // Convertir el contenido a imagen con alta resolución
+            html2canvas(contenido, { scale: 4, useCORS: true }).then(canvas => {
+                const imgData = canvas.toDataURL('image/jpeg', 1.0); // Mejor calidad
+
+                // Obtener dimensiones de la imagen en píxeles
+                const imgWidth = canvas.width;
+                const imgHeight = canvas.height;
+
+                // Convertir píxeles a milímetros (jsPDF usa mm)
+                const pdfWidth = imgWidth * 0.264583; // 1px ≈ 0.264583 mm
+                const pdfHeight = imgHeight * 0.264583;
+
+                // Crear PDF con tamaño exacto
+                const pdf = new jsPDF({
+                    orientation: pdfWidth > pdfHeight ? 'landscape' : 'portrait',
+                    unit: 'mm',
+                    format: [pdfWidth, pdfHeight]
+                });
+
+                // Agregar imagen con la mejor calidad
+                pdf.addImage(imgData, 'JPEG', 0, 0, pdfWidth, pdfHeight, '', 'FAST');
+
+                pdf.save('Reserva-Confirmada.pdf');
+            });
+        });
+    }
+
 });
