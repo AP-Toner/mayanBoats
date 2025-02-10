@@ -1,0 +1,202 @@
+/* Fuente títulos */
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('../fonts/playfairdisplay/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Fuente texto */
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/lora/Lora-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Base */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Lora', sans-serif;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Menú */
+.bg-navbar {
+    background: #102c4c
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #edc400 !important;
+}
+
+/* Manipulación de texto */
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.titulo {
+    font-family: 'PlayfairDisplay', sans-serif;
+    line-height: 1.2;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .titulo {
+        font-size: 2rem;
+    }
+}
+
+.subtitulo {
+    line-height: 1.2;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.tag-text-grey {
+    color: #414141;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.white-text {
+    color: white;
+}
+
+/* Quitar borde */
+.no-borde {
+    border: none;
+}
+
+/* Overlay de cards */
+.card-overlay {
+    color: white;
+}
+
+    .card-overlay::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+/* Sección carrusel */
+.carousel-item {
+    position: relative;
+}
+
+    .carousel-item img {
+        height: 550px;
+        object-fit: cover;
+        position: relative;
+        z-index: 0;
+    }
+
+/* Sección grid imágenes */
+.image-grid, .image-grid-lg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+    .image-grid img, .image-grid video, .image-grid-lg img, .image-grid-lg video {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-grid img, .image-grid video, .image-grid-lg img, .image-grid-lg video {
+        height: 650px;
+    }
+
+        .image-grid img:hover, .image-grid video:hover,
+        .image-grid-lg img:hover, .image-grid-lg video:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+.map-container {
+    height: 450px;
+}
+
+/* Cards */
+.card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Botones Reservar */
+.btnReservar {
+    background-color: #01928e;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+    .btnReservar:hover {
+        background-color: #1a7ddd;
+        transform: scale(1.05);
+    }
+
+/* PayPal */
+#paypal-button-container {
+    width: 100%;
+    margin: 55px auto;
+}
+
+/* WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-decoration: none;
+}
+
+    .whatsapp-button i {
+        font-size: 30px;
+        color: white;
+    }
