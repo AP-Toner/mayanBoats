@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Microsoft.Extensions.Configuration;
 
 namespace mayanBoats.Models
@@ -44,6 +45,12 @@ namespace mayanBoats.Models
         {
             modelBuilder.HasDefaultSchema("dbo");
 
+            // Convertidor para DateOnly -> DateTime
+            var dateOnlyConverter = new ValueConverter<DateOnly, DateTime>(
+                v => v.ToDateTime(TimeOnly.MinValue),  // Convertir DateOnly a DateTime
+                v => DateOnly.FromDateTime(v)         // Convertir DateTime a DateOnly
+            );
+
             modelBuilder.Entity<Cliente>(entity =>
             {
                 entity.HasKey(e => e.Id);
@@ -61,6 +68,8 @@ namespace mayanBoats.Models
                 entity.Property(e => e.Telefono)
                     .HasMaxLength(50)
                     .IsUnicode(false);
+
+                entity.Property(e => e.FechaRegistro).HasConversion(dateOnlyConverter);
             });
 
             modelBuilder.Entity<Cupone>(entity =>
@@ -75,7 +84,9 @@ namespace mayanBoats.Models
                 entity.Property(e => e.Estatus)
                     .HasMaxLength(1)
                     .IsUnicode(false);
-                entity.Property(e => e.FechaCreacion).HasDefaultValueSql("(getdate())");
+                entity.Property(e => e.FechaCreacion).HasConversion(dateOnlyConverter);
+                entity.Property(e => e.Fecha).HasConversion(dateOnlyConverter);
+                entity.Property(e => e.FechaCaptura).HasConversion(dateOnlyConverter);
             });
 
             modelBuilder.Entity<HistoriaPaquete>(entity =>
@@ -83,7 +94,7 @@ namespace mayanBoats.Models
                 entity.HasKey(e => e.Id);
                 entity.ToTable("HistoriaPaquetes");
 
-                entity.Property(e => e.FechaCaptura).HasDefaultValueSql("(getdate())");
+                entity.Property(e => e.FechaCaptura).HasConversion(dateOnlyConverter);
                 entity.Property(e => e.Paquete)
                     .HasMaxLength(20)
                     .IsUnicode(false);
@@ -109,7 +120,7 @@ namespace mayanBoats.Models
                 entity.ToTable("Paquetes");
 
                 entity.Property(e => e.Activo).HasColumnName("activo");
-                entity.Property(e => e.FechaCaptura).HasDefaultValueSql("(getdate())");
+                entity.Property(e => e.FechaCaptura).HasConversion(dateOnlyConverter);
                 entity.Property(e => e.Paquete1).HasColumnName("Paquete");
             });
 
@@ -125,8 +136,8 @@ namespace mayanBoats.Models
                 entity.Property(e => e.Correo)
                     .HasMaxLength(250)
                     .IsUnicode(false);
-                entity.Property(e => e.FechaCaptura).HasDefaultValueSql("(getdate())");
-                entity.Property(e => e.FechaRespuesta).HasDefaultValueSql("(getdate())");
+                entity.Property(e => e.FechaCaptura).HasConversion(dateOnlyConverter);
+                entity.Property(e => e.FechaRespuesta).HasConversion(dateOnlyConverter);
                 entity.Property(e => e.Mensaje).IsUnicode(false);
                 entity.Property(e => e.Nombre)
                     .HasMaxLength(250)
@@ -159,7 +170,7 @@ namespace mayanBoats.Models
                 entity.Property(e => e.Estatus)
                     .HasMaxLength(1)
                     .IsUnicode(false);
-                entity.Property(e => e.FechaCaptura).HasDefaultValueSql("(getdate())");
+                entity.Property(e => e.FechaCaptura).HasConversion(dateOnlyConverter);
                 entity.Property(e => e.HoraFinal)
                     .HasMaxLength(20)
                     .IsUnicode(false);
@@ -176,6 +187,8 @@ namespace mayanBoats.Models
                 entity.Property(e => e.Telefono)
                     .HasMaxLength(25)
                     .IsUnicode(false);
+
+                entity.Property(e => e.Fecha).HasConversion(dateOnlyConverter);
             });
 
             modelBuilder.Entity<TipoProducto>(entity =>
@@ -223,8 +236,8 @@ namespace mayanBoats.Models
                 entity.Property(e => e.Estatus)
                     .HasMaxLength(1)
                     .IsUnicode(false);
-                entity.Property(e => e.FechaCaptura).HasDefaultValueSql("(getdate())");
-                entity.Property(e => e.FechaCreacion).HasDefaultValueSql("(getdate())");
+                entity.Property(e => e.FechaCaptura).HasConversion(dateOnlyConverter);
+                entity.Property(e => e.FechaCreacion).HasConversion(dateOnlyConverter);
                 entity.Property(e => e.IdPaypal)
                     .HasMaxLength(25)
                     .IsUnicode(false);
@@ -247,6 +260,8 @@ namespace mayanBoats.Models
                 entity.Property(e => e.Password)
                     .HasMaxLength(100)
                     .IsUnicode(false);
+
+                entity.Property(e => e.FechaCaptura).HasConversion(dateOnlyConverter);
             });
 
             OnModelCreatingPartial(modelBuilder);

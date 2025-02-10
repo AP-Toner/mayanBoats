@@ -1,0 +1,789 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\mayanBoats.bundle.scp.css",
+      "PackagePath": "staticwebassets\\mayanBoats.v1jz90635q.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\Lora-Italic-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\Lora-Italic-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\Lora-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\Lora-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\lora\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\README.txt",
+      "PackagePath": "staticwebassets\\fonts\\lora\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\static\\Lora-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\static\\Lora-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\static\\Lora-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\static\\Lora-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\static\\Lora-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\static\\Lora-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\static\\Lora-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\static\\Lora-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\static\\Lora-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\static\\Lora-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\static\\Lora-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\static\\Lora-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\static\\Lora-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\static\\Lora-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\lora\\static\\Lora-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\lora\\static\\Lora-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\PlayfairDisplay-Italic-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\PlayfairDisplay-Italic-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\PlayfairDisplay-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\PlayfairDisplay-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\README.txt",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\001.jpg",
+      "PackagePath": "staticwebassets\\img\\001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\005-1-600x450.jpg",
+      "PackagePath": "staticwebassets\\img\\005-1-600x450.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\009-510x382.jpg",
+      "PackagePath": "staticwebassets\\img\\009-510x382.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\009.jpg",
+      "PackagePath": "staticwebassets\\img\\009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\014-1.jpg",
+      "PackagePath": "staticwebassets\\img\\014-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\4b2cfeec-a42a-4113-9992-90eafa545683.jpg",
+      "PackagePath": "staticwebassets\\img\\4b2cfeec-a42a-4113-9992-90eafa545683.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\BARCO-UNDIDO.jpg",
+      "PackagePath": "staticwebassets\\img\\BARCO-UNDIDO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\BarcoHundido1.jpeg",
+      "PackagePath": "staticwebassets\\img\\BarcoHundido1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\BarcoHundido2.jpeg",
+      "PackagePath": "staticwebassets\\img\\BarcoHundido2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\FaritoIslaMujeres01.jpg",
+      "PackagePath": "staticwebassets\\img\\FaritoIslaMujeres01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\Garrafon011.jpg",
+      "PackagePath": "staticwebassets\\img\\Garrafon011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IMG_4369.JPG",
+      "PackagePath": "staticwebassets\\img\\IMG_4369.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IMG_4371.JPG",
+      "PackagePath": "staticwebassets\\img\\IMG_4371.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IMG_4480.JPG",
+      "PackagePath": "staticwebassets\\img\\IMG_4480.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MAYAN.pdf",
+      "PackagePath": "staticwebassets\\img\\MAYAN.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MAYAN1100X800.gif",
+      "PackagePath": "staticwebassets\\img\\MAYAN1100X800.gif"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MAYAN1100X800.jpg",
+      "PackagePath": "staticwebassets\\img\\MAYAN1100X800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MAYAN1100X800.png",
+      "PackagePath": "staticwebassets\\img\\MAYAN1100X800.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MAYANBLANCO1100X800.gif",
+      "PackagePath": "staticwebassets\\img\\MAYANBLANCO1100X800.gif"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MAYANBLANCO1100X800.jpg",
+      "PackagePath": "staticwebassets\\img\\MAYANBLANCO1100X800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MAYANBLANCO1100X800.png",
+      "PackagePath": "staticwebassets\\img\\MAYANBLANCO1100X800.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MayanBoatsLogoFondo.jpg",
+      "PackagePath": "staticwebassets\\img\\MayanBoatsLogoFondo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\Pez-Loro-Arrecife.jpg",
+      "PackagePath": "staticwebassets\\img\\Pez-Loro-Arrecife.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaNorte001.jpg",
+      "PackagePath": "staticwebassets\\img\\PlayaNorte001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaPresidente01.jpg",
+      "PackagePath": "staticwebassets\\img\\PlayaPresidente01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\Sarita.jpg",
+      "PackagePath": "staticwebassets\\img\\Sarita.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\casarolandis.jpg",
+      "PackagePath": "staticwebassets\\img\\casarolandis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\cubano1.jpg",
+      "PackagePath": "staticwebassets\\img\\cubano1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\delfin.jpg",
+      "PackagePath": "staticwebassets\\img\\delfin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\elcubano.jpg",
+      "PackagePath": "staticwebassets\\img\\elcubano.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\fauna-marina-caribe-pez-espada.jpg",
+      "PackagePath": "staticwebassets\\img\\fauna-marina-caribe-pez-espada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\holbox-02.jpg",
+      "PackagePath": "staticwebassets\\img\\holbox-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\holbox-lumi.jpg",
+      "PackagePath": "staticwebassets\\img\\holbox-lumi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio1.png",
+      "PackagePath": "staticwebassets\\img\\inicio1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio2.png",
+      "PackagePath": "staticwebassets\\img\\inicio2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio3.png",
+      "PackagePath": "staticwebassets\\img\\inicio3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio31.png",
+      "PackagePath": "staticwebassets\\img\\inicio31.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio4.png",
+      "PackagePath": "staticwebassets\\img\\inicio4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio41.png",
+      "PackagePath": "staticwebassets\\img\\inicio41.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio5.png",
+      "PackagePath": "staticwebassets\\img\\inicio5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio52.png",
+      "PackagePath": "staticwebassets\\img\\inicio52.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio53.png",
+      "PackagePath": "staticwebassets\\img\\inicio53.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio6.png",
+      "PackagePath": "staticwebassets\\img\\inicio6.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio62.png",
+      "PackagePath": "staticwebassets\\img\\inicio62.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio7.png",
+      "PackagePath": "staticwebassets\\img\\inicio7.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio8.png",
+      "PackagePath": "staticwebassets\\img\\inicio8.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio9.png",
+      "PackagePath": "staticwebassets\\img\\inicio9.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\isla-2-portada.jpg",
+      "PackagePath": "staticwebassets\\img\\isla-2-portada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\mantaraya.jpg",
+      "PackagePath": "staticwebassets\\img\\mantaraya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\mar-bella.jpg",
+      "PackagePath": "staticwebassets\\img\\mar-bella.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\marbella.jpg",
+      "PackagePath": "staticwebassets\\img\\marbella.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\museoislasmujeres02.jpg",
+      "PackagePath": "staticwebassets\\img\\museoislasmujeres02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc1.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc1.png",
+      "PackagePath": "staticwebassets\\img\\nizuc1.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc10.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc10.png",
+      "PackagePath": "staticwebassets\\img\\nizuc10.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc11.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc11.png",
+      "PackagePath": "staticwebassets\\img\\nizuc11.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc12.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc12.png",
+      "PackagePath": "staticwebassets\\img\\nizuc12.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc2.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc2.png",
+      "PackagePath": "staticwebassets\\img\\nizuc2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc3.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc3.png",
+      "PackagePath": "staticwebassets\\img\\nizuc3.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc4.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc4.png",
+      "PackagePath": "staticwebassets\\img\\nizuc4.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc5.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc5.png",
+      "PackagePath": "staticwebassets\\img\\nizuc5.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc6.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc6.png",
+      "PackagePath": "staticwebassets\\img\\nizuc6.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc7.jpeg",
+      "PackagePath": "staticwebassets\\img\\nizuc7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc7.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc7.png",
+      "PackagePath": "staticwebassets\\img\\nizuc7.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc8.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc8.png",
+      "PackagePath": "staticwebassets\\img\\nizuc8.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc9.jpg",
+      "PackagePath": "staticwebassets\\img\\nizuc9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc9.png",
+      "PackagePath": "staticwebassets\\img\\nizuc9.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nuevologo.gif",
+      "PackagePath": "staticwebassets\\img\\nuevologo.gif"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nuevologo.jpg",
+      "PackagePath": "staticwebassets\\img\\nuevologo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nuevologo1.jpeg",
+      "PackagePath": "staticwebassets\\img\\nuevologo1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nuevologo1.jpg",
+      "PackagePath": "staticwebassets\\img\\nuevologo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nuevologo2.jpg",
+      "PackagePath": "staticwebassets\\img\\nuevologo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nuevologo2.png",
+      "PackagePath": "staticwebassets\\img\\nuevologo2.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\playaNorte.png",
+      "PackagePath": "staticwebassets\\img\\playaNorte.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\playanorte.jpeg",
+      "PackagePath": "staticwebassets\\img\\playanorte.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\printer.svg",
+      "PackagePath": "staticwebassets\\img\\printer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\reduccion-de-precios.png",
+      "PackagePath": "staticwebassets\\img\\reduccion-de-precios.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\sarita1.jpg",
+      "PackagePath": "staticwebassets\\img\\sarita1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\sarita2.jpg",
+      "PackagePath": "staticwebassets\\img\\sarita2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\sarita4.jpg",
+      "PackagePath": "staticwebassets\\img\\sarita4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\tabooo.jpg",
+      "PackagePath": "staticwebassets\\img\\tabooo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\vista aerea.jpg",
+      "PackagePath": "staticwebassets\\img\\vista aerea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\woocommerce-placeholder-100x100.png",
+      "PackagePath": "staticwebassets\\img\\woocommerce-placeholder-100x100.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\woocommerce-placeholder-1024x1024.png",
+      "PackagePath": "staticwebassets\\img\\woocommerce-placeholder-1024x1024.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\woocommerce-placeholder-150x150.png",
+      "PackagePath": "staticwebassets\\img\\woocommerce-placeholder-150x150.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\woocommerce-placeholder-300x300.png",
+      "PackagePath": "staticwebassets\\img\\woocommerce-placeholder-300x300.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\woocommerce-placeholder-600x600.png",
+      "PackagePath": "staticwebassets\\img\\woocommerce-placeholder-600x600.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\woocommerce-placeholder-768x768.png",
+      "PackagePath": "staticwebassets\\img\\woocommerce-placeholder-768x768.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\woocommerce-placeholder.png",
+      "PackagePath": "staticwebassets\\img\\woocommerce-placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\media\\video.mp4",
+      "PackagePath": "staticwebassets\\media\\video.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\media\\video20240627.mp4",
+      "PackagePath": "staticwebassets\\media\\video20240627.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\media\\video_nizuc.mp4",
+      "PackagePath": "staticwebassets\\media\\video_nizuc.mp4"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.mayanBoats.props",
+      "PackagePath": "build\\mayanBoats.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.mayanBoats.props",
+      "PackagePath": "buildMultiTargeting\\mayanBoats.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.mayanBoats.props",
+      "PackagePath": "buildTransitive\\mayanBoats.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.mayanBoats.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.mayanBoats.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
