@@ -46,22 +46,22 @@
         <div class="col-md-4">
             <div class="card shadow-lg border-0 rounded">
                 <div class="card-body">
-                    <form>
+                    <form id="contacto-form" method="post">
                         <div class="mb-3">
                             <label class="form-label fw-bolder" for="nombre">Nombre completo</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo">
+                            <input type="text" class="form-control" id="nombre" asp-for="Nombre" placeholder="Ingrese su nombre completo">
                         </div>
                         <div class="mb-3">
                             <label class="form-label fw-bolder" for="correo">Correo electrónico</label>
-                            <input type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com">
+                            <input type="email" class="form-control" id="correo" asp-for="Correo" placeholder="ejemplo@correo.com">
                         </div>
                         <div class="mb-3">
                             <label class="form-label fw-bolder" for="asunto">Asunto</label>
-                            <input type="text" class="form-control" id="asunto" placeholder="Escriba el asunto del mensaje">
+                            <input type="text" class="form-control" id="asunto" asp-for="Asunto" placeholder="Escriba el asunto del mensaje">
                         </div>
                         <div class="mb-3">
                             <label class="form-label fw-bolder" for="mensaje">Mensaje</label>
-                            <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje aquí"></textarea>
+                            <textarea class="form-control" id="mensaje" asp-for="Mensaje" rows="3" placeholder="Escriba su mensaje aquí"></textarea>
                         </div>
                         <button type="submit" class="btn btn-dark w-100 rounded-pill">Enviar mensaje</button>
                     </form>
