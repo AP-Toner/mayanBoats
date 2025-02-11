@@ -4,6 +4,9 @@ using System.Net.Http;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System;
+using System.IO;
+using System.Text;
+using System.Text.Json;
 
 namespace mayanBoats.Controllers
 {
@@ -18,134 +21,129 @@ namespace mayanBoats.Controllers
             _context = context;
         }
 
-        // Método POST modificado para manejar la respuesta del IPN
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] DatosTransaccion datos)
+        public async Task<IActionResult> Post()
         {
             try
             {
-                // Validar si la transacción de PayPal es válida
-                if (datos.transaccion != null && !string.IsNullOrEmpty(datos.transaccion.idPaypal))
+                using (var reader = new StreamReader(Request.Body))
                 {
-                    // Validar la transacción a través de IPN de PayPal
-                    var ipnValido = await ValidarPayPalIPN(datos.transaccion.idPaypal, datos.transaccion.fechaCreacion, datos.transaccion.beneficiarioCorreo, datos.transaccion.compradorCorreo);
+                    string ipnData = await reader.ReadToEndAsync();
+                    Console.WriteLine($"Received IPN data: {ipnData}");
 
-                    if (ipnValido)
+                    var datosTransaccion = JsonSerializer.Deserialize<DatosTransaccion>(ipnData);
+
+                    if (datosTransaccion == null || datosTransaccion.transaccion == null || datosTransaccion.reservacion == null)
                     {
-                        // Si la validación de IPN es exitosa, proceder a guardar los datos
+                        Console.WriteLine("IPN data is incomplete, aborting...");
+                        return BadRequest(new { success = false, message = "Invalid IPN data format" });
+                    }
+
+                    var ipnValid = await ValidarPayPalIPN(datosTransaccion.transaccion);
+
+                    if (ipnValid)
+                    {
                         var renta = new Renta
                         {
-                            Nombre = datos.reservacion.nombre,
-                            Apellido = datos.reservacion.apellido,
-                            CorreoElectronico = datos.reservacion.correo,
-                            Telefono = datos.reservacion.telefono,
-                            Fecha = DateOnly.Parse(datos.reservacion.fecha),
-                            Paquete = int.Parse(datos.reservacion.paquete),
-                            HoraInicial = datos.reservacion.horaInicial,
-                            HorasTour = int.Parse(datos.reservacion.horasTour),
-                            HoraFinal = datos.reservacion.horaFinal,
-                            IdCliente = int.Parse(datos.reservacion.idCliente),
-                            Monto = decimal.Parse(datos.reservacion.totalDespuesDescuento.Replace("$", "")),
-                            TipoCambio = double.Parse(datos.reservacion.tipoCambio),
-                            Descuento = double.Parse(datos.reservacion.descuentoAplicable.Replace("$", "")),
-                            TipoPago = int.Parse(datos.reservacion.tipoPago),
-                            Estatus = datos.reservacion.estatus,
-                            IdPagoPayPal = datos.reservacion.idPagoPaypal,
-                            Adicional = int.Parse(datos.reservacion.personaAdicional),
-                            CostoAdicional = decimal.Parse(datos.reservacion.costoAdicional.Replace("$", "")),
-                            FechaCaptura = DateOnly.Parse(datos.reservacion.fechaCaptura),
+                            Nombre = datosTransaccion.reservacion.nombre,
+                            Apellido = datosTransaccion.reservacion.apellido,
+                            CorreoElectronico = datosTransaccion.reservacion.correo,
+                            Telefono = datosTransaccion.reservacion.telefono,
+                            Fecha = DateOnly.Parse(datosTransaccion.reservacion.fecha),
+                            Paquete = int.Parse(datosTransaccion.reservacion.paquete),
+                            HoraInicial = datosTransaccion.reservacion.horaInicial,
+                            HorasTour = int.Parse(datosTransaccion.reservacion.horasTour),
+                            HoraFinal = datosTransaccion.reservacion.horaFinal,
+                            IdCliente = int.Parse(datosTransaccion.reservacion.idCliente),
+                            Monto = decimal.Parse(datosTransaccion.reservacion.totalDespuesDescuento.Replace("$", "")),
+                            TipoCambio = double.Parse(datosTransaccion.reservacion.tipoCambio),
+                            Descuento = double.Parse(datosTransaccion.reservacion.descuentoAplicable.Replace("$", "")),
+                            TipoPago = int.Parse(datosTransaccion.reservacion.tipoPago),
+                            Estatus = datosTransaccion.reservacion.estatus,
+                            IdPagoPayPal = datosTransaccion.reservacion.idPagoPaypal,
+                            Adicional = int.Parse(datosTransaccion.reservacion.personaAdicional),
+                            CostoAdicional = decimal.Parse(datosTransaccion.reservacion.costoAdicional.Replace("$", "")),
+                            FechaCaptura = DateOnly.Parse(datosTransaccion.reservacion.fechaCaptura),
                         };
 
                         _context.Rentas.Add(renta);
 
-                        // Guardar la transacción de PayPal si la validación es exitosa
                         var transaccionPaypal = new TransaccionPaypal
                         {
-                            IdPaypal = datos.transaccion.idPaypal,
-                            FechaCreacion = DateOnly.Parse(datos.transaccion.fechaCreacion),
-                            CompradorNombre = datos.transaccion.compradorNombre,
-                            CompradorApellido = datos.transaccion.compradorApellido,
-                            CompradorCorreo = datos.transaccion.compradorCorreo,
-                            CompraMoneda = datos.transaccion.compraMoneda,
-                            CompraMonto = float.Parse(datos.transaccion.compraMonto),
-                            PagoEstatus = datos.transaccion.pagoEstatus,
-                            Accion = datos.transaccion.accion,
-                            CompradorCodigoPais = datos.transaccion.compradorCodigoPais,
-                            CompradorId = datos.transaccion.compradorId,
-                            BeneficiarioCorreo = datos.transaccion.beneficiarioCorreo,
-                            BeneficiarioId = datos.transaccion.beneficiarioId,
-                            FechaCaptura = DateOnly.Parse(datos.transaccion.fechaCaptura),
-                            Estatus = datos.transaccion.estatus,
+                            IdPaypal = datosTransaccion.transaccion.idPaypal,
+                            FechaCreacion = DateOnly.Parse(datosTransaccion.transaccion.fechaCreacion),
+                            CompradorNombre = datosTransaccion.transaccion.compradorNombre,
+                            CompradorApellido = datosTransaccion.transaccion.compradorApellido,
+                            CompradorCorreo = datosTransaccion.transaccion.compradorCorreo,
+                            CompraMoneda = datosTransaccion.transaccion.compraMoneda,
+                            CompraMonto = float.Parse(datosTransaccion.transaccion.compraMonto),
+                            PagoEstatus = datosTransaccion.transaccion.pagoEstatus,
+                            Accion = datosTransaccion.transaccion.accion,
+                            CompradorCodigoPais = datosTransaccion.transaccion.compradorCodigoPais,
+                            CompradorId = datosTransaccion.transaccion.compradorId,
+                            BeneficiarioCorreo = datosTransaccion.transaccion.beneficiarioCorreo,
+                            BeneficiarioId = datosTransaccion.transaccion.beneficiarioId,
+                            FechaCaptura = DateOnly.Parse(datosTransaccion.transaccion.fechaCaptura),
+                            Estatus = datosTransaccion.transaccion.estatus,
                         };
 
                         _context.TransaccionPaypals.Add(transaccionPaypal);
-
-                        // Guardar los cambios en la base de datos
                         await _context.SaveChangesAsync();
 
                         return Ok(new { success = true });
                     }
                     else
                     {
-                        // Si la validación del IPN falla, devolver una respuesta de error
                         return BadRequest(new { success = false, message = "Transaction could not be verified with PayPal" });
                     }
                 }
-
-                // Si los datos de la transacción son inválidos, devolver un error
-                return BadRequest(new { success = false, message = "Invalid transaction data" });
             }
             catch (Exception ex)
             {
-                // Loguear el error para facilitar la depuración
                 Console.WriteLine($"Error: {ex.Message}");
-                return BadRequest(new { success = false, message = "Error al guardar transacción y reservación.", error = ex.Message });
+                return BadRequest(new { success = false, message = "Error processing transaction.", error = ex.Message });
             }
         }
 
-        // Método auxiliar para validar la transacción de PayPal a través de IPN
-        // SANDBOX: https://ipnpb.sandbox.paypal.com/cgi-bin/webscr
-        // LIVE: https://ipnpb.paypal.com/cgi-bin/webscr
-        private async Task<bool> ValidarPayPalIPN(string transactionId, string paymentDate, string receiverEmail, string payerEmail)
+        private async Task<bool> ValidarPayPalIPN(DetallesTransaccion datosTransaccion)
         {
             using (var client = new HttpClient())
             {
-                // Preparar datos para validación
-                var verificationData = new Dictionary<string, string>
-        {
-            { "cmd", "_notify-validate" },
-            { "txn_id", transactionId },
-            { "payment_date", paymentDate },
-            { "receiver_email", "paypal@placara.com" },
-            { "payer_email", payerEmail }
-        };
-
-                // Log the request before sending it
-                Console.WriteLine("Sending verification request to PayPal:");
-                foreach (var item in verificationData)
+                var values = new Dictionary<string, string>
                 {
-                    Console.WriteLine($"{item.Key}: {item.Value}");
-                }
+                    { "cmd", "_notify-validate" },
+                    { "txn_id", datosTransaccion.idPaypal },
+                    { "payment_date", Uri.EscapeDataString(DateTime.Parse(datosTransaccion.fechaCreacion).ToString("ddd, dd MM yyyy HH:mm:ss 'GMT'", System.Globalization.CultureInfo.InvariantCulture)) }, // Encode date
+                    { "first_name", Uri.EscapeDataString(datosTransaccion.compradorNombre) },
+                    { "last_name", Uri.EscapeDataString(datosTransaccion.compradorApellido) },
+                    { "payer_email", Uri.EscapeDataString(datosTransaccion.compradorCorreo) },
+                    { "mc_currency", datosTransaccion.compraMoneda },
+                    { "mc_gross", datosTransaccion.compraMonto },
+                    { "payment_status", datosTransaccion.pagoEstatus.ToUpper() }, // Ensure it's uppercase
+                    { "payer_id", datosTransaccion.compradorId },
+                    { "receiver_email", Uri.EscapeDataString(datosTransaccion.beneficiarioCorreo) },
+                    { "receiver_id", datosTransaccion.beneficiarioId }
+                };
 
-                // Enviar datos a PayPal para validación
+                var requestBody = new FormUrlEncodedContent(values);
+
+                Console.WriteLine("Sending verification request to PayPal...");
+                var queryString = string.Join("&", values.Select(kvp => $"{kvp.Key}={kvp.Value}"));
+                Console.WriteLine($"Formatted Validation String: {queryString}");
+
                 var verificationResponse = await client.PostAsync(
-                    "https://ipnpb.sandbox.paypal.com/cgi-bin/webscr",  // Ensure you're using the sandbox/live URL accordingly
-                    new FormUrlEncodedContent(verificationData)
+                    "https://ipnpb.sandbox.paypal.com/cgi-bin/webscr",
+                    requestBody
                 );
 
                 var verificationResult = await verificationResponse.Content.ReadAsStringAsync();
-
-                // Log the response from PayPal for debugging
                 Console.WriteLine($"IPN Verification Response: {verificationResult}");
 
-                // Verificar si la validación fue exitosa
                 return verificationResult == "VERIFIED";
             }
         }
 
 
-
-        // Modelos de datos (mantenerlos como están)
         public class DatosTransaccion
         {
             public DatosReservacion reservacion { get; set; }

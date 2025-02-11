@@ -6,13 +6,7 @@
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "datos",
-        "Type": "mayanBoats.Controllers.GuardarTransaccionController\u002BDatosTransaccion",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]
