@@ -147,11 +147,6 @@ body {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .map-container {
     height: 450px;
 }

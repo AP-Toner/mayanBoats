@@ -28,6 +28,9 @@ wwwroot\fonts\playfairdisplay\static\PlayfairDisplay-MediumItalic.ttf
 wwwroot\fonts\playfairdisplay\static\PlayfairDisplay-Regular.ttf
 wwwroot\fonts\playfairdisplay\static\PlayfairDisplay-SemiBold.ttf
 wwwroot\fonts\playfairdisplay\static\PlayfairDisplay-SemiBoldItalic.ttf
+wwwroot\img\BarcoHundido.webp
+wwwroot\img\ElFarito.webp
+wwwroot\img\Garrafon.webp
 wwwroot\img\IMG_4371.webp
 wwwroot\img\IMG_4480.webp
 wwwroot\img\inicio1.webp
@@ -39,7 +42,11 @@ wwwroot\img\inicio53.webp
 wwwroot\img\inicio7.webp
 wwwroot\img\inicio8.webp
 wwwroot\img\inicio9.webp
+wwwroot\img\IslaMujeres.webp
 wwwroot\img\MayanBoatsLogoFondo.webp
+wwwroot\img\MuSa.webp
+wwwroot\img\MuSa2.webp
+wwwroot\img\MuSa3.webp
 wwwroot\img\nizuc1.webp
 wwwroot\img\nizuc11.webp
 wwwroot\img\nizuc12.webp
@@ -50,6 +57,8 @@ wwwroot\img\nizuc6.webp
 wwwroot\img\nizuc7.webp
 wwwroot\img\nizuc8.webp
 wwwroot\img\nizuc9.webp
+wwwroot\img\PlayaNorte.webp
+wwwroot\img\PlayaPresidente.webp
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

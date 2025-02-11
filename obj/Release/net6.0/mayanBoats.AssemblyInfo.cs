@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mayanBoats")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58b956381740e1d692a964293b64a26877fda59d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91090a7423533c2fca8ea000da3df3e0a61c7f5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("mayanBoats")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mayanBoats")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
