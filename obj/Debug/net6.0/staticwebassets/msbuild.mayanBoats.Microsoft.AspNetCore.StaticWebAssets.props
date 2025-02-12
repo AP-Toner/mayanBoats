@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kuerbs3v5h</Fingerprint>
-      <Integrity>7E4XY6YCoZg8uKRsUMgTJjobUy6hrfc/bjZig+ywjjk=</Integrity>
+      <Fingerprint>bak0i8fmwc</Fingerprint>
+      <Integrity>s0j+GoltVg5P/rX+sW9YhbspzRg42yeFLgtP4UtPkz8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -822,8 +822,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>97hdlr9arc</Fingerprint>
-      <Integrity>q9b7l7yOII6TMb9BQG2D7zSneEiONIr9cZnT6wkS4cw=</Integrity>
+      <Fingerprint>0ammbrxq2x</Fingerprint>
+      <Integrity>SOGS5M0kiuRU51I4+s1CaQ8Nz2U6B71wsLp26y0+pkM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\MayanBoatsLogoFondo.webp'))</OriginalItemSpec>
@@ -1110,8 +1110,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>s11wj8hxrk</Fingerprint>
-      <Integrity>sM8723zerB+kvyxm7UbObBrSVdXPzm1o0uoRIJfIdig=</Integrity>
+      <Fingerprint>w6tqza20h7</Fingerprint>
+      <Integrity>uF720VAK7IeP6QrLchytZBwqWS8JYzhNsuP835BcVhk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
