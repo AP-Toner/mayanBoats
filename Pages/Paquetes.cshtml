@@ -4,11 +4,30 @@
     ViewData["Title"] = "Paquetes";
 }
 
-<div class="container mt-5">
+<div class="container">
+    <!-- Presentación -->
+    <div class="row text-center mt-3">
+        <div class="col">
+            <p>
+                Prepárate para explorar las aguas cristalinas y descubrir las maravillas que tiene el Caribe para ti.
+            </p>
+            <p>
+                Nuestro equipo experto de guías te llevará en una emocionante aventura y te mostrará la belleza de la vida marina.
+            </p>
+            <p>
+                El yate tiene capacidad para 8 personas, de manera cómoda, disfrutando así esta emocionante experiencia.
+            </p>
+            <p>
+                ¡Serán momentos inolvidables llenos de diversión, sol y mar!
+            </p>
+        </div>
+    </div>
     <!-- Cortesías -->
     <div class="row mb-5">
+        <h5 class="titulo text-center">Cortesías</h5>
         <!-- Snacks -->
-        <div class="col-md-4 mt-5">
+        <div class="col-md-5">
+            <h6 class="subtitulo text-center">Snacks</h6>
             <div id="snacksCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item carousel-paq active">
@@ -37,36 +56,23 @@
                 </button>
             </div>
         </div>
-        <!-- Información -->
-        <div class="col-md-4 actividades-section mt-5">
-            <!-- Presentación -->
-            <div class="row">
-                <div class="col">
-                    <p class="text-start">
-                        Prepárate para explorar las aguas cristalinas y descubrir las maravillas que tiene el Caribe para ti.
-                    </p>
-                    <p class="text-start">
-                        Nuestro equipo experto de guías te llevará en una emocionante aventura y te mostrará la belleza de la vida marina.
-                    </p>
-                    <p class="text-start">
-                        El yate tiene capacidad para 8 personas, de manera cómoda, disfrutando así esta emocionante experiencia.
-                    </p>
-                    <p class="text-start">
-                        ¡Serán momentos inolvidables llenos de diversión, sol y mar!
-                    </p>
-                </div>
+
+        <!-- Actividades -->
+        <div class="col-md-2">
+            <div class="col actividades-section ms-4">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-gradient text-white fw-bold shadow subtitulo" asp-area="" asp-page="/Atracciones">
+                            3 Actividades a Elegir
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <!-- Actividades -->
-            <ul>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-gradient px-4 py-2 text-white fw-bold shadow subtitulo" asp-area="" asp-page="/Atracciones">
-                        3 Actividades a elegir
-                    </a>
-                </li>
-            </ul>
         </div>
+
         <!-- Bebidas -->
-        <div class="col-md-4 mt-5">
+        <div class="col-md-5">
+            <h6 class="subtitulo text-center">Bebidas</h6>
             <div id="bebidasCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item carousel-paq active">

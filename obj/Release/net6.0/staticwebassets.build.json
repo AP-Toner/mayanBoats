@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bGRT0QP9TlQZoP9pJousa4Kzultko+k2pA2DNboCly4=",
+  "Hash": "pOpyMWGlrHWE/ObtGdjbN++g+zdVqJ+SieQTkIwubO0=",
   "Source": "mayanBoats",
   "BasePath": "_content/mayanBoats",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dh6eqzvyb3",
-      "Integrity": "UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI=",
+      "Fingerprint": "nhaa5dc99k",
+      "Integrity": "ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p+JpO4zGLBs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -710,6 +710,48 @@
       "OriginalItemSpec": "wwwroot\\img\\atracciones\\BarcoHundido.webp"
     },
     {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido2.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/BarcoHundido2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6o1xqrj834",
+      "Integrity": "SqMrUs9nBlzsMkgtC30O+cjAayNSV33vPN0DkBAlP14=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\BarcoHundido2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido3.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/BarcoHundido3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yfvixg1w66",
+      "Integrity": "Un9l0qXrQGjfnzS7CxLAn9+9nC6rMNbKtxYEyHmbOTk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\BarcoHundido3.webp"
+    },
+    {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
@@ -731,6 +773,48 @@
       "OriginalItemSpec": "wwwroot\\img\\atracciones\\ElFarito.webp"
     },
     {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito2.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/ElFarito2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lygj06o0ne",
+      "Integrity": "nTSG6aezFREeG17HwQuSGCl/+RKMO+tYcPdA0jWcpjU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\ElFarito2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito3.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/ElFarito3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zjo76z2ygs",
+      "Integrity": "8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\ElFarito3.webp"
+    },
+    {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
@@ -750,6 +834,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\atracciones\\Garrafon.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon2.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/Garrafon2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vkw0a69cdo",
+      "Integrity": "EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\Garrafon2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon3.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/Garrafon3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "49iyd3oy21",
+      "Integrity": "GFaWKjApXUut6j2K6kR3bu+Qm0L8be758OTKCTnLPRA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\Garrafon3.webp"
     },
     {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\IslaMujeres.webp",
@@ -857,6 +983,48 @@
       "OriginalItemSpec": "wwwroot\\img\\atracciones\\PlayaNorte.webp"
     },
     {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte2.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/PlayaNorte2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7mgvu5e931",
+      "Integrity": "IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\PlayaNorte2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte3.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/PlayaNorte3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tymt2w89xe",
+      "Integrity": "e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\PlayaNorte3.webp"
+    },
+    {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
@@ -876,6 +1044,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\atracciones\\PlayaPresidente.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente2.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/PlayaPresidente2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rhwzvhg0lv",
+      "Integrity": "wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\PlayaPresidente2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente3.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/PlayaPresidente3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pnyfqkgdth",
+      "Integrity": "Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\PlayaPresidente3.webp"
     },
     {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IMG_4371.webp",
@@ -2864,7 +3074,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5778"
+          "Value": "6134"
         },
         {
           "Name": "Content-Type",
@@ -2872,11 +3082,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI=\""
+          "Value": "\"ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p+JpO4zGLBs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 20:03:25 GMT"
+          "Value": "Wed, 12 Feb 2025 23:22:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2886,12 +3096,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI="
+          "Value": "sha256-ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p+JpO4zGLBs="
         }
       ]
     },
     {
-      "Route": "css/site.dh6eqzvyb3.css",
+      "Route": "css/site.nhaa5dc99k.css",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2901,7 +3111,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5778"
+          "Value": "6134"
         },
         {
           "Name": "Content-Type",
@@ -2909,11 +3119,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI=\""
+          "Value": "\"ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p+JpO4zGLBs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 20:03:25 GMT"
+          "Value": "Wed, 12 Feb 2025 23:22:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2923,7 +3133,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dh6eqzvyb3"
+          "Value": "nhaa5dc99k"
         },
         {
           "Name": "label",
@@ -2931,7 +3141,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI="
+          "Value": "sha256-ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p+JpO4zGLBs="
         }
       ]
     },
@@ -5396,6 +5606,170 @@
       ]
     },
     {
+      "Route": "img/atracciones/BarcoHundido2.6o1xqrj834.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "190996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SqMrUs9nBlzsMkgtC30O+cjAayNSV33vPN0DkBAlP14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:03:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6o1xqrj834"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/BarcoHundido2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SqMrUs9nBlzsMkgtC30O+cjAayNSV33vPN0DkBAlP14="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/BarcoHundido2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "190996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SqMrUs9nBlzsMkgtC30O+cjAayNSV33vPN0DkBAlP14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:03:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SqMrUs9nBlzsMkgtC30O+cjAayNSV33vPN0DkBAlP14="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/BarcoHundido3.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Un9l0qXrQGjfnzS7CxLAn9+9nC6rMNbKtxYEyHmbOTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:03:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Un9l0qXrQGjfnzS7CxLAn9+9nC6rMNbKtxYEyHmbOTk="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/BarcoHundido3.yfvixg1w66.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Un9l0qXrQGjfnzS7CxLAn9+9nC6rMNbKtxYEyHmbOTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:03:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yfvixg1w66"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/BarcoHundido3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Un9l0qXrQGjfnzS7CxLAn9+9nC6rMNbKtxYEyHmbOTk="
+        }
+      ]
+    },
+    {
       "Route": "img/atracciones/ElFarito.5igiao1h2v.webp",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito.webp",
       "Selectors": [],
@@ -5478,6 +5852,170 @@
       ]
     },
     {
+      "Route": "img/atracciones/ElFarito2.lygj06o0ne.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTSG6aezFREeG17HwQuSGCl/+RKMO+tYcPdA0jWcpjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:04:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lygj06o0ne"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/ElFarito2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTSG6aezFREeG17HwQuSGCl/+RKMO+tYcPdA0jWcpjU="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/ElFarito2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTSG6aezFREeG17HwQuSGCl/+RKMO+tYcPdA0jWcpjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:04:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTSG6aezFREeG17HwQuSGCl/+RKMO+tYcPdA0jWcpjU="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/ElFarito3.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/ElFarito3.zjo76z2ygs.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:07:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjo76z2ygs"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/ElFarito3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss="
+        }
+      ]
+    },
+    {
       "Route": "img/atracciones/Garrafon.djzt0e8haq.webp",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon.webp",
       "Selectors": [],
@@ -5556,6 +6094,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-KRFXHkzML4Qb6LMyf/ahEX8FN54RkHiYabdPERwf7So="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/Garrafon2.vkw0a69cdo.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vkw0a69cdo"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/Garrafon2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/Garrafon2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/Garrafon3.49iyd3oy21.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GFaWKjApXUut6j2K6kR3bu+Qm0L8be758OTKCTnLPRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49iyd3oy21"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/Garrafon3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GFaWKjApXUut6j2K6kR3bu+Qm0L8be758OTKCTnLPRA="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/Garrafon3.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GFaWKjApXUut6j2K6kR3bu+Qm0L8be758OTKCTnLPRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GFaWKjApXUut6j2K6kR3bu+Qm0L8be758OTKCTnLPRA="
         }
       ]
     },
@@ -5970,6 +6672,170 @@
       ]
     },
     {
+      "Route": "img/atracciones/PlayaNorte2.7mgvu5e931.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:16:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mgvu5e931"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaNorte2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaNorte2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:16:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaNorte3.tymt2w89xe.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:16:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tymt2w89xe"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaNorte3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaNorte3.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:16:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE="
+        }
+      ]
+    },
+    {
       "Route": "img/atracciones/PlayaPresidente.moz53srcmc.webp",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente.webp",
       "Selectors": [],
@@ -6048,6 +6914,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente2.rhwzvhg0lv.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rhwzvhg0lv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaPresidente2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente3.pnyfqkgdth.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:17:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pnyfqkgdth"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaPresidente3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente3.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:17:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688="
         }
       ]
     },

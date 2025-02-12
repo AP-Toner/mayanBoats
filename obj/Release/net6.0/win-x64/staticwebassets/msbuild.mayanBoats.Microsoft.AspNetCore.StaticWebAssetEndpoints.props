@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/mayanBoats/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5778"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 20:03:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p\u002BJpO4zGLBs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p\u002BJpO4zGLBs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 23:22:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/mayanBoats/css/site.dh6eqzvyb3.css">
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/css/site.nhaa5dc99k.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dh6eqzvyb3"},{"Name":"integrity","Value":"sha256-UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI="},{"Name":"label","Value":"_content/mayanBoats/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5778"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 20:03:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nhaa5dc99k"},{"Name":"integrity","Value":"sha256-ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p\u002BJpO4zGLBs="},{"Name":"label","Value":"_content/mayanBoats/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p\u002BJpO4zGLBs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 23:22:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/mayanBoats/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -372,6 +372,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iK0z8NaAKB5fHU97iudVhBteB4jviVVL\u002BmBl2vAn6WI="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"214694"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022iK0z8NaAKB5fHU97iudVhBteB4jviVVL\u002BmBl2vAn6WI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Feb 2025 22:16:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/BarcoHundido2.6o1xqrj834.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\BarcoHundido2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6o1xqrj834"},{"Name":"integrity","Value":"sha256-SqMrUs9nBlzsMkgtC30O\u002BcjAayNSV33vPN0DkBAlP14="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/BarcoHundido2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"190996"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022SqMrUs9nBlzsMkgtC30O\u002BcjAayNSV33vPN0DkBAlP14=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/BarcoHundido2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\BarcoHundido2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SqMrUs9nBlzsMkgtC30O\u002BcjAayNSV33vPN0DkBAlP14="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"190996"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022SqMrUs9nBlzsMkgtC30O\u002BcjAayNSV33vPN0DkBAlP14=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:03:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/BarcoHundido3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\BarcoHundido3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Un9l0qXrQGjfnzS7CxLAn9\u002B9nC6rMNbKtxYEyHmbOTk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"88014"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Un9l0qXrQGjfnzS7CxLAn9\u002B9nC6rMNbKtxYEyHmbOTk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:03:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/BarcoHundido3.yfvixg1w66.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\BarcoHundido3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yfvixg1w66"},{"Name":"integrity","Value":"sha256-Un9l0qXrQGjfnzS7CxLAn9\u002B9nC6rMNbKtxYEyHmbOTk="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/BarcoHundido3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"88014"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Un9l0qXrQGjfnzS7CxLAn9\u002B9nC6rMNbKtxYEyHmbOTk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:03:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/ElFarito.5igiao1h2v.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\ElFarito.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -384,6 +408,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8\u002BGzxgOLcXvVpRqXUVQswG/BUrpfg8dhdrPtkxEHEpA="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66200"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00228\u002BGzxgOLcXvVpRqXUVQswG/BUrpfg8dhdrPtkxEHEpA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Feb 2025 22:14:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/ElFarito2.lygj06o0ne.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\ElFarito2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lygj06o0ne"},{"Name":"integrity","Value":"sha256-nTSG6aezFREeG17HwQuSGCl/\u002BRKMO\u002BtYcPdA0jWcpjU="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/ElFarito2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"53780"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022nTSG6aezFREeG17HwQuSGCl/\u002BRKMO\u002BtYcPdA0jWcpjU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:04:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/ElFarito2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\ElFarito2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nTSG6aezFREeG17HwQuSGCl/\u002BRKMO\u002BtYcPdA0jWcpjU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"53780"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022nTSG6aezFREeG17HwQuSGCl/\u002BRKMO\u002BtYcPdA0jWcpjU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:04:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/ElFarito3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\ElFarito3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"80616"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00228bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:07:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/ElFarito3.zjo76z2ygs.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\ElFarito3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zjo76z2ygs"},{"Name":"integrity","Value":"sha256-8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/ElFarito3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"80616"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00228bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:07:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/Garrafon.djzt0e8haq.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\Garrafon.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -395,6 +443,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KRFXHkzML4Qb6LMyf/ahEX8FN54RkHiYabdPERwf7So="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"141090"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022KRFXHkzML4Qb6LMyf/ahEX8FN54RkHiYabdPERwf7So=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Feb 2025 22:16:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/Garrafon2.vkw0a69cdo.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\Garrafon2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vkw0a69cdo"},{"Name":"integrity","Value":"sha256-EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/Garrafon2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"95736"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:11:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/Garrafon2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\Garrafon2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"95736"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:11:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/Garrafon3.49iyd3oy21.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\Garrafon3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"49iyd3oy21"},{"Name":"integrity","Value":"sha256-GFaWKjApXUut6j2K6kR3bu\u002BQm0L8be758OTKCTnLPRA="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/Garrafon3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"112132"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GFaWKjApXUut6j2K6kR3bu\u002BQm0L8be758OTKCTnLPRA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:11:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/Garrafon3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\Garrafon3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GFaWKjApXUut6j2K6kR3bu\u002BQm0L8be758OTKCTnLPRA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"112132"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GFaWKjApXUut6j2K6kR3bu\u002BQm0L8be758OTKCTnLPRA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:11:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/IslaMujeres.eoax28ufj4.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\IslaMujeres.webp'))</AssetFile>
@@ -456,6 +528,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AcF5dbgg00WIJP1hHu\u002By/G\u002BeqtE3J4poqxt0mQr1ZYQ="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"43664"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022AcF5dbgg00WIJP1hHu\u002By/G\u002BeqtE3J4poqxt0mQr1ZYQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Feb 2025 22:16:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/PlayaNorte2.7mgvu5e931.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\PlayaNorte2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7mgvu5e931"},{"Name":"integrity","Value":"sha256-IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/PlayaNorte2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"52272"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:16:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/PlayaNorte2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\PlayaNorte2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"52272"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:16:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/PlayaNorte3.tymt2w89xe.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\PlayaNorte3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tymt2w89xe"},{"Name":"integrity","Value":"sha256-e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/PlayaNorte3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"288838"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:16:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/PlayaNorte3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\PlayaNorte3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"288838"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:16:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/PlayaPresidente.moz53srcmc.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\PlayaPresidente.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -467,6 +563,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Gjm9qSqTOWGquBZDEU83YL\u002Bj8d3rKXm4hu/tpH5NDGo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"150552"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Gjm9qSqTOWGquBZDEU83YL\u002Bj8d3rKXm4hu/tpH5NDGo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 11 Feb 2025 22:16:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/PlayaPresidente2.rhwzvhg0lv.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\PlayaPresidente2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rhwzvhg0lv"},{"Name":"integrity","Value":"sha256-wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/PlayaPresidente2.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"127596"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:17:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/PlayaPresidente2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\PlayaPresidente2.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"127596"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:17:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/PlayaPresidente3.pnyfqkgdth.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\PlayaPresidente3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pnyfqkgdth"},{"Name":"integrity","Value":"sha256-Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688="},{"Name":"label","Value":"_content/mayanBoats/img/atracciones/PlayaPresidente3.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"206948"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:17:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/mayanBoats/img/atracciones/PlayaPresidente3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\atracciones\PlayaPresidente3.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"206948"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Feb 2025 22:17:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/mayanBoats/img/IMG_4371.p9412iq4nu.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\IMG_4371.webp'))</AssetFile>

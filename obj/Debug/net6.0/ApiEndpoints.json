@@ -8,30 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "mayanBoats.Controllers.GuardarTransaccionController\u002BTransactionRequest",
+        "Name": "datos",
+        "Type": "mayanBoats.Controllers.GuardarTransaccionController\u002BDatosTransaccion",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "mayanBoats.Controllers.GuardarTransaccionController",
-    "Method": "PdtCallback",
-    "RelativePath": "GuardarTransaccion/PdtCallback",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "tx",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "token",
-        "Type": "System.String",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

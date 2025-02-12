@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5778"
+          "Value": "6134"
         },
         {
           "Name": "Content-Type",
@@ -25,22 +25,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI=\""
+          "Value": "\"ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p+JpO4zGLBs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 20:03:25 GMT"
+          "Value": "Wed, 12 Feb 2025 23:22:18 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI="
+          "Value": "sha256-ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p+JpO4zGLBs="
         }
       ]
     },
     {
-      "Route": "css/site.dh6eqzvyb3.css",
+      "Route": "css/site.nhaa5dc99k.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -54,7 +54,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5778"
+          "Value": "6134"
         },
         {
           "Name": "Content-Type",
@@ -62,21 +62,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI=\""
+          "Value": "\"ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p+JpO4zGLBs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 20:03:25 GMT"
+          "Value": "Wed, 12 Feb 2025 23:22:18 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dh6eqzvyb3"
+          "Value": "nhaa5dc99k"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UU5XaUZc9b0LUz4I7/bnjh4OUa5L7OqCFEu2D2iU1aI="
+          "Value": "sha256-ZTPQ3ovvBWaoNi4q4yjVXMeHptQxHPk0p+JpO4zGLBs="
         },
         {
           "Name": "label",
@@ -2791,6 +2791,170 @@
       ]
     },
     {
+      "Route": "img/atracciones/BarcoHundido2.6o1xqrj834.webp",
+      "AssetFile": "img/atracciones/BarcoHundido2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "190996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SqMrUs9nBlzsMkgtC30O+cjAayNSV33vPN0DkBAlP14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:03:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6o1xqrj834"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SqMrUs9nBlzsMkgtC30O+cjAayNSV33vPN0DkBAlP14="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/BarcoHundido2.webp"
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/BarcoHundido2.webp",
+      "AssetFile": "img/atracciones/BarcoHundido2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "190996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SqMrUs9nBlzsMkgtC30O+cjAayNSV33vPN0DkBAlP14=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:03:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SqMrUs9nBlzsMkgtC30O+cjAayNSV33vPN0DkBAlP14="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/BarcoHundido3.webp",
+      "AssetFile": "img/atracciones/BarcoHundido3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Un9l0qXrQGjfnzS7CxLAn9+9nC6rMNbKtxYEyHmbOTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:03:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Un9l0qXrQGjfnzS7CxLAn9+9nC6rMNbKtxYEyHmbOTk="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/BarcoHundido3.yfvixg1w66.webp",
+      "AssetFile": "img/atracciones/BarcoHundido3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Un9l0qXrQGjfnzS7CxLAn9+9nC6rMNbKtxYEyHmbOTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:03:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yfvixg1w66"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Un9l0qXrQGjfnzS7CxLAn9+9nC6rMNbKtxYEyHmbOTk="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/BarcoHundido3.webp"
+        }
+      ]
+    },
+    {
       "Route": "img/atracciones/ElFarito.5igiao1h2v.webp",
       "AssetFile": "img/atracciones/ElFarito.webp",
       "Selectors": [],
@@ -2873,6 +3037,170 @@
       ]
     },
     {
+      "Route": "img/atracciones/ElFarito2.lygj06o0ne.webp",
+      "AssetFile": "img/atracciones/ElFarito2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTSG6aezFREeG17HwQuSGCl/+RKMO+tYcPdA0jWcpjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:04:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lygj06o0ne"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTSG6aezFREeG17HwQuSGCl/+RKMO+tYcPdA0jWcpjU="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/ElFarito2.webp"
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/ElFarito2.webp",
+      "AssetFile": "img/atracciones/ElFarito2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nTSG6aezFREeG17HwQuSGCl/+RKMO+tYcPdA0jWcpjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:04:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nTSG6aezFREeG17HwQuSGCl/+RKMO+tYcPdA0jWcpjU="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/ElFarito3.webp",
+      "AssetFile": "img/atracciones/ElFarito3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/ElFarito3.zjo76z2ygs.webp",
+      "AssetFile": "img/atracciones/ElFarito3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80616"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:07:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zjo76z2ygs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8bW5U9lP5QaVFn1WlVXOj2F15lIgtp9zfWewD/NLRss="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/ElFarito3.webp"
+        }
+      ]
+    },
+    {
       "Route": "img/atracciones/Garrafon.djzt0e8haq.webp",
       "AssetFile": "img/atracciones/Garrafon.webp",
       "Selectors": [],
@@ -2951,6 +3279,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-KRFXHkzML4Qb6LMyf/ahEX8FN54RkHiYabdPERwf7So="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/Garrafon2.vkw0a69cdo.webp",
+      "AssetFile": "img/atracciones/Garrafon2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vkw0a69cdo"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/Garrafon2.webp"
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/Garrafon2.webp",
+      "AssetFile": "img/atracciones/Garrafon2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EamfhNeyqbC3AE0nUKo6ZpAqp7qpSbEBrCdweSUV73s="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/Garrafon3.49iyd3oy21.webp",
+      "AssetFile": "img/atracciones/Garrafon3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GFaWKjApXUut6j2K6kR3bu+Qm0L8be758OTKCTnLPRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49iyd3oy21"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GFaWKjApXUut6j2K6kR3bu+Qm0L8be758OTKCTnLPRA="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/Garrafon3.webp"
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/Garrafon3.webp",
+      "AssetFile": "img/atracciones/Garrafon3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GFaWKjApXUut6j2K6kR3bu+Qm0L8be758OTKCTnLPRA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:11:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GFaWKjApXUut6j2K6kR3bu+Qm0L8be758OTKCTnLPRA="
         }
       ]
     },
@@ -3365,6 +3857,170 @@
       ]
     },
     {
+      "Route": "img/atracciones/PlayaNorte2.7mgvu5e931.webp",
+      "AssetFile": "img/atracciones/PlayaNorte2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:16:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7mgvu5e931"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaNorte2.webp"
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaNorte2.webp",
+      "AssetFile": "img/atracciones/PlayaNorte2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:16:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IWj5NSmmzVTESvf7U5l21Ayyg0rSaeEVIisZYqCsmR8="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaNorte3.tymt2w89xe.webp",
+      "AssetFile": "img/atracciones/PlayaNorte3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:16:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tymt2w89xe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaNorte3.webp"
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaNorte3.webp",
+      "AssetFile": "img/atracciones/PlayaNorte3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:16:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e2TRqUa3RdP1Cl9K66cENOw9C5yE4zaA1gArZdaUOcE="
+        }
+      ]
+    },
+    {
       "Route": "img/atracciones/PlayaPresidente.moz53srcmc.webp",
       "AssetFile": "img/atracciones/PlayaPresidente.webp",
       "Selectors": [],
@@ -3443,6 +4099,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente2.rhwzvhg0lv.webp",
+      "AssetFile": "img/atracciones/PlayaPresidente2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:17:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rhwzvhg0lv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaPresidente2.webp"
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente2.webp",
+      "AssetFile": "img/atracciones/PlayaPresidente2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:17:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wQ1VPwyXpquSQVE0fGhcSJgB1lwXxkFZMZi/OdnxDjk="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente3.pnyfqkgdth.webp",
+      "AssetFile": "img/atracciones/PlayaPresidente3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:17:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pnyfqkgdth"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688="
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaPresidente3.webp"
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente3.webp",
+      "AssetFile": "img/atracciones/PlayaPresidente3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206948"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 22:17:26 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ncc1XMejpSQQwzmbD10iFjlgB0xh4Np6Bo0lCGZb688="
         }
       ]
     },
