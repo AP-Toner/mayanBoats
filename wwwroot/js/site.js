@@ -25,7 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const personasAdicionales = Math.max(0, personas - personasBase);
         const costoPersonaAdicional = parseFloat(document.getElementById(`adp-pq-${index}`).textContent);
         const costoAdicional = personasAdicionales * costoPersonaAdicional;
-        document.getElementById(`adc-pq-${index}`).textContent = costoAdicional.toFixed(2);
+
+        if (costoAdicional > 0) {
+            document.getElementById(`adc-pq-${index}`).textContent = costoAdicional.toFixed(2);
+        } else {
+            document.getElementById(`adc-pq-${index}`).textContent = "";
+        }
 
         const costoBase = parseFloat(document.getElementById(`cst-pq-${index}`).textContent);
         document.getElementById(`tot-pq-${index}`).textContent = (costoBase + costoAdicional).toFixed(2);
@@ -144,6 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('totalDespuesDescuento').textContent = '';
             botonConfirmar.disabled = true;
             modalReservarWin.hidden = true;
+            window.location.replace(window.location.href);
         });
     }
 

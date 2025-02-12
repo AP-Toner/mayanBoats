@@ -1,12 +1,10 @@
 ﻿using mayanBoats.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using System;
-using System.IO;
+using System.Net.Http;
+using System.Collections.Generic;
 using System.Text;
-using System.Text.Json;
 
 namespace mayanBoats.Controllers
 {
@@ -15,6 +13,7 @@ namespace mayanBoats.Controllers
     public class GuardarTransaccionController : Controller
     {
         private readonly MayanDbContext _context;
+        private readonly string _paypalIdentityToken = "YOUR_PAYPAL_IDENTITY_TOKEN"; // Your PDT identity token
 
         public GuardarTransaccionController(MayanDbContext context)
         {
@@ -22,174 +21,235 @@ namespace mayanBoats.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post()
+        public async Task<IActionResult> Post([FromBody] TransactionRequest request)
         {
             try
             {
-                using (var reader = new StreamReader(Request.Body))
+                // Map data to Renta model
+                var renta = new Renta
                 {
-                    string ipnData = await reader.ReadToEndAsync();
-                    Console.WriteLine($"Received IPN data: {ipnData}");
+                    TipoPago = int.Parse(request.Reservacion.TipoPago),
+                    IdPagoPayPal = request.Reservacion.IdPagoPaypal,
+                    Fecha = DateOnly.Parse(request.Reservacion.Fecha),
+                    Paquete = int.Parse(request.Reservacion.Paquete),
+                    HoraInicial = request.Reservacion.HoraInicial,
+                    HorasTour = int.Parse(request.Reservacion.HorasTour),
+                    HoraFinal = request.Reservacion.HoraFinal,
+                    IdCliente = int.Parse(request.Reservacion.IdCliente),
+                    Monto = decimal.Parse(request.Reservacion.TotalDespuesDescuento),
+                    TipoCambio = double.Parse(request.Reservacion.TipoCambio),
+                    Descuento = double.Parse(request.Reservacion.DescuentoAplicable),
+                    FechaCaptura = DateOnly.Parse(request.Reservacion.FechaCaptura),
+                    Estatus = request.Reservacion.Estatus,
+                    CorreoElectronico = request.Reservacion.Correo,
+                    Nombre = request.Reservacion.Nombre,
+                    Apellido = request.Reservacion.Apellido,
+                    Telefono = request.Reservacion.Telefono,
+                    Adicional = int.Parse(request.Reservacion.PersonaAdicional),
+                    CostoAdicional = decimal.Parse(request.Reservacion.CostoAdicional)
+                };
 
-                    var datosTransaccion = JsonSerializer.Deserialize<DatosTransaccion>(ipnData);
+                _context.Rentas.Add(renta); // Add Renta record to the database
 
-                    if (datosTransaccion == null || datosTransaccion.transaccion == null || datosTransaccion.reservacion == null)
-                    {
-                        Console.WriteLine("IPN data is incomplete, aborting...");
-                        return BadRequest(new { success = false, message = "Invalid IPN data format" });
-                    }
+                // Map data to TransaccionPaypal model
+                var transaccionPaypal = new TransaccionPaypal
+                {
+                    IdPaypal = request.Transaccion.IdPaypal,
+                    FechaCreacion = DateOnly.Parse(request.Transaccion.FechaCreacion),
+                    Accion = request.Transaccion.Accion,
+                    CompradorCodigoPais = request.Transaccion.CompradorCodigoPais,
+                    CompradorCorreo = request.Transaccion.CompradorCorreo,
+                    CompradorNombre = request.Transaccion.CompradorNombre,
+                    CompradorApellido = request.Transaccion.CompradorApellido,
+                    CompradorId = request.Transaccion.CompradorId,
+                    CompraMoneda = request.Transaccion.CompraMoneda,
+                    CompraMonto = float.Parse(request.Transaccion.CompraMonto),
+                    BeneficiarioCorreo = request.Transaccion.BeneficiarioCorreo,
+                    BeneficiarioId = request.Transaccion.BeneficiarioId,
+                    PagoEstatus = request.Transaccion.PagoEstatus,
+                    FechaCaptura = DateOnly.Parse(request.Transaccion.FechaCaptura),
+                    Estatus = request.Transaccion.Estatus
+                };
 
-                    var ipnValid = await ValidarPayPalIPN(datosTransaccion.transaccion);
+                _context.TransaccionPaypals.Add(transaccionPaypal); // Add TransaccionPaypal record to the database
+                await _context.SaveChangesAsync(); // Save both records to the database
 
-                    if (ipnValid)
-                    {
-                        var renta = new Renta
-                        {
-                            Nombre = datosTransaccion.reservacion.nombre,
-                            Apellido = datosTransaccion.reservacion.apellido,
-                            CorreoElectronico = datosTransaccion.reservacion.correo,
-                            Telefono = datosTransaccion.reservacion.telefono,
-                            Fecha = DateOnly.Parse(datosTransaccion.reservacion.fecha),
-                            Paquete = int.Parse(datosTransaccion.reservacion.paquete),
-                            HoraInicial = datosTransaccion.reservacion.horaInicial,
-                            HorasTour = int.Parse(datosTransaccion.reservacion.horasTour),
-                            HoraFinal = datosTransaccion.reservacion.horaFinal,
-                            IdCliente = int.Parse(datosTransaccion.reservacion.idCliente),
-                            Monto = decimal.Parse(datosTransaccion.reservacion.totalDespuesDescuento.Replace("$", "")),
-                            TipoCambio = double.Parse(datosTransaccion.reservacion.tipoCambio),
-                            Descuento = double.Parse(datosTransaccion.reservacion.descuentoAplicable.Replace("$", "")),
-                            TipoPago = int.Parse(datosTransaccion.reservacion.tipoPago),
-                            Estatus = datosTransaccion.reservacion.estatus,
-                            IdPagoPayPal = datosTransaccion.reservacion.idPagoPaypal,
-                            Adicional = int.Parse(datosTransaccion.reservacion.personaAdicional),
-                            CostoAdicional = decimal.Parse(datosTransaccion.reservacion.costoAdicional.Replace("$", "")),
-                            FechaCaptura = DateOnly.Parse(datosTransaccion.reservacion.fechaCaptura),
-                        };
-
-                        _context.Rentas.Add(renta);
-
-                        var transaccionPaypal = new TransaccionPaypal
-                        {
-                            IdPaypal = datosTransaccion.transaccion.idPaypal,
-                            FechaCreacion = DateOnly.Parse(datosTransaccion.transaccion.fechaCreacion),
-                            CompradorNombre = datosTransaccion.transaccion.compradorNombre,
-                            CompradorApellido = datosTransaccion.transaccion.compradorApellido,
-                            CompradorCorreo = datosTransaccion.transaccion.compradorCorreo,
-                            CompraMoneda = datosTransaccion.transaccion.compraMoneda,
-                            CompraMonto = float.Parse(datosTransaccion.transaccion.compraMonto),
-                            PagoEstatus = datosTransaccion.transaccion.pagoEstatus,
-                            Accion = datosTransaccion.transaccion.accion,
-                            CompradorCodigoPais = datosTransaccion.transaccion.compradorCodigoPais,
-                            CompradorId = datosTransaccion.transaccion.compradorId,
-                            BeneficiarioCorreo = datosTransaccion.transaccion.beneficiarioCorreo,
-                            BeneficiarioId = datosTransaccion.transaccion.beneficiarioId,
-                            FechaCaptura = DateOnly.Parse(datosTransaccion.transaccion.fechaCaptura),
-                            Estatus = datosTransaccion.transaccion.estatus,
-                        };
-
-                        _context.TransaccionPaypals.Add(transaccionPaypal);
-                        await _context.SaveChangesAsync();
-
-                        return Ok(new { success = true });
-                    }
-                    else
-                    {
-                        return BadRequest(new { success = false, message = "Transaction could not be verified with PayPal" });
-                    }
-                }
+                return Ok(new { success = true });
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error: {ex.Message}");
                 return BadRequest(new { success = false, message = "Error processing transaction.", error = ex.Message });
             }
         }
 
-        private async Task<bool> ValidarPayPalIPN(DetallesTransaccion datosTransaccion)
+        // PDT Callback handler
+        [HttpGet("PdtCallback")]
+        public async Task<IActionResult> PdtCallback(string tx, string token)
         {
-            using (var client = new HttpClient())
+            try
             {
-                var values = new Dictionary<string, string>
+                // Step 1: Validate the PDT token with PayPal
+                var validationResponse = await ValidatePdtToken(token);
+
+                // Step 2: If validated, process the transaction
+                if (validationResponse != null && validationResponse.Contains("SUCCESS"))
                 {
-                    { "cmd", "_notify-validate" },
-                    { "txn_id", datosTransaccion.idPaypal },
-                    { "payment_date", Uri.EscapeDataString(DateTime.Parse(datosTransaccion.fechaCreacion).ToString("ddd, dd MM yyyy HH:mm:ss 'GMT'", System.Globalization.CultureInfo.InvariantCulture)) }, // Encode date
-                    { "first_name", Uri.EscapeDataString(datosTransaccion.compradorNombre) },
-                    { "last_name", Uri.EscapeDataString(datosTransaccion.compradorApellido) },
-                    { "payer_email", Uri.EscapeDataString(datosTransaccion.compradorCorreo) },
-                    { "mc_currency", datosTransaccion.compraMoneda },
-                    { "mc_gross", datosTransaccion.compraMonto },
-                    { "payment_status", datosTransaccion.pagoEstatus.ToUpper() }, // Ensure it's uppercase
-                    { "payer_id", datosTransaccion.compradorId },
-                    { "receiver_email", Uri.EscapeDataString(datosTransaccion.beneficiarioCorreo) },
-                    { "receiver_id", datosTransaccion.beneficiarioId }
-                };
+                    // Fetch transaction details
+                    var details = await GetTransactionDetails(tx);
 
-                var requestBody = new FormUrlEncodedContent(values);
+                    // Step 3: Process the Renta and TransaccionPaypal data
+                    var renta = new Renta
+                    {
+                        TipoPago = 1,  // Assuming '1' represents PayPal
+                        IdPagoPayPal = tx,
+                        Fecha = DateOnly.Parse(details["payment_date"]),
+                        Paquete = int.Parse(details["package_id"]),
+                        HoraInicial = details["start_time"],
+                        HorasTour = int.Parse(details["tour_duration"]),
+                        HoraFinal = details["end_time"],
+                        IdCliente = int.Parse(details["client_id"]),
+                        Monto = decimal.Parse(details["total_after_discount"]),
+                        TipoCambio = 0, // Assuming no exchange rate used
+                        Descuento = double.Parse(details["discount"]),
+                        FechaCaptura = DateOnly.Parse(details["capture_date"]),
+                        Estatus = "A", // Assuming 'A' is the active status
+                        CorreoElectronico = details["payer_email"],
+                        Nombre = details["payer_name"],
+                        Apellido = details["payer_surname"],
+                        Telefono = details["payer_phone"],
+                        Adicional = int.Parse(details["additional_persons"]),
+                        CostoAdicional = decimal.Parse(details["additional_cost"])
+                    };
 
-                Console.WriteLine("Sending verification request to PayPal...");
-                var queryString = string.Join("&", values.Select(kvp => $"{kvp.Key}={kvp.Value}"));
-                Console.WriteLine($"Formatted Validation String: {queryString}");
+                    _context.Rentas.Add(renta);
 
-                var verificationResponse = await client.PostAsync(
-                    "https://ipnpb.sandbox.paypal.com/cgi-bin/webscr",
-                    requestBody
-                );
+                    var transaccionPaypal = new TransaccionPaypal
+                    {
+                        IdPaypal = tx,
+                        FechaCreacion = DateOnly.Parse(details["payment_date"]),
+                        Accion = "Sale",
+                        CompradorCodigoPais = details["payer_country_code"],
+                        CompradorCorreo = details["payer_email"],
+                        CompradorNombre = details["payer_name"],
+                        CompradorApellido = details["payer_surname"],
+                        CompradorId = details["payer_id"],
+                        CompraMoneda = details["currency"],
+                        CompraMonto = float.Parse(details["total_amount"]),
+                        BeneficiarioCorreo = details["merchant_email"],
+                        BeneficiarioId = details["merchant_id"],
+                        PagoEstatus = details["payment_status"],
+                        FechaCaptura = DateOnly.Parse(details["capture_date"]),
+                        Estatus = "A"
+                    };
 
-                var verificationResult = await verificationResponse.Content.ReadAsStringAsync();
-                Console.WriteLine($"IPN Verification Response: {verificationResult}");
+                    _context.TransaccionPaypals.Add(transaccionPaypal);
+                    await _context.SaveChangesAsync();
 
-                return verificationResult == "VERIFIED";
+                    return Ok(new { success = true });
+                }
+
+                return BadRequest(new { success = false, message = "Payment verification failed." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { success = false, message = "Error processing PDT response.", error = ex.Message });
             }
         }
 
-
-        public class DatosTransaccion
+        // Validate the PDT token by sending a request to PayPal
+        private async Task<string> ValidatePdtToken(string token)
         {
-            public DatosReservacion reservacion { get; set; }
-            public DetallesTransaccion transaccion { get; set; }
+            var client = new HttpClient();
+            var content = new FormUrlEncodedContent(new[]
+            {
+                new KeyValuePair<string, string>("cmd", "_notify-synch"),
+                new KeyValuePair<string, string>("tx", token),
+                new KeyValuePair<string, string>("at", _paypalIdentityToken)
+            });
+
+            var response = await client.PostAsync("https://www.paypal.com/cgi-bin/webscr", content);
+            return await response.Content.ReadAsStringAsync();
         }
 
-        public class DatosReservacion
+        // Get transaction details using PayPal's `tx`
+        private async Task<Dictionary<string, string>> GetTransactionDetails(string tx)
         {
-            public string nombre { get; set; }
-            public string apellido { get; set; }
-            public string correo { get; set; }
-            public string telefono { get; set; }
-            public string fecha { get; set; }
-            public string horaInicial { get; set; }
-            public string horasTour { get; set; }
-            public string horaFinal { get; set; }
-            public string personaAdicional { get; set; }
-            public string descuentoAplicable { get; set; }
-            public string totalDespuesDescuento { get; set; }
-            public string tipoPago { get; set; }
-            public string paquete { get; set; }
-            public string idCliente { get; set; }
-            public string tipoCambio { get; set; }
-            public string costoAdicional { get; set; }
-            public string estatus { get; set; }
-            public string fechaCaptura { get; set; }
-            public string idPagoPaypal { get; set; }
+            var client = new HttpClient();
+            var content = new FormUrlEncodedContent(new[]
+            {
+                new KeyValuePair<string, string>("cmd", "_notify-synch"),
+                new KeyValuePair<string, string>("tx", tx),
+                new KeyValuePair<string, string>("at", _paypalIdentityToken)
+            });
+
+            var response = await client.PostAsync("https://www.paypal.com/cgi-bin/webscr", content);
+            var responseData = await response.Content.ReadAsStringAsync();
+
+            // Parse the response from PayPal into a dictionary
+            var details = new Dictionary<string, string>();
+            foreach (var line in responseData.Split('\n'))
+            {
+                if (line.StartsWith("L_"))
+                {
+                    var parts = line.Split('=');
+                    if (parts.Length == 2)
+                    {
+                        details[parts[0]] = parts[1];
+                    }
+                }
+            }
+
+            return details;
         }
 
-        public class DetallesTransaccion
+        // Define a class to match the JSON structure sent from the frontend
+        public class TransactionRequest
         {
-            public string idPaypal { get; set; }
-            public string fechaCreacion { get; set; }
-            public string compradorNombre { get; set; }
-            public string compradorApellido { get; set; }
-            public string compradorCorreo { get; set; }
-            public string compraMoneda { get; set; }
-            public string compraMonto { get; set; }
-            public string pagoEstatus { get; set; }
-            public string accion { get; set; }
-            public string compradorCodigoPais { get; set; }
-            public string compradorId { get; set; }
-            public string beneficiarioCorreo { get; set; }
-            public string beneficiarioId { get; set; }
-            public string fechaCaptura { get; set; }
-            public string estatus { get; set; }
+            public ReservacionModel Reservacion { get; set; }
+            public TransaccionModel Transaccion { get; set; }
+        }
+
+        // Define the structures for Reservacion and Transaccion to map the data
+        public class ReservacionModel
+        {
+            public string Nombre { get; set; }
+            public string Apellido { get; set; }
+            public string Correo { get; set; }
+            public string Telefono { get; set; }
+            public string Fecha { get; set; }
+            public string Paquete { get; set; }
+            public string HoraInicial { get; set; }
+            public string HorasTour { get; set; }
+            public string HoraFinal { get; set; }
+            public string IdCliente { get; set; }
+            public string TotalDespuesDescuento { get; set; }
+            public string DescuentoAplicable { get; set; }
+            public string TipoPago { get; set; }
+            public string Estatus { get; set; }
+            public string IdPagoPaypal { get; set; }
+            public string PersonaAdicional { get; set; }
+            public string CostoAdicional { get; set; }
+            public string FechaCaptura { get; set; }
+            public string TipoCambio { get; set; }
+        }
+
+        public class TransaccionModel
+        {
+            public string IdPaypal { get; set; }
+            public string FechaCreacion { get; set; }
+            public string CompradorNombre { get; set; }
+            public string CompradorApellido { get; set; }
+            public string CompradorCorreo { get; set; }
+            public string CompraMoneda { get; set; }
+            public string CompraMonto { get; set; }
+            public string PagoEstatus { get; set; }
+            public string Accion { get; set; }
+            public string CompradorCodigoPais { get; set; }
+            public string CompradorId { get; set; }
+            public string BeneficiarioCorreo { get; set; }
+            public string BeneficiarioId { get; set; }
+            public string FechaCaptura { get; set; }
+            public string Estatus { get; set; }
         }
     }
 }

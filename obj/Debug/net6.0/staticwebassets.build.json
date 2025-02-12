@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E/v1qj3OhI5mczJqwZ4W7Uroz2F5Lfx7HFfhACClvFc=",
+  "Hash": "f2uoMoDn4FCRxG6wH6Pvli2LlBONU4TxAvE6njIUtIE=",
   "Source": "mayanBoats",
   "BasePath": "_content/mayanBoats",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bak0i8fmwc",
-      "Integrity": "s0j+GoltVg5P/rX+sW9YhbspzRg42yeFLgtP4UtPkz8=",
+      "Fingerprint": "no1tmfr89k",
+      "Integrity": "OTAmyZ4U3oSejpHKAHQfQ5bKTMk9imVbzUtI8Xc64zQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -689,12 +689,12 @@
       "OriginalItemSpec": "wwwroot\\fonts\\playfairdisplay\\static\\PlayfairDisplay-SemiBoldItalic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\BarcoHundido.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/BarcoHundido#[.{fingerprint}]?.webp",
+      "RelativePath": "img/atracciones/BarcoHundido#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -707,15 +707,15 @@
       "Integrity": "iK0z8NaAKB5fHU97iudVhBteB4jviVVL+mBl2vAn6WI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\BarcoHundido.webp"
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\BarcoHundido.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\ElFarito.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/ElFarito#[.{fingerprint}]?.webp",
+      "RelativePath": "img/atracciones/ElFarito#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -728,15 +728,15 @@
       "Integrity": "8+GzxgOLcXvVpRqXUVQswG/BUrpfg8dhdrPtkxEHEpA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\ElFarito.webp"
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\ElFarito.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\Garrafon.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/Garrafon#[.{fingerprint}]?.webp",
+      "RelativePath": "img/atracciones/Garrafon#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -749,7 +749,133 @@
       "Integrity": "KRFXHkzML4Qb6LMyf/ahEX8FN54RkHiYabdPERwf7So=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Garrafon.webp"
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\Garrafon.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\IslaMujeres.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/IslaMujeres#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eoax28ufj4",
+      "Integrity": "sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\IslaMujeres.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/MuSa#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l7u7u7d8n9",
+      "Integrity": "T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\MuSa.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa2.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/MuSa2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "inmy79abxt",
+      "Integrity": "LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\MuSa2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa3.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/MuSa3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rw4z3rcplb",
+      "Integrity": "Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\MuSa3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/PlayaNorte#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "niqbc21o8m",
+      "Integrity": "AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\PlayaNorte.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/atracciones/PlayaPresidente#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "moz53srcmc",
+      "Integrity": "Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\atracciones\\PlayaPresidente.webp"
     },
     {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IMG_4371.webp",
@@ -794,12 +920,12 @@
       "OriginalItemSpec": "wwwroot\\img\\IMG_4480.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio1.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio1.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/inicio1#[.{fingerprint}]?.webp",
+      "RelativePath": "img/inicio/inicio1#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -812,15 +938,15 @@
       "Integrity": "QqxSHuWRwyy5Y/nVehB/JGmrvO2l5Qc/F0ZbYVhDXRY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\inicio1.webp"
+      "OriginalItemSpec": "wwwroot\\img\\inicio\\inicio1.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio2.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio2.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/inicio2#[.{fingerprint}]?.webp",
+      "RelativePath": "img/inicio/inicio2#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -833,15 +959,15 @@
       "Integrity": "CCf4qhN4c3ETOfsP1loC/QhMsCviG2pbEKD0Dhb1+3c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\inicio2.webp"
+      "OriginalItemSpec": "wwwroot\\img\\inicio\\inicio2.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio3.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio3.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/inicio3#[.{fingerprint}]?.webp",
+      "RelativePath": "img/inicio/inicio3#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -854,15 +980,15 @@
       "Integrity": "DMlD1KdHimGFVhzoitmhZJ/ggjpaO3O4KOGHOu0nr7A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\inicio3.webp"
+      "OriginalItemSpec": "wwwroot\\img\\inicio\\inicio3.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio4.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio4.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/inicio4#[.{fingerprint}]?.webp",
+      "RelativePath": "img/inicio/inicio4#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -875,15 +1001,15 @@
       "Integrity": "6OO/IQSOZ36v6ocgz29D3cb4tAbfT/CNPq49X2uxn04=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\inicio4.webp"
+      "OriginalItemSpec": "wwwroot\\img\\inicio\\inicio4.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio5.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio5.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/inicio5#[.{fingerprint}]?.webp",
+      "RelativePath": "img/inicio/inicio5#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -896,7 +1022,70 @@
       "Integrity": "mHtBv6MgqQ8b5CXi+lRhN2jKSJoHv5aTNsWN7cVSOS0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\inicio5.webp"
+      "OriginalItemSpec": "wwwroot\\img\\inicio\\inicio5.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio7.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/inicio/inicio7#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5zecyj3d34",
+      "Integrity": "0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\inicio\\inicio7.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio8.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/inicio/inicio8#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uahiy6l98x",
+      "Integrity": "FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\inicio\\inicio8.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio9.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/inicio/inicio9#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cnjx15acc8",
+      "Integrity": "SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\inicio\\inicio9.webp"
     },
     {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio53.webp",
@@ -920,90 +1109,6 @@
       "OriginalItemSpec": "wwwroot\\img\\inicio53.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio7.webp",
-      "SourceId": "mayanBoats",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
-      "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/inicio7#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5zecyj3d34",
-      "Integrity": "0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\inicio7.webp"
-    },
-    {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio8.webp",
-      "SourceId": "mayanBoats",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
-      "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/inicio8#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "uahiy6l98x",
-      "Integrity": "FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\inicio8.webp"
-    },
-    {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio9.webp",
-      "SourceId": "mayanBoats",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
-      "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/inicio9#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cnjx15acc8",
-      "Integrity": "SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\inicio9.webp"
-    },
-    {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IslaMujeres.webp",
-      "SourceId": "mayanBoats",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
-      "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/IslaMujeres#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "eoax28ufj4",
-      "Integrity": "sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\IslaMujeres.webp"
-    },
-    {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MayanBoatsLogoFondo.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
@@ -1025,12 +1130,12 @@
       "OriginalItemSpec": "wwwroot\\img\\MayanBoatsLogoFondo.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/MuSa#[.{fingerprint}]?.webp",
+      "RelativePath": "img/paquetes/bebidas#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1039,19 +1144,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "l7u7u7d8n9",
-      "Integrity": "T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss=",
+      "Fingerprint": "br7ddyxpcw",
+      "Integrity": "eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\MuSa.webp"
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\bebidas.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa2.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas2.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/MuSa2#[.{fingerprint}]?.webp",
+      "RelativePath": "img/paquetes/bebidas2#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1060,19 +1165,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "inmy79abxt",
-      "Integrity": "LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU=",
+      "Fingerprint": "234ciqpnq7",
+      "Integrity": "UhY/XWH3JDCm9iscwfbzPBbMyyKUV9R3kOGbiT9Br3A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\MuSa2.webp"
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\bebidas2.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa3.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas3.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/MuSa3#[.{fingerprint}]?.webp",
+      "RelativePath": "img/paquetes/bebidas3#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1081,19 +1186,187 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rw4z3rcplb",
-      "Integrity": "Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4=",
+      "Fingerprint": "b5s0xkhsf9",
+      "Integrity": "gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\MuSa3.webp"
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\bebidas3.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc1.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas4.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc1#[.{fingerprint}]?.webp",
+      "RelativePath": "img/paquetes/bebidas4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "br7ddyxpcw",
+      "Integrity": "eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\bebidas4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas5.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/paquetes/bebidas5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b5s0xkhsf9",
+      "Integrity": "gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\bebidas5.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/paquetes/snacks#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mkdfw3c4ci",
+      "Integrity": "dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\snacks.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks2.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/paquetes/snacks2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mkdfw3c4ci",
+      "Integrity": "dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\snacks2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks3.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/paquetes/snacks3#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cq5m5d7y3u",
+      "Integrity": "fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\snacks3.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks4.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/paquetes/snacks4#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "18mq1vsy4m",
+      "Integrity": "AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\snacks4.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks5.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/paquetes/snacks5#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cq5m5d7y3u",
+      "Integrity": "fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\snacks5.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks6.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/paquetes/snacks6#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "18mq1vsy4m",
+      "Integrity": "AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\paquetes\\snacks6.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc1.webp",
+      "SourceId": "mayanBoats",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
+      "BasePath": "_content/mayanBoats",
+      "RelativePath": "img/yate/nizuc1#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1106,15 +1379,15 @@
       "Integrity": "fF7xoOAQPjwHyh19sjYgN8PDmHiLlrKhSS/zAHjIYXs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc1.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc1.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc11.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc11.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc11#[.{fingerprint}]?.webp",
+      "RelativePath": "img/yate/nizuc11#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1127,15 +1400,15 @@
       "Integrity": "EUXXbIF9nNngqN4NSOkBrI14w/k2u73mTnJVMtw08nM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc11.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc11.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc12.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc12.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc12#[.{fingerprint}]?.webp",
+      "RelativePath": "img/yate/nizuc12#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1148,15 +1421,15 @@
       "Integrity": "d4BRCrlP7wsBWUoPHkuubIfe5x6FGEEZR05YzMhNkkc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc12.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc12.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc2.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc2.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc2#[.{fingerprint}]?.webp",
+      "RelativePath": "img/yate/nizuc2#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1169,15 +1442,15 @@
       "Integrity": "nsvrLxo6WYipbgSelK91fRuv9wdF7e91LRR/jrV2P/A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc2.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc2.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc4.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc4.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc4#[.{fingerprint}]?.webp",
+      "RelativePath": "img/yate/nizuc4#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1190,15 +1463,15 @@
       "Integrity": "nj5LJU2WrcxzdjTk5u7c+1fy2e9yknNk38UstzWCzN4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc4.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc4.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc5.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc5.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc5#[.{fingerprint}]?.webp",
+      "RelativePath": "img/yate/nizuc5#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1211,15 +1484,15 @@
       "Integrity": "jNT6JjBi+p5/jq1oFuNE48T6gR+mKWEEotMhTa6tWjE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc5.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc5.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc6.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc6.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc6#[.{fingerprint}]?.webp",
+      "RelativePath": "img/yate/nizuc6#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1232,15 +1505,15 @@
       "Integrity": "BXMTGiRWiS47UvUWmIqp8SW1YLcsQocvtRX4dk5OB3M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc6.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc6.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc7.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc7.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc7#[.{fingerprint}]?.webp",
+      "RelativePath": "img/yate/nizuc7#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1253,15 +1526,15 @@
       "Integrity": "rdkI9Qtj2fIWZaLK2SvG/6mg8RV//ePrygrHpfhW50E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc7.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc7.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc8.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc8.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc8#[.{fingerprint}]?.webp",
+      "RelativePath": "img/yate/nizuc8#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1274,15 +1547,15 @@
       "Integrity": "1HW1MA6Ffwej5BdwrlYvlzl9npWQX4QWB835epcD550=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc8.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc8.webp"
     },
     {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc9.webp",
+      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc9.webp",
       "SourceId": "mayanBoats",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
       "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/nizuc9#[.{fingerprint}]?.webp",
+      "RelativePath": "img/yate/nizuc9#[.{fingerprint}]?.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1295,49 +1568,7 @@
       "Integrity": "2WW50LzGPtfql8YtBacu203NbibNTST/VSBDz0UVUDs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\nizuc9.webp"
-    },
-    {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaNorte.webp",
-      "SourceId": "mayanBoats",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
-      "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/PlayaNorte#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "niqbc21o8m",
-      "Integrity": "AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\PlayaNorte.webp"
-    },
-    {
-      "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaPresidente.webp",
-      "SourceId": "mayanBoats",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\",
-      "BasePath": "_content/mayanBoats",
-      "RelativePath": "img/PlayaPresidente#[.{fingerprint}]?.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "moz53srcmc",
-      "Integrity": "Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\PlayaPresidente.webp"
+      "OriginalItemSpec": "wwwroot\\img\\yate\\nizuc9.webp"
     },
     {
       "Identity": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
@@ -1354,8 +1585,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "w6tqza20h7",
-      "Integrity": "uF720VAK7IeP6QrLchytZBwqWS8JYzhNsuP835BcVhk=",
+      "Fingerprint": "frk8jf8utm",
+      "Integrity": "5VUaykcINprkNDLAnHCl2MB7U6k/B/uFmsOiEPnK6FM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2623,51 +2854,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.bak0i8fmwc.css",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5436"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s0j+GoltVg5P/rX+sW9YhbspzRg42yeFLgtP4UtPkz8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 15:09:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bak0i8fmwc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-s0j+GoltVg5P/rX+sW9YhbspzRg42yeFLgtP4UtPkz8="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2678,7 +2864,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5436"
+          "Value": "6099"
         },
         {
           "Name": "Content-Type",
@@ -2686,11 +2872,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s0j+GoltVg5P/rX+sW9YhbspzRg42yeFLgtP4UtPkz8=\""
+          "Value": "\"OTAmyZ4U3oSejpHKAHQfQ5bKTMk9imVbzUtI8Xc64zQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 15:09:38 GMT"
+          "Value": "Wed, 12 Feb 2025 20:02:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2700,7 +2886,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-s0j+GoltVg5P/rX+sW9YhbspzRg42yeFLgtP4UtPkz8="
+          "Value": "sha256-OTAmyZ4U3oSejpHKAHQfQ5bKTMk9imVbzUtI8Xc64zQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.no1tmfr89k.css",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OTAmyZ4U3oSejpHKAHQfQ5bKTMk9imVbzUtI8Xc64zQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 20:02:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "no1tmfr89k"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OTAmyZ4U3oSejpHKAHQfQ5bKTMk9imVbzUtI8Xc64zQ="
         }
       ]
     },
@@ -5083,8 +5314,8 @@
       ]
     },
     {
-      "Route": "img/BarcoHundido.og73tawj7e.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\BarcoHundido.webp",
+      "Route": "img/atracciones/BarcoHundido.og73tawj7e.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5119,7 +5350,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/BarcoHundido.webp"
+          "Value": "img/atracciones/BarcoHundido.webp"
         },
         {
           "Name": "integrity",
@@ -5128,8 +5359,8 @@
       ]
     },
     {
-      "Route": "img/BarcoHundido.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\BarcoHundido.webp",
+      "Route": "img/atracciones/BarcoHundido.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5165,8 +5396,8 @@
       ]
     },
     {
-      "Route": "img/ElFarito.5igiao1h2v.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\ElFarito.webp",
+      "Route": "img/atracciones/ElFarito.5igiao1h2v.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5201,7 +5432,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/ElFarito.webp"
+          "Value": "img/atracciones/ElFarito.webp"
         },
         {
           "Name": "integrity",
@@ -5210,8 +5441,8 @@
       ]
     },
     {
-      "Route": "img/ElFarito.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\ElFarito.webp",
+      "Route": "img/atracciones/ElFarito.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5247,8 +5478,8 @@
       ]
     },
     {
-      "Route": "img/Garrafon.djzt0e8haq.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\Garrafon.webp",
+      "Route": "img/atracciones/Garrafon.djzt0e8haq.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5283,7 +5514,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/Garrafon.webp"
+          "Value": "img/atracciones/Garrafon.webp"
         },
         {
           "Name": "integrity",
@@ -5292,8 +5523,8 @@
       ]
     },
     {
-      "Route": "img/Garrafon.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\Garrafon.webp",
+      "Route": "img/atracciones/Garrafon.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5325,6 +5556,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-KRFXHkzML4Qb6LMyf/ahEX8FN54RkHiYabdPERwf7So="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/IslaMujeres.eoax28ufj4.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\IslaMujeres.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eoax28ufj4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/IslaMujeres.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/IslaMujeres.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\IslaMujeres.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/MuSa.l7u7u7d8n9.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l7u7u7d8n9"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/MuSa.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/MuSa.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/MuSa2.inmy79abxt.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:06:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "inmy79abxt"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/MuSa2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/MuSa2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36340"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:06:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/MuSa3.rw4z3rcplb.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rw4z3rcplb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/MuSa3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/MuSa3.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130634"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaNorte.niqbc21o8m.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "niqbc21o8m"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaNorte.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaNorte.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43664"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente.moz53srcmc.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "moz53srcmc"
+        },
+        {
+          "Name": "label",
+          "Value": "img/atracciones/PlayaPresidente.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo="
+        }
+      ]
+    },
+    {
+      "Route": "img/atracciones/PlayaPresidente.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 22:16:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo="
         }
       ]
     },
@@ -5493,8 +6216,8 @@
       ]
     },
     {
-      "Route": "img/inicio1.esgbu71nnf.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio1.webp",
+      "Route": "img/inicio/inicio1.esgbu71nnf.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5529,7 +6252,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/inicio1.webp"
+          "Value": "img/inicio/inicio1.webp"
         },
         {
           "Name": "integrity",
@@ -5538,8 +6261,8 @@
       ]
     },
     {
-      "Route": "img/inicio1.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio1.webp",
+      "Route": "img/inicio/inicio1.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5575,8 +6298,8 @@
       ]
     },
     {
-      "Route": "img/inicio2.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio2.webp",
+      "Route": "img/inicio/inicio2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5612,8 +6335,8 @@
       ]
     },
     {
-      "Route": "img/inicio2.wu3e8p1oyc.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio2.webp",
+      "Route": "img/inicio/inicio2.wu3e8p1oyc.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5648,7 +6371,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/inicio2.webp"
+          "Value": "img/inicio/inicio2.webp"
         },
         {
           "Name": "integrity",
@@ -5657,8 +6380,8 @@
       ]
     },
     {
-      "Route": "img/inicio3.40v4x0w40k.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio3.webp",
+      "Route": "img/inicio/inicio3.40v4x0w40k.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio3.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5693,7 +6416,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/inicio3.webp"
+          "Value": "img/inicio/inicio3.webp"
         },
         {
           "Name": "integrity",
@@ -5702,8 +6425,8 @@
       ]
     },
     {
-      "Route": "img/inicio3.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio3.webp",
+      "Route": "img/inicio/inicio3.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio3.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5739,8 +6462,8 @@
       ]
     },
     {
-      "Route": "img/inicio4.4hvje69bbb.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio4.webp",
+      "Route": "img/inicio/inicio4.4hvje69bbb.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio4.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5775,7 +6498,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/inicio4.webp"
+          "Value": "img/inicio/inicio4.webp"
         },
         {
           "Name": "integrity",
@@ -5784,8 +6507,8 @@
       ]
     },
     {
-      "Route": "img/inicio4.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio4.webp",
+      "Route": "img/inicio/inicio4.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio4.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5821,8 +6544,8 @@
       ]
     },
     {
-      "Route": "img/inicio5.sjhr2a0p46.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio5.webp",
+      "Route": "img/inicio/inicio5.sjhr2a0p46.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio5.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5857,7 +6580,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/inicio5.webp"
+          "Value": "img/inicio/inicio5.webp"
         },
         {
           "Name": "integrity",
@@ -5866,8 +6589,8 @@
       ]
     },
     {
-      "Route": "img/inicio5.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio5.webp",
+      "Route": "img/inicio/inicio5.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio5.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5899,6 +6622,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-mHtBv6MgqQ8b5CXi+lRhN2jKSJoHv5aTNsWN7cVSOS0="
+        }
+      ]
+    },
+    {
+      "Route": "img/inicio/inicio7.5zecyj3d34.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio7.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 22:13:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5zecyj3d34"
+        },
+        {
+          "Name": "label",
+          "Value": "img/inicio/inicio7.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o="
+        }
+      ]
+    },
+    {
+      "Route": "img/inicio/inicio7.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio7.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "246124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 22:13:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o="
+        }
+      ]
+    },
+    {
+      "Route": "img/inicio/inicio8.uahiy6l98x.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio8.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "533818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 22:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uahiy6l98x"
+        },
+        {
+          "Name": "label",
+          "Value": "img/inicio/inicio8.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M="
+        }
+      ]
+    },
+    {
+      "Route": "img/inicio/inicio8.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio8.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "533818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 22:13:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M="
+        }
+      ]
+    },
+    {
+      "Route": "img/inicio/inicio9.cnjx15acc8.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio9.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 22:31:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cnjx15acc8"
+        },
+        {
+          "Name": "label",
+          "Value": "img/inicio/inicio9.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg="
+        }
+      ]
+    },
+    {
+      "Route": "img/inicio/inicio9.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio9.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 22:31:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg="
         }
       ]
     },
@@ -5985,334 +6954,6 @@
       ]
     },
     {
-      "Route": "img/inicio7.5zecyj3d34.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio7.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "246124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 22:13:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5zecyj3d34"
-        },
-        {
-          "Name": "label",
-          "Value": "img/inicio7.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o="
-        }
-      ]
-    },
-    {
-      "Route": "img/inicio7.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio7.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "246124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 22:13:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0dQjsMy7M+pBumnCT2CMFu4CibRaj7A7x8g0bEcvX+o="
-        }
-      ]
-    },
-    {
-      "Route": "img/inicio8.uahiy6l98x.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio8.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "533818"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 22:13:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "uahiy6l98x"
-        },
-        {
-          "Name": "label",
-          "Value": "img/inicio8.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M="
-        }
-      ]
-    },
-    {
-      "Route": "img/inicio8.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio8.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "533818"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 22:13:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FvJ8ketqOq5nqMTL9uoJDKk/pidZPbvWr4au5k47n+M="
-        }
-      ]
-    },
-    {
-      "Route": "img/inicio9.cnjx15acc8.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio9.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38882"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 22:31:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cnjx15acc8"
-        },
-        {
-          "Name": "label",
-          "Value": "img/inicio9.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg="
-        }
-      ]
-    },
-    {
-      "Route": "img/inicio9.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio9.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38882"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 22:31:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SKk7Qc2pjDCm3MWROzZOxfmMJzMykggVB/m/NUC73qg="
-        }
-      ]
-    },
-    {
-      "Route": "img/IslaMujeres.eoax28ufj4.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IslaMujeres.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "113236"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eoax28ufj4"
-        },
-        {
-          "Name": "label",
-          "Value": "img/IslaMujeres.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o="
-        }
-      ]
-    },
-    {
-      "Route": "img/IslaMujeres.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IslaMujeres.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "113236"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sknT2C+M/e3qEjjF3/jDZVZsmZjK+/lxKbSzA8n7W7o="
-        }
-      ]
-    },
-    {
       "Route": "img/MayanBoatsLogoFondo.0ammbrxq2x.webp",
       "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MayanBoatsLogoFondo.webp",
       "Selectors": [],
@@ -6395,8 +7036,8 @@
       ]
     },
     {
-      "Route": "img/MuSa.l7u7u7d8n9.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa.webp",
+      "Route": "img/paquetes/bebidas.br7ddyxpcw.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6405,7 +7046,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37594"
+          "Value": "41636"
         },
         {
           "Name": "Content-Type",
@@ -6413,11 +7054,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss=\""
+          "Value": "\"eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:29 GMT"
+          "Value": "Wed, 12 Feb 2025 18:30:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6427,21 +7068,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "l7u7u7d8n9"
+          "Value": "br7ddyxpcw"
         },
         {
           "Name": "label",
-          "Value": "img/MuSa.webp"
+          "Value": "img/paquetes/bebidas.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss="
+          "Value": "sha256-eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc="
         }
       ]
     },
     {
-      "Route": "img/MuSa.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa.webp",
+      "Route": "img/paquetes/bebidas.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6450,7 +7091,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37594"
+          "Value": "41636"
         },
         {
           "Name": "Content-Type",
@@ -6458,11 +7099,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss=\""
+          "Value": "\"eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:29 GMT"
+          "Value": "Wed, 12 Feb 2025 18:30:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6472,13 +7113,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T0HOhSwFN+i76nvIdele5x/sE/3otmyKwUGH9pIGtss="
+          "Value": "sha256-eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc="
         }
       ]
     },
     {
-      "Route": "img/MuSa2.inmy79abxt.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa2.webp",
+      "Route": "img/paquetes/bebidas2.234ciqpnq7.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6487,7 +7128,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36340"
+          "Value": "65440"
         },
         {
           "Name": "Content-Type",
@@ -6495,11 +7136,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU=\""
+          "Value": "\"UhY/XWH3JDCm9iscwfbzPBbMyyKUV9R3kOGbiT9Br3A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:06:05 GMT"
+          "Value": "Wed, 12 Feb 2025 18:30:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6509,21 +7150,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "inmy79abxt"
+          "Value": "234ciqpnq7"
         },
         {
           "Name": "label",
-          "Value": "img/MuSa2.webp"
+          "Value": "img/paquetes/bebidas2.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU="
+          "Value": "sha256-UhY/XWH3JDCm9iscwfbzPBbMyyKUV9R3kOGbiT9Br3A="
         }
       ]
     },
     {
-      "Route": "img/MuSa2.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa2.webp",
+      "Route": "img/paquetes/bebidas2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6532,7 +7173,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36340"
+          "Value": "65440"
         },
         {
           "Name": "Content-Type",
@@ -6540,11 +7181,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU=\""
+          "Value": "\"UhY/XWH3JDCm9iscwfbzPBbMyyKUV9R3kOGbiT9Br3A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:06:05 GMT"
+          "Value": "Wed, 12 Feb 2025 18:30:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6554,13 +7195,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LjJkK4j98R01A0HQSGjayNVNvthlxJlV20dUxdZa5wU="
+          "Value": "sha256-UhY/XWH3JDCm9iscwfbzPBbMyyKUV9R3kOGbiT9Br3A="
         }
       ]
     },
     {
-      "Route": "img/MuSa3.rw4z3rcplb.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa3.webp",
+      "Route": "img/paquetes/bebidas3.b5s0xkhsf9.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas3.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6569,7 +7210,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "130634"
+          "Value": "127572"
         },
         {
           "Name": "Content-Type",
@@ -6577,11 +7218,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4=\""
+          "Value": "\"gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:32 GMT"
+          "Value": "Wed, 12 Feb 2025 18:30:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6591,21 +7232,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rw4z3rcplb"
+          "Value": "b5s0xkhsf9"
         },
         {
           "Name": "label",
-          "Value": "img/MuSa3.webp"
+          "Value": "img/paquetes/bebidas3.webp"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4="
+          "Value": "sha256-gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y="
         }
       ]
     },
     {
-      "Route": "img/MuSa3.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa3.webp",
+      "Route": "img/paquetes/bebidas3.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas3.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6614,7 +7255,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "130634"
+          "Value": "127572"
         },
         {
           "Name": "Content-Type",
@@ -6622,11 +7263,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4=\""
+          "Value": "\"gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:32 GMT"
+          "Value": "Wed, 12 Feb 2025 18:30:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6636,13 +7277,669 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Zc2AlpQkSTLEZ3zUvAgM1DlfZ5XfW12mLtDof/Dn1j4="
+          "Value": "sha256-gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y="
         }
       ]
     },
     {
-      "Route": "img/nizuc1.g3k7lm7xo0.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc1.webp",
+      "Route": "img/paquetes/bebidas4.br7ddyxpcw.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "br7ddyxpcw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/paquetes/bebidas4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/bebidas4.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eVJOtJamkaGepSppReeI5Xr/ECEbgnwCGrstBEnnIZc="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/bebidas5.b5s0xkhsf9.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b5s0xkhsf9"
+        },
+        {
+          "Name": "label",
+          "Value": "img/paquetes/bebidas5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/bebidas5.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gdBqb0Fl7w+E/tUj7rDOHe9FOffkq6sU2CZstKMUO9Y="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks.mkdfw3c4ci.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mkdfw3c4ci"
+        },
+        {
+          "Name": "label",
+          "Value": "img/paquetes/snacks.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks2.mkdfw3c4ci.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:29:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mkdfw3c4ci"
+        },
+        {
+          "Name": "label",
+          "Value": "img/paquetes/snacks2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83144"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:29:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dr4gUK5ys5FS1rVaEEHGsP91v+akjIwH1+BWADHoVXw="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks3.cq5m5d7y3u.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cq5m5d7y3u"
+        },
+        {
+          "Name": "label",
+          "Value": "img/paquetes/snacks3.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks3.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks3.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks4.18mq1vsy4m.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "18mq1vsy4m"
+        },
+        {
+          "Name": "label",
+          "Value": "img/paquetes/snacks4.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks4.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks4.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks5.cq5m5d7y3u.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cq5m5d7y3u"
+        },
+        {
+          "Name": "label",
+          "Value": "img/paquetes/snacks5.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks5.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks5.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fNAckJGBLTbGcU9iqo5/8pGDlxQSjpm7KpjDN6AW0/Q="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks6.18mq1vsy4m.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks6.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "18mq1vsy4m"
+        },
+        {
+          "Name": "label",
+          "Value": "img/paquetes/snacks6.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg="
+        }
+      ]
+    },
+    {
+      "Route": "img/paquetes/snacks6.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks6.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 18:30:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbCMwQ5wxlshQmwbdC22kfM99JWjOtXf84VfLcJ2xQg="
+        }
+      ]
+    },
+    {
+      "Route": "img/yate/nizuc1.g3k7lm7xo0.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6677,7 +7974,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc1.webp"
+          "Value": "img/yate/nizuc1.webp"
         },
         {
           "Name": "integrity",
@@ -6686,8 +7983,8 @@
       ]
     },
     {
-      "Route": "img/nizuc1.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc1.webp",
+      "Route": "img/yate/nizuc1.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc1.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6723,8 +8020,8 @@
       ]
     },
     {
-      "Route": "img/nizuc11.72uzgakazn.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc11.webp",
+      "Route": "img/yate/nizuc11.72uzgakazn.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc11.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6759,7 +8056,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc11.webp"
+          "Value": "img/yate/nizuc11.webp"
         },
         {
           "Name": "integrity",
@@ -6768,8 +8065,8 @@
       ]
     },
     {
-      "Route": "img/nizuc11.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc11.webp",
+      "Route": "img/yate/nizuc11.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc11.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6805,8 +8102,8 @@
       ]
     },
     {
-      "Route": "img/nizuc12.j1c6ugucvl.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc12.webp",
+      "Route": "img/yate/nizuc12.j1c6ugucvl.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc12.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6841,7 +8138,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc12.webp"
+          "Value": "img/yate/nizuc12.webp"
         },
         {
           "Name": "integrity",
@@ -6850,8 +8147,8 @@
       ]
     },
     {
-      "Route": "img/nizuc12.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc12.webp",
+      "Route": "img/yate/nizuc12.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc12.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6887,8 +8184,8 @@
       ]
     },
     {
-      "Route": "img/nizuc2.qa2bw5o64o.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc2.webp",
+      "Route": "img/yate/nizuc2.qa2bw5o64o.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6923,7 +8220,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc2.webp"
+          "Value": "img/yate/nizuc2.webp"
         },
         {
           "Name": "integrity",
@@ -6932,8 +8229,8 @@
       ]
     },
     {
-      "Route": "img/nizuc2.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc2.webp",
+      "Route": "img/yate/nizuc2.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc2.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6969,8 +8266,8 @@
       ]
     },
     {
-      "Route": "img/nizuc4.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc4.webp",
+      "Route": "img/yate/nizuc4.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc4.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7006,8 +8303,8 @@
       ]
     },
     {
-      "Route": "img/nizuc4.yn0tqzp50q.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc4.webp",
+      "Route": "img/yate/nizuc4.yn0tqzp50q.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc4.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7042,7 +8339,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc4.webp"
+          "Value": "img/yate/nizuc4.webp"
         },
         {
           "Name": "integrity",
@@ -7051,8 +8348,8 @@
       ]
     },
     {
-      "Route": "img/nizuc5.gzxquiwptp.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc5.webp",
+      "Route": "img/yate/nizuc5.gzxquiwptp.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc5.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7087,7 +8384,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc5.webp"
+          "Value": "img/yate/nizuc5.webp"
         },
         {
           "Name": "integrity",
@@ -7096,8 +8393,8 @@
       ]
     },
     {
-      "Route": "img/nizuc5.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc5.webp",
+      "Route": "img/yate/nizuc5.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc5.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7133,8 +8430,8 @@
       ]
     },
     {
-      "Route": "img/nizuc6.pj8z9lojo5.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc6.webp",
+      "Route": "img/yate/nizuc6.pj8z9lojo5.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc6.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7169,7 +8466,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc6.webp"
+          "Value": "img/yate/nizuc6.webp"
         },
         {
           "Name": "integrity",
@@ -7178,8 +8475,8 @@
       ]
     },
     {
-      "Route": "img/nizuc6.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc6.webp",
+      "Route": "img/yate/nizuc6.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc6.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7215,8 +8512,8 @@
       ]
     },
     {
-      "Route": "img/nizuc7.pd4mi24d1s.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc7.webp",
+      "Route": "img/yate/nizuc7.pd4mi24d1s.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc7.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7251,7 +8548,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc7.webp"
+          "Value": "img/yate/nizuc7.webp"
         },
         {
           "Name": "integrity",
@@ -7260,8 +8557,8 @@
       ]
     },
     {
-      "Route": "img/nizuc7.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc7.webp",
+      "Route": "img/yate/nizuc7.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc7.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7297,8 +8594,8 @@
       ]
     },
     {
-      "Route": "img/nizuc8.grtahdliog.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc8.webp",
+      "Route": "img/yate/nizuc8.grtahdliog.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc8.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7333,7 +8630,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc8.webp"
+          "Value": "img/yate/nizuc8.webp"
         },
         {
           "Name": "integrity",
@@ -7342,8 +8639,8 @@
       ]
     },
     {
-      "Route": "img/nizuc8.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc8.webp",
+      "Route": "img/yate/nizuc8.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc8.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7379,8 +8676,8 @@
       ]
     },
     {
-      "Route": "img/nizuc9.jlisdw2ufe.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc9.webp",
+      "Route": "img/yate/nizuc9.jlisdw2ufe.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc9.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7415,7 +8712,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/nizuc9.webp"
+          "Value": "img/yate/nizuc9.webp"
         },
         {
           "Name": "integrity",
@@ -7424,8 +8721,8 @@
       ]
     },
     {
-      "Route": "img/nizuc9.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc9.webp",
+      "Route": "img/yate/nizuc9.webp",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc9.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7461,8 +8758,8 @@
       ]
     },
     {
-      "Route": "img/PlayaNorte.niqbc21o8m.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaNorte.webp",
+      "Route": "js/site.frk8jf8utm.js",
+      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7471,19 +8768,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43664"
+          "Value": "18016"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/webp"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ=\""
+          "Value": "\"5VUaykcINprkNDLAnHCl2MB7U6k/B/uFmsOiEPnK6FM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:34 GMT"
+          "Value": "Wed, 12 Feb 2025 19:30:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7493,134 +8790,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "niqbc21o8m"
+          "Value": "frk8jf8utm"
         },
         {
           "Name": "label",
-          "Value": "img/PlayaNorte.webp"
+          "Value": "js/site.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ="
-        }
-      ]
-    },
-    {
-      "Route": "img/PlayaNorte.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaNorte.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "43664"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AcF5dbgg00WIJP1hHu+y/G+eqtE3J4poqxt0mQr1ZYQ="
-        }
-      ]
-    },
-    {
-      "Route": "img/PlayaPresidente.moz53srcmc.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaPresidente.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "150552"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "moz53srcmc"
-        },
-        {
-          "Name": "label",
-          "Value": "img/PlayaPresidente.webp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo="
-        }
-      ]
-    },
-    {
-      "Route": "img/PlayaPresidente.webp",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaPresidente.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "150552"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 22:16:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Gjm9qSqTOWGquBZDEU83YL+j8d3rKXm4hu/tpH5NDGo="
+          "Value": "sha256-5VUaykcINprkNDLAnHCl2MB7U6k/B/uFmsOiEPnK6FM="
         }
       ]
     },
@@ -7635,7 +8813,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17812"
+          "Value": "18016"
         },
         {
           "Name": "Content-Type",
@@ -7643,11 +8821,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uF720VAK7IeP6QrLchytZBwqWS8JYzhNsuP835BcVhk=\""
+          "Value": "\"5VUaykcINprkNDLAnHCl2MB7U6k/B/uFmsOiEPnK6FM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 14:39:16 GMT"
+          "Value": "Wed, 12 Feb 2025 19:30:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7657,52 +8835,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uF720VAK7IeP6QrLchytZBwqWS8JYzhNsuP835BcVhk="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.w6tqza20h7.js",
-      "AssetFile": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17812"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uF720VAK7IeP6QrLchytZBwqWS8JYzhNsuP835BcVhk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 14:39:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "w6tqza20h7"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-uF720VAK7IeP6QrLchytZBwqWS8JYzhNsuP835BcVhk="
+          "Value": "sha256-5VUaykcINprkNDLAnHCl2MB7U6k/B/uFmsOiEPnK6FM="
         }
       ]
     },

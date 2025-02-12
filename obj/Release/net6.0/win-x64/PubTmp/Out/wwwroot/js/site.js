@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalReservarWin = document.getElementById('modalReservar');
     const modalPaypalWin = document.getElementById('modalPaypal');
     const botonDescargaPdf = document.getElementById('descargarPdf');
+    const toggler = document.querySelector(".custom-toggler");
+    const navbar = document.querySelector("#navbarNav");
 
     // Funciones
     const calcularCostos = (index, personas) => {
@@ -104,6 +106,18 @@ document.addEventListener('DOMContentLoaded', () => {
             campo.addEventListener('input', verificarValidezForm);
         }
     });
+
+    if (toggler && navbar) {
+        toggler.addEventListener("click", function () {
+            this.classList.toggle("open");
+        });
+
+        document.addEventListener("click", function (event) {
+            if (!toggler.contains(event.target) && !navbar.contains(event.target)) {
+                toggler.classList.remove("open");
+            }
+        });
+    }
 
     if (modalReservarWin) {
         modalReservarWin.addEventListener('shown.bs.modal', () => {

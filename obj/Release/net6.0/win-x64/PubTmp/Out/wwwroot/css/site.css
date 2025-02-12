@@ -44,6 +44,45 @@ body {
     color: #edc400 !important;
 }
 
+#logo {
+    height: 80px;
+}
+
+/* Botón personalizado Menú */
+.custom-toggler {
+    border: none;
+    background: transparent;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+    z-index: 1050;
+}
+
+/* White Lines */
+.toggle-icon {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Transformar botón en "X" */
+.custom-toggler.open .toggle-icon:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+}
+
+.custom-toggler.open .toggle-icon:nth-child(2) {
+    opacity: 0;
+}
+
+.custom-toggler.open .toggle-icon:nth-child(3) {
+    transform: translateY(-12px) rotate(-45deg);
+}
+
 /* Manipulación de texto */
 .text-right {
     text-align: right;
@@ -156,6 +195,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Botón Actividades */
+.btn-gradient {
+    background: linear-gradient(45deg, #01928e, #1a7ddd);
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .btn-gradient:hover {
+        background: linear-gradient(45deg, #1a7ddd, #01928e);
+        transform: scale(1.05);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.actividades-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.actividades-section ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.actividades-section .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Botones Reservar */
