@@ -7,20 +7,24 @@
 <div class="container mt-5">
     <!-- Cortesías -->
     <div class="row mb-5">
-        @* <h6 class="titulo">Cortesías:</h6> *@
         <!-- Snacks -->
-        <div class="col-md-4">
-            @* <p class="subtitulo">Snacks</p> *@
+        <div class="col-md-4 mt-5">
             <div id="snacksCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item carousel-paq active">
-                        <img class="d-block w-100" src="img/paquetes/snacks.webp">
+                        <a href="img/paquetes/snacks.webp" data-fancybox="snacksCarousel">
+                            <img src="img/paquetes/snacks.webp" class="d-block w-100 img-fluid">
+                        </a>
                     </div>
                     <div class="carousel-item carousel-paq">
-                        <img class="d-block w-100" src="img/paquetes/snacks3.webp">
+                        <a href="img/paquetes/snacks3.webp" data-fancybox="snacksCarousel">
+                            <img src="img/paquetes/snacks3.webp" class="d-block w-100 img-fluid">
+                        </a>
                     </div>
                     <div class="carousel-item carousel-paq">
-                        <img class="d-block w-100" src="img/paquetes/snacks4.webp">
+                        <a href="img/paquetes/snacks4.webp" data-fancybox="snacksCarousel">
+                            <img src="img/paquetes/snacks4.webp" class="d-block w-100 img-fluid">
+                        </a>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#snacksCarousel" data-bs-slide="prev">
@@ -33,8 +37,8 @@
                 </button>
             </div>
         </div>
-        <!-- Actividades -->
-        <div class="col-md-4 actividades-section">
+        <!-- Información -->
+        <div class="col-md-4 actividades-section mt-5">
             <!-- Presentación -->
             <div class="row">
                 <div class="col">
@@ -52,7 +56,7 @@
                     </p>
                 </div>
             </div>
-            @* <p class="subtitulo">Actividades</p> *@
+            <!-- Actividades -->
             <ul>
                 <li class="nav-item">
                     <a class="nav-link btn btn-gradient px-4 py-2 text-white fw-bold shadow subtitulo" asp-area="" asp-page="/Atracciones">
@@ -62,20 +66,29 @@
             </ul>
         </div>
         <!-- Bebidas -->
-        <div class="col-md-4">
-            @* <p class="subtitulo">Bebidas</p> *@
+        <div class="col-md-4 mt-5">
             <div id="bebidasCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item carousel-paq active">
-                        <img class="d-block w-100" src="img/paquetes/bebidas.webp">
-                        @* <p>24 Cervezas</p> *@
+                        <a href="img/paquetes/bebidas.webp" data-fancybox="bebidasCarousel">
+                            <img src="img/paquetes/bebidas.webp" class="d-block w-100 img-fluid">
+                        </a>
                     </div>
                     <div class="carousel-item carousel-paq">
-                        <img class="d-block w-100" src="img/paquetes/bebidas2.webp">
-                        @* <p>24 Aguas</p> *@
+                        <a href="img/paquetes/bebidas2.webp" data-fancybox="bebidasCarousel">
+                            <div class="carousel-img-container">
+                                <img src="img/paquetes/bebidas2.webp" class="d-block w-100 img-fluid">
+                                <p class="carousel-text">24 Aguas</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="carousel-item carousel-paq">
-                        <img class="d-block w-100" src="img/paquetes/bebidas3.webp">
+                        <a href="img/paquetes/bebidas3.webp" data-fancybox="bebidasCarousel">
+                            <div class="carousel-img-container">
+                                <img src="img/paquetes/bebidas3.webp" class="d-block w-100 img-fluid">
+                                <p class="carousel-text">24 Cervezas</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#bebidasCarousel" data-bs-slide="prev">

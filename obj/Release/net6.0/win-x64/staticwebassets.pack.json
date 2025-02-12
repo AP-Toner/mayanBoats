@@ -125,18 +125,6 @@
       "PackagePath": "staticwebassets\\fonts\\playfairdisplay\\static\\PlayfairDisplay-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\BarcoHundido.webp",
-      "PackagePath": "staticwebassets\\img\\BarcoHundido.webp"
-    },
-    {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\ElFarito.webp",
-      "PackagePath": "staticwebassets\\img\\ElFarito.webp"
-    },
-    {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\Garrafon.webp",
-      "PackagePath": "staticwebassets\\img\\Garrafon.webp"
-    },
-    {
       "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IMG_4371.webp",
       "PackagePath": "staticwebassets\\img\\IMG_4371.webp"
     },
@@ -145,108 +133,164 @@
       "PackagePath": "staticwebassets\\img\\IMG_4480.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\IslaMujeres.webp",
-      "PackagePath": "staticwebassets\\img\\IslaMujeres.webp"
-    },
-    {
       "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MayanBoatsLogoFondo.webp",
       "PackagePath": "staticwebassets\\img\\MayanBoatsLogoFondo.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa.webp",
-      "PackagePath": "staticwebassets\\img\\MuSa.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\BarcoHundido.webp",
+      "PackagePath": "staticwebassets\\img\\atracciones\\BarcoHundido.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa2.webp",
-      "PackagePath": "staticwebassets\\img\\MuSa2.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\ElFarito.webp",
+      "PackagePath": "staticwebassets\\img\\atracciones\\ElFarito.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\MuSa3.webp",
-      "PackagePath": "staticwebassets\\img\\MuSa3.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\Garrafon.webp",
+      "PackagePath": "staticwebassets\\img\\atracciones\\Garrafon.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaNorte.webp",
-      "PackagePath": "staticwebassets\\img\\PlayaNorte.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\IslaMujeres.webp",
+      "PackagePath": "staticwebassets\\img\\atracciones\\IslaMujeres.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\PlayaPresidente.webp",
-      "PackagePath": "staticwebassets\\img\\PlayaPresidente.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa.webp",
+      "PackagePath": "staticwebassets\\img\\atracciones\\MuSa.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio1.webp",
-      "PackagePath": "staticwebassets\\img\\inicio1.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa2.webp",
+      "PackagePath": "staticwebassets\\img\\atracciones\\MuSa2.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio2.webp",
-      "PackagePath": "staticwebassets\\img\\inicio2.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\MuSa3.webp",
+      "PackagePath": "staticwebassets\\img\\atracciones\\MuSa3.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio3.webp",
-      "PackagePath": "staticwebassets\\img\\inicio3.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaNorte.webp",
+      "PackagePath": "staticwebassets\\img\\atracciones\\PlayaNorte.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio4.webp",
-      "PackagePath": "staticwebassets\\img\\inicio4.webp"
-    },
-    {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio5.webp",
-      "PackagePath": "staticwebassets\\img\\inicio5.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\atracciones\\PlayaPresidente.webp",
+      "PackagePath": "staticwebassets\\img\\atracciones\\PlayaPresidente.webp"
     },
     {
       "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio53.webp",
       "PackagePath": "staticwebassets\\img\\inicio53.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio7.webp",
-      "PackagePath": "staticwebassets\\img\\inicio7.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio1.webp",
+      "PackagePath": "staticwebassets\\img\\inicio\\inicio1.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio8.webp",
-      "PackagePath": "staticwebassets\\img\\inicio8.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio2.webp",
+      "PackagePath": "staticwebassets\\img\\inicio\\inicio2.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio9.webp",
-      "PackagePath": "staticwebassets\\img\\inicio9.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio3.webp",
+      "PackagePath": "staticwebassets\\img\\inicio\\inicio3.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc1.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc1.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio4.webp",
+      "PackagePath": "staticwebassets\\img\\inicio\\inicio4.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc11.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc11.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio5.webp",
+      "PackagePath": "staticwebassets\\img\\inicio\\inicio5.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc12.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc12.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio7.webp",
+      "PackagePath": "staticwebassets\\img\\inicio\\inicio7.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc2.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc2.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio8.webp",
+      "PackagePath": "staticwebassets\\img\\inicio\\inicio8.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc4.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc4.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\inicio\\inicio9.webp",
+      "PackagePath": "staticwebassets\\img\\inicio\\inicio9.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc5.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc5.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\bebidas.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc6.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc6.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas2.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\bebidas2.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc7.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc7.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas3.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\bebidas3.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc8.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc8.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas4.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\bebidas4.webp"
     },
     {
-      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\nizuc9.webp",
-      "PackagePath": "staticwebassets\\img\\nizuc9.webp"
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\bebidas5.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\bebidas5.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\snacks.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks2.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\snacks2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks3.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\snacks3.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks4.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\snacks4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks5.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\snacks5.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\paquetes\\snacks6.webp",
+      "PackagePath": "staticwebassets\\img\\paquetes\\snacks6.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc1.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc1.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc11.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc11.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc12.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc12.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc2.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc4.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc4.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc5.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc5.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc6.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc6.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc7.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc7.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc8.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc8.webp"
+    },
+    {
+      "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\img\\yate\\nizuc9.webp",
+      "PackagePath": "staticwebassets\\img\\yate\\nizuc9.webp"
     },
     {
       "Id": "C:\\Users\\Aptoner\\GitHub\\MayanBoats\\wwwroot\\js\\site.js",
