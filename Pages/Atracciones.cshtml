@@ -2,218 +2,60 @@
 @model mayanBoats.Pages.AtraccionesModel
 @{
     ViewData["Title"] = "Atracciones";
+
+    var atracciones = new[]
+    {
+        new { Name = "Barco Hundido", Description = "El dragaminas USS Harlequin de la Segunda Guerra Mundial ubicado entre Cancún e Isla Mujeres.", Images = new[] { "BarcoHundido.webp", "BarcoHundido2.webp", "BarcoHundido3.webp" }, CarouselId = "carousel1" },
+        new { Name = "Playa Norte", Description = "Arena blanca y aguas cristalinas forman un paisaje icónico en una de las mejores playas del mundo.", Images = new[] { "PlayaNorte.webp", "PlayaNorte2.webp", "PlayaNorte3.webp" }, CarouselId = "carousel2" },
+        new { Name = "Arrecifes el Farito", Description = "Parque marino con un faro en medio de un arrecife con la estatua de la Virgen del Carmen.", Images = new[] { "ElFarito.webp", "ElFarito2.webp", "ElFarito3.webp" }, CarouselId = "carousel3" },
+        new { Name = "Garrafón", Description = "Parque natural con actividades recreativas para toda la familia localizado en Punta Sur.", Images = new[] { "Garrafon.webp", "Garrafon2.webp", "Garrafon3.webp" }, CarouselId = "carousel4" },
+        new { Name = "Museo Subacuático", Description = "Galería de esculturas sumergidas a una profundidad de 30 pies en el mar Caribe.", Images = new[] { "MuSa.webp", "MuSa2.webp", "MuSa3.webp" }, CarouselId = "carousel5" },
+        new { Name = "Playa Presidente", Description = "Considerada la mejor playa de Cancún, un paraíso tropical con arenas color marfil y aguas turquesas eléctricas.", Images = new[] { "PlayaPresidente.webp", "PlayaPresidente2.webp", "PlayaPresidente3.webp" }, CarouselId = "carousel6" }
+    };
 }
 
 <div class="container-xxl text-center mt-5">
     <div class="row">
-        <!-- Card 1: Barco Hundido -->
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 d-flex flex-column">
-                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-atr active">
-                            <a href="img/atracciones/BarcoHundido.webp" data-fancybox="carousel1">
-                                <img src="img/atracciones/BarcoHundido.webp" class="d-block w-100 img-fluid">
-                            </a>
+        @foreach (var atraccion in atracciones)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 d-flex flex-column">
+                    <div id="@atraccion.CarouselId" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Ribbon en carruseles específicos -->
+                        @if (atraccion.CarouselId == "carousel1" || atraccion.CarouselId == "carousel3" || atraccion.CarouselId == "carousel5")
+                        {
+                            <div class="ribbon-atr">Snorkel</div>
+                        }
+                        <div class="carousel-indicators">
+                            @for (int i = 0; i < atraccion.Images.Length; i++)
+                            {
+                                <button type="button" data-bs-target="#@atraccion.CarouselId" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")" aria-current="@(i == 0 ? "true" : "false")" aria-label="Slide @i"></button>
+                            }
                         </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/BarcoHundido2.webp" data-fancybox="carousel1">
-                                <img src="img/atracciones/BarcoHundido2.webp" class="d-block w-100 img-fluid">
-                            </a>
+                        <div class="carousel-inner">
+                            @foreach (var image in atraccion.Images)
+                            {
+                                <div class="carousel-item carousel-atr @(image == atraccion.Images.First() ? "active" : "")">
+                                    <a href="img/atracciones/@image" data-fancybox="@atraccion.CarouselId">
+                                        <img src="img/atracciones/@image" class="d-block w-100 img-fluid">
+                                    </a>
+                                </div>
+                            }
                         </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/BarcoHundido3.webp" data-fancybox="carousel1">
-                                <img src="img/atracciones/BarcoHundido3.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#@atraccion.CarouselId" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#@atraccion.CarouselId" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Barco Hundido (snorkel)</h5>
-                    <p class="card-text mt-auto">Un dragaminas de la Segunda Guerra Mundial ubicado entre Cancún e Isla Mujeres.</p>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@atraccion.Name</h5>
+                        <p class="card-text mt-auto">@atraccion.Description</p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Card 2: Playa Norte -->
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 d-flex flex-column">
-                <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-atr active">
-                            <a href="img/atracciones/PlayaNorte.webp" data-fancybox="carousel2">
-                                <img src="img/atracciones/PlayaNorte.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/PlayaNorte2.webp" data-fancybox="carousel2">
-                                <img src="img/atracciones/PlayaNorte2.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/PlayaNorte3.webp" data-fancybox="carousel2">
-                                <img src="img/atracciones/PlayaNorte3.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Playa Norte</h5>
-                    <p class="card-text mt-auto">Arena blanca y aguas cristalinas en una de las mejores playas del mundo.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 3: Arrecifes El Farito -->
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 d-flex flex-column">
-                <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-atr active">
-                            <a href="img/atracciones/ElFarito.webp" data-fancybox="carousel3">
-                                <img src="img/atracciones/ElFarito.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/ElFarito2.webp" data-fancybox="carousel3">
-                                <img src="img/atracciones/ElFarito2.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/ElFarito3.webp" data-fancybox="carousel3">
-                                <img src="img/atracciones/ElFarito3.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Arrecifes el Farito</h5>
-                    <p class="card-text mt-auto">Un parque marino con arrecifes y la estatua de la Virgen del Carmen.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 4: Garrafón -->
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 d-flex flex-column">
-                <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-atr active">
-                            <a href="img/atracciones/Garrafon.webp" data-fancybox="carousel4">
-                                <img src="img/atracciones/Garrafon.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/Garrafon2.webp" data-fancybox="carousel4">
-                                <img src="img/atracciones/Garrafon2.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/Garrafon3.webp" data-fancybox="carousel4">
-                                <img src="img/atracciones/Garrafon3.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Garrafón</h5>
-                    <p class="card-text mt-auto">Parque natural con actividades recreativas en Punta Sur.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 5: Museo -->
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 d-flex flex-column">
-                <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-atr active">
-                            <a href="img/atracciones/MuSa.webp" data-fancybox="carousel5">
-                                <img src="img/atracciones/MuSa.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/MuSa2.webp" data-fancybox="carousel5">
-                                <img src="img/atracciones/MuSa2.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/MuSa3.webp" data-fancybox="carousel5">
-                                <img src="img/atracciones/MuSa3.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Museo Subacuático</h5>
-                    <p class="card-text mt-auto">Galería de esculturas sumergidas en el mar Caribe.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 6: Playa Presidente -->
-        <div class="col-md-4 mb-4">
-            <div class="card h-100 d-flex flex-column">
-                <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item carousel-atr active">
-                            <a href="img/atracciones/PlayaPresidente.webp" data-fancybox="carousel6">
-                                <img src="img/atracciones/PlayaPresidente.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/PlayaPresidente2.webp" data-fancybox="carousel6">
-                                <img src="img/atracciones/PlayaPresidente2.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                        <div class="carousel-item carousel-atr">
-                            <a href="img/atracciones/PlayaPresidente3.webp" data-fancybox="carousel6">
-                                <img src="img/atracciones/PlayaPresidente3.webp" class="d-block w-100 img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                </div>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title">Playa Presidente</h5>
-                    <p class="card-text mt-auto">Considerada la mejor playa de Cancún, un paraíso tropical.</p>
-                </div>
-            </div>
-        </div>
+        }
     </div>
 </div>
+
